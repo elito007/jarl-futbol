@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Planificador horario (cron sin LLM) de jarl-futbol.
 
-- 'manana': una captura al día entre las 08:00 y las 12:00 (hora Canarias) con los partidos de las
+- 'manana': una captura al día a partir de las 08:00 (hora Canarias; si falla o se pierde, se recupera hasta las 22:00) con los partidos de las
   próximas 30 h. De ahí salen las horas de inicio que se usan para el resto del día.
 - 'pre_partido': una captura por franja de inicio (partidos que empiezan con ≤ 45 min de diferencia
   forman una franja), entre 100 y 30 min antes. Solo guarda los partidos de las próximas 3 h.
@@ -77,7 +77,7 @@ def main():
 
     # 1) captura de la mañana
     hoy = local.strftime("%Y-%m-%d")
-    if est.get("manana") != hoy and 8 <= local.hour < 12:
+    if est.get("manana") != hoy and 8 <= local.hour < 22:  # si se perdió la de la mañana, se recupera en la siguiente hora
         if capturar("manana", 30):
             est["manana"] = hoy
 
