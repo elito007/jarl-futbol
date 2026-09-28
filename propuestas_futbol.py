@@ -120,10 +120,17 @@ def main():
     if not props:
         print("⚽ Propuestas de hoy: ninguna supera el umbral. 📝 SOLO PAPEL"); return 0
     lin = [("🔁 RECALCULADAS · " if a.reimprimir else "") + f"⚽ Propuestas de hoy — 📝 SOLO PAPEL ({len(props)}, total sugerido {sum(x['eur'] for x in props):.1f} € sobre banca {etiqueta})"]
-    for x in sorted(props, key=lambda x: x["r"]["inicio_utc"]):
+    partido_ant = None
+    for x in props:  # ya ordenadas por hora (mismo orden que los importes)
         r = x["r"]; pb = float(r["prob_implicita"]) / (float(r["overround_mercado"]) if r["overround_mercado"] else 1)
-        lin.append(f"• {hora_local(r['inicio_utc'])} {LIGA.get(r['liga'], r['liga'])} · {r['local']}-{r['visitante']}: "
-                   f"{x['eur']:.1f} €" + (f" (teór. {x['eur_t']:.1f} €)" if x.get("eur_t") is not None else "") + f" a «{r['seleccion']}» @ {r['cuota']} ({r['mercado']}) | nuestra {x['p']*100:.0f} % vs bwin {pb*100:.0f} % [{x['conf']}]")
+        partido = (r["fixture_id"], r["inicio_utc"])
+        if partido != partido_ant:
+            lin.append(f"\n🕒 {hora_local(r['inicio_utc'])} · {LIGA.get(r['liga'], r['liga'])} · {r['local']} - {r['visitante']}")
+            partido_ant = partido
+        teo = f" (teór. {x['eur_t']:.1f} €)" if x.get("eur_t") is not None else ""
+        lin.append(f"🎯 {r['mercado']}")
+        lin.append(f"   ➜ «{r['seleccion']}» @ {r['cuota']} · {x['eur']:.1f} €{teo}")
+        lin.append(f"   nuestra {x['p']*100:.0f} % vs bwin {pb*100:.0f} % · confianza {x['conf']}")
     print("\n".join(lin))
     return 0
 
