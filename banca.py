@@ -80,10 +80,24 @@ def teorica(d=None):
 
 def para_importes():
     d = leer()
-    if d.get("real"):
-        return float(d["real"]["valor"]), f"real declarada {d['real']['valor']:.2f} € ({d['real']['fecha']})"
     t, _, _ = teorica(d)
-    return t, f"teórica {t:.2f} €"
+    if d.get("real"):
+        return float(d["real"]["valor"]), f"real {d['real']['valor']:.2f} € ({d['real']['fecha']}; teórica {t:.2f} €)"
+    return t, f"teórica {t:.2f} € (sin real declarada)"
+
+
+def bases():
+    """(real o None, teórica): la real da el importe a poner en bwin; la teórica, el de la simulación."""
+    d = leer()
+    return (float(d["real"]["valor"]) if d.get("real") else None), teorica(d)[0]
+
+
+def secuencial(fracs):
+    """Cada apuesta sobre lo que queda de banca tras las anteriores: f_i · (1 − suma de las ya puestas)."""
+    out, resto = [], 1.0
+    for f in fracs:
+        out.append(f * resto); resto -= f * resto
+    return out
 
 
 def resumen():

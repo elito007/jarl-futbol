@@ -83,11 +83,14 @@ def main():
         c = float(r["cuota"]); conf = confianza(r["mercado"])
         f = min(KELLY * (p * c - 1) / (c - 1), TOPE_AP) * (1.0 if conf == "media" else 0.5)
         props.append({"r": r, "ev": ev, "p": p, "conf": conf, "f": f})
+    props.sort(key=lambda x: x["r"]["inicio_utc"])  # mismo orden en que se muestran (y se apuestan)
     t = sum(x["f"] for x in props)
     banca, etiqueta = bk.para_importes()
-    for x in props:
-        x["f"] *= (TOPE_DIA / t if t > TOPE_DIA else 1)
-        x["eur"] = round(banca * x["f"], 1)
+    real, teor = bk.bases()
+    for x, f in zip(props, bk.secuencial([x["f"] * (TOPE_DIA / t if t > TOPE_DIA else 1) for x in props])):
+        x["f"] = f
+        x["eur"] = round(banca * f, 1)
+        x["eur_t"] = round(teor * f, 1) if real is not None else None
     # registrar
     if props and a.reimprimir and os.path.exists(PAPEL):
         prev = list(csv.DictReader(open(PAPEL, encoding="utf-8")))
@@ -120,7 +123,7 @@ def main():
     for x in sorted(props, key=lambda x: x["r"]["inicio_utc"]):
         r = x["r"]; pb = float(r["prob_implicita"]) / (float(r["overround_mercado"]) if r["overround_mercado"] else 1)
         lin.append(f"• {hora_local(r['inicio_utc'])} {LIGA.get(r['liga'], r['liga'])} · {r['local']}-{r['visitante']}: "
-                   f"{x['eur']:.1f} € a «{r['seleccion']}» @ {r['cuota']} ({r['mercado']}) | nuestra {x['p']*100:.0f} % vs bwin {pb*100:.0f} % [{x['conf']}]")
+                   f"{x['eur']:.1f} €" + (f" (teór. {x['eur_t']:.1f} €)" if x.get("eur_t") is not None else "") + f" a «{r['seleccion']}» @ {r['cuota']} ({r['mercado']}) | nuestra {x['p']*100:.0f} % vs bwin {pb*100:.0f} % [{x['conf']}]")
     print("\n".join(lin))
     return 0
 
