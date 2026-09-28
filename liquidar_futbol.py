@@ -343,7 +343,8 @@ def resumen_papel():
         por[lq_tipo(p["mercado"])].append(p)
     for t, v in sorted(por.items(), key=lambda x: -len(x[1])):
         out.append(f"  {t}: {len(v)} → {sum(float(p['beneficio_u']) for p in v):+.2f} u")
-    return out
+    import banca as bk
+    return out + bk.resumen()
 
 
 def lq_tipo(mercado):

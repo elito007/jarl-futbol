@@ -17,3 +17,4 @@ Resultados en `analisis/`.
 - `propuestas_futbol.py` — propuestas diarias (solo papel) → Telegram y `papel/apuestas.csv`.
 - `informe_mercados.py` — el mismo de jarl-f1: bwin vs realidad por tipo de mercado y lado, ROI, CLV, calibración.
 - `bwin_base.py` — copia de `bwin_snapshot.py` de jarl-f1 (cabeceras, curl_cffi).
+- `banca.py` — banca viva: teórica (siguiendo todo) y real declarada (`--real <€>`); base de los importes sugeridos.

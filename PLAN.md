@@ -25,3 +25,8 @@
 - Validación fuera de muestra (entrenado hasta 24/25, probado en 25/26): el modelo mejora a la constante en «más córners» (Brier 0,235 vs 0,247) y «ambos equipos 2+ tarjetas» (0,235 vs 0,244, aunque infraestima ~5 pp); en «más tarjetas», rangos de córners y «ambos 4+ córners» no mejora. Por eso confianza «media» solo en los dos primeros.
 - Importe sugerido: banca 200 € (propia del fútbol), ¼ Kelly, tope 1 %/apuesta (más partidos que en F1) y 5 %/día; ×0,5 en confianza baja.
 - Liquidación automática en `papel/apuestas.csv` y resumen del papel en el informe de los lunes.
+
+## Banca viva (29-sep-2026, Elito)
+- `banca.py`: banca teórica = inicial (200 €) + resultado de TODAS las propuestas liquidadas, capitalizando día a día con la fracción de banca de cada una (lo que habría pasado siguiendo el sistema al 100 %).
+- Banca real: la declara Elito cuando quiera (recalibración): `python3 banca.py --real <€>` (vía Jarl). Si existe, los importes sugeridos se calculan sobre ella; si no, sobre la teórica. `--sin-real` vuelve a la teórica.
+- Los resúmenes muestran ambas.
