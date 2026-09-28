@@ -13,7 +13,9 @@ INICIOS = ["2026-10-10T12:00:00Z", "2026-10-10T14:15:00Z", "2026-10-10T14:30:00Z
 def ej(args):
     llam.append(args)
     if args[0] == "bwin_futbol.py":
-        return 0, ["fixtures", "INICIOS: " + ",".join(INICIOS), "Guardado x"]
+        return 0, ["fixtures", "INICIOS: " + ",".join(INICIOS), "Guardado datos/cuotas/x.csv.gz (10 filas, 1 partidos)"]
+    if args[0] == "propuestas_futbol.py":
+        return 0, ["⚽ Propuestas de hoy"]
     if args[0] == "informe_mercados.py":
         return 0, ["GP liquidados: 3 | selecciones: 900", "goles No 40 50.0 55.0 4.0% 3.0% 1.0%"]
     return 0, ["ok"]
@@ -28,7 +30,7 @@ def correr(iso_utc):
 
 # Canarias = UTC+1 en octubre
 chk("06:00 local → nada", correr("2026-10-10T05:00:00Z") == [])
-chk("09:07 local → captura mañana", correr("2026-10-10T08:07:00Z") == ["manana"])
+chk("09:07 local → captura mañana + propuestas", correr("2026-10-10T08:07:00Z") == ["manana", "propuestas_futbol.py"])
 chk("10:07 local → liquida (descarga+liquidar)", correr("2026-10-10T09:07:00Z") == ["descargar_futbol.py", "liquidar_futbol.py"])
 chk("11:07 local (12:00 UTC −53 min) → pre_partido franja 12:00", correr("2026-10-10T11:07:00Z") == ["pre_partido"])
 chk("12:07 → nada", correr("2026-10-10T12:07:00Z") == [])

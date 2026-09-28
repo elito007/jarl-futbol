@@ -66,6 +66,13 @@ def main():
         ini = next((l[len("INICIOS: "):] for l in out if l.startswith("INICIOS: ")), "")
         if momento == "manana":
             est["inicios"] = [x for x in ini.split(",") if x]
+            ruta = next((l.split("Guardado ", 1)[1].split(" (")[0] for l in out if l.startswith("Guardado ")), None)
+            if ruta:  # propuestas del día (solo papel)
+                rc4, o4 = ejecutar(["propuestas_futbol.py", "--captura", ruta])
+                if rc4 == 0:
+                    telegram.append("\n".join(o4))
+                else:
+                    fallos.append(f"propuestas FALLO {o4[-1]}")
         hechos.append(f"{momento} OK"); return True
 
     # 1) captura de la mañana
@@ -103,9 +110,11 @@ def main():
                     cab = [l for l in o3 if l.startswith("GP liquidados")]
                     filas = [l for l in o3 if len(l.split()) >= 8 and l.split()[2].isdigit()]
                     pos = [l for l in filas if l.split()[5].endswith("%") and float(l.split()[5][:-1]) > 0]
+                    import liquidar_futbol as lqf
                     telegram.append("⚽ Informe semanal jarl-futbol: " + (cab[0].replace("GP liquidados", "días liquidados") if cab else "") +
                                     f"\nTipos de mercado con n≥30: {len(filas)}; con ROI de cierre > 0: {len(pos)}" +
-                                    ("".join("\n  " + " ".join(l.split()[:6]) for l in pos[:5]) if pos else ""))
+                                    ("".join("\n  " + " ".join(l.split()[:6]) for l in pos[:5]) if pos else "") +
+                                    "\n" + "\n".join(lqf.resumen_papel()))
 
     if not a.no_ejecutar:
         os.makedirs(os.path.dirname(ESTADO), exist_ok=True)

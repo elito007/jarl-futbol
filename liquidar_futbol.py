@@ -291,7 +291,66 @@ def main():
             w = csv.DictWriter(fh, fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
         emp = sum(1 for v in partidos.values() if v)
         print(f"{fecha}: {emp}/{len(partidos)} partidos con resultado | {dict(st)}")
+    liquidar_papel()
     return 0
+
+
+def liquidar_papel():
+    """Rellena resultado, cuota de cierre y beneficio en papel/apuestas.csv desde las liquidaciones."""
+    ruta = os.path.join(BASE, "papel", "apuestas.csv")
+    if not os.path.exists(ruta):
+        return
+    papel = list(csv.DictReader(open(ruta, encoding="utf-8")))
+    pend = [p for p in papel if not p.get("resultado")]
+    if not pend:
+        return
+    liq = {}
+    for f in glob.glob(os.path.join(SALIDA, "*.csv")):
+        for r in csv.DictReader(open(f, encoding="utf-8")):
+            k = (r["fixture_id"], r["mercado"], r["seleccion"])
+            if k not in liq or r["ts_utc"] > liq[k]["ts_utc"]:
+                liq[k] = r
+    n = 0
+    for p in pend:
+        r = liq.get((p["fixture_id"], p["mercado"], p["seleccion"]))
+        if not r or r["resultado"] not in ("0", "1", "V"):
+            continue
+        c = float(p["cuota_tomada"]); eur = num(p.get("importe_eur")) or 0
+        p["resultado"], p["cuota_cierre"] = r["resultado"], r["cuota"]
+        p["beneficio_u"] = round(c - 1, 3) if r["resultado"] == "1" else -1 if r["resultado"] == "0" else 0
+        p["beneficio_eur"] = round(eur * (c - 1), 2) if r["resultado"] == "1" else -eur if r["resultado"] == "0" else 0
+        n += 1
+    with open(ruta, "w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=list(papel[0].keys())); w.writeheader(); w.writerows(papel)
+    print(f"papel: {n} apuestas liquidadas")
+
+
+def resumen_papel():
+    """Líneas de resumen acumulado del papel (para el informe semanal)."""
+    ruta = os.path.join(BASE, "papel", "apuestas.csv")
+    if not os.path.exists(ruta):
+        return []
+    ps = [p for p in csv.DictReader(open(ruta, encoding="utf-8")) if p.get("resultado") in ("0", "1")]
+    if not ps:
+        return ["Papel: aún sin propuestas liquidadas."]
+    gan = sum(p["resultado"] == "1" for p in ps); bu = sum(float(p["beneficio_u"]) for p in ps)
+    ap = sum(num(p["importe_eur"]) or 0 for p in ps); be = sum(num(p["beneficio_eur"]) or 0 for p in ps)
+    clv = [float(p["cuota_tomada"]) / float(p["cuota_cierre"]) - 1 for p in ps if num(p.get("cuota_cierre"))]
+    out = [f"Papel: {len(ps)} propuestas, {gan} acertadas ({gan/len(ps)*100:.0f} %), {bu:+.2f} u (ROI {bu/len(ps)*100:+.0f} %), "
+           f"{be:+.2f} € sobre {ap:.1f} € apostados" + (f", CLV {sum(clv)/len(clv)*100:+.1f} %" if clv else "")]
+    por = defaultdict(list)
+    for p in ps:
+        por[lq_tipo(p["mercado"])].append(p)
+    for t, v in sorted(por.items(), key=lambda x: -len(x[1])):
+        out.append(f"  {t}: {len(v)} → {sum(float(p['beneficio_u']) for p in v):+.2f} u")
+    return out
+
+
+def lq_tipo(mercado):
+    m = norm(mercado)
+    return "más córners" if m == "mas corners" else "más tarjetas" if m == "mas tarjetas" else \
+        "ambos N+ tarjetas" if "tarjetas" in m and m.startswith("ambos") else "ambos N+ córners" if m.startswith("ambos") else \
+        "córners equipo" if " - numero de corners" in m else "córners total" if "corner" in m else "tarjetas total" if "tarjeta" in m else m
 
 
 if __name__ == "__main__":

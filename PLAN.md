@@ -18,3 +18,10 @@
 - Guardar solo partidos de la ventana y mercados simples (sin combinadas) para no inflar el repo.
 - Liquidar todo lo resoluble con football-data; informe semanal. Sin propuestas hasta que el informe muestre algo (n ≥ 30 por fila y ROI de cierre > 0).
 - Tarjetas = amarillas + rojas; pendiente confirmar cómo cuenta bwin la doble amarilla.
+
+## Propuestas en papel (29-sep-2026, pedido por Elito)
+- Aunque aún no hay datos objetivos, se envían propuestas diarias para ir midiendo el acierto (SOLO PAPEL).
+- Tras la captura de la mañana: `propuestas_futbol.py` → Telegram. Reglas fijas: solo córners y tarjetas (modelo); EV ≥ 10 %, prob ≥ 25 %, cuota ≤ 5; 1 por mercado, máx. 2 por partido y 12 al día; partidos de las próximas 24 h.
+- Validación fuera de muestra (entrenado hasta 24/25, probado en 25/26): el modelo mejora a la constante en «más córners» (Brier 0,235 vs 0,247) y «ambos equipos 2+ tarjetas» (0,235 vs 0,244, aunque infraestima ~5 pp); en «más tarjetas», rangos de córners y «ambos 4+ córners» no mejora. Por eso confianza «media» solo en los dos primeros.
+- Importe sugerido: banca 200 € (propia del fútbol), ¼ Kelly, tope 1 %/apuesta (más partidos que en F1) y 5 %/día; ×0,5 en confianza baja.
+- Liquidación automática en `papel/apuestas.csv` y resumen del papel en el informe de los lunes.

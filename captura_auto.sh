@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Cron horario (sin LLM). Telegram recibe cualquier salida no vacía: informe semanal y fallos.
+# Cron horario (sin LLM). Telegram recibe cualquier salida no vacía: propuestas diarias, informe semanal y fallos.
 set -uo pipefail
 cd /opt/data/futbol || exit 2
 
@@ -16,8 +16,8 @@ fi
 .venv/bin/python captura_auto.py
 rc=$?
 
-# todo lo que generan los scripts (capturas, liquidaciones, informe)
-git add datos/ analisis/ >/dev/null 2>&1
+# todo lo que generan los scripts (capturas, liquidaciones, informe, papel)
+git add datos/ analisis/ papel/ >/dev/null 2>&1
 if ! git diff --cached --quiet; then
   git commit -q -m "auto: capturas/liquidación $(date -u +%Y-%m-%d_%H%M)" && git push -q || { echo "FALLO git push"; rc=1; }
 fi
