@@ -46,6 +46,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--captura", required=True); ap.add_argument("--no-registrar", action="store_true")
     ap.add_argument("--ahora")
+    ap.add_argument("--reimprimir", action="store_true",
+                    help="vuelve a mostrar las propuestas con la banca actual; no añade nuevas, actualiza el importe de las pendientes")
     a = ap.parse_args()
     ahora = datetime.fromisoformat(a.ahora.replace("Z", "+00:00")) if a.ahora else datetime.now(timezone.utc)
     rows = list(csv.DictReader(gzip.open(a.captura, "rt", encoding="utf-8")))
@@ -87,7 +89,16 @@ def main():
         x["f"] *= (TOPE_DIA / t if t > TOPE_DIA else 1)
         x["eur"] = round(banca * x["f"], 1)
     # registrar
-    if props and not a.no_registrar:
+    if props and a.reimprimir and os.path.exists(PAPEL):
+        prev = list(csv.DictReader(open(PAPEL, encoding="utf-8")))
+        imp = {(x["r"]["fixture_id"], x["r"]["mercado"], x["r"]["seleccion"]): x["eur"] for x in props}
+        for e in prev:
+            k = (e["fixture_id"], e["mercado"], e["seleccion"])
+            if k in imp and not e.get("resultado"):
+                e["importe_eur"] = imp[k]
+        with open(PAPEL, "w", newline="", encoding="utf-8") as fh:
+            w = csv.DictWriter(fh, fieldnames=CAMPOS, restval="", extrasaction="ignore"); w.writeheader(); w.writerows(prev)
+    elif props and not a.no_registrar:
         os.makedirs(os.path.dirname(PAPEL), exist_ok=True)
         prev = list(csv.DictReader(open(PAPEL, encoding="utf-8"))) if os.path.exists(PAPEL) else []
         ya = {(e["fixture_id"], e["mercado"], e["seleccion"]) for e in prev}
@@ -105,7 +116,7 @@ def main():
     # texto
     if not props:
         print("⚽ Propuestas de hoy: ninguna supera el umbral. 📝 SOLO PAPEL"); return 0
-    lin = [f"⚽ Propuestas de hoy — 📝 SOLO PAPEL ({len(props)}, total sugerido {sum(x['eur'] for x in props):.1f} € sobre banca {etiqueta})"]
+    lin = [("🔁 RECALCULADAS · " if a.reimprimir else "") + f"⚽ Propuestas de hoy — 📝 SOLO PAPEL ({len(props)}, total sugerido {sum(x['eur'] for x in props):.1f} € sobre banca {etiqueta})"]
     for x in sorted(props, key=lambda x: x["r"]["inicio_utc"]):
         r = x["r"]; pb = float(r["prob_implicita"]) / (float(r["overround_mercado"]) if r["overround_mercado"] else 1)
         lin.append(f"• {hora_local(r['inicio_utc'])} {LIGA.get(r['liga'], r['liga'])} · {r['local']}-{r['visitante']}: "

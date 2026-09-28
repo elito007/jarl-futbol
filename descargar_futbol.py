@@ -6,7 +6,7 @@ unificado datos/historico/partidos.csv con las columnas que usan los backtests.
 Uso: python3 descargar_futbol.py [--desde 2019] [--ligas E0,E1,SP1,SP2,I1,D1,F1]
 Solo librería estándar. Incremental: las temporadas cerradas no se vuelven a pedir.
 """
-import argparse, csv, io, os, sys, time, urllib.request
+import argparse, csv, glob, io, os, sys, time, urllib.request
 from datetime import datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
@@ -65,7 +65,7 @@ def main():
     a = ap.parse_args()
     os.makedirs(DIR, exist_ok=True)
     temps, actual = temporadas(a.desde)
-    todos, fallos = [], []
+    fallos = []
     for d in a.ligas.split(","):
         for t in temps:
             ruta = os.path.join(DIR, f"{d}_{t}.csv")
@@ -77,9 +77,18 @@ def main():
                         open(ruta, "wb").write(r.read())
                 except Exception as e:
                     fallos.append(f"{d} {t}: {e}")
-                    continue
-            txt = open(ruta, "rb").read().decode("utf-8-sig", errors="replace")
-            todos += normalizar(txt, d, t)
+    # partidos.csv se rehace SIEMPRE con todos los ficheros brutos que haya en disco (todas las temporadas),
+    # no solo con las pedidas: si no, «--desde 2026» borraría el histórico (fallo del 28-sep).
+    todos = []
+    for ruta in sorted(glob.glob(os.path.join(DIR, "*_*.csv"))):
+        d, t = os.path.basename(ruta)[:-4].rsplit("_", 1)
+        if d not in LIGAS or not t.isdigit():
+            continue
+        todos += normalizar(open(ruta, "rb").read().decode("utf-8-sig", errors="replace"), d, t)
+    previo = os.path.join(DIR, "partidos.csv")
+    if os.path.exists(previo):  # si faltan brutos de alguna temporada, conserva lo que ya había
+        hay = {(f["liga"], f["temporada"]) for f in todos}
+        todos += [f for f in csv.DictReader(open(previo, encoding="utf-8")) if (f["liga"], f["temporada"]) not in hay]
     todos.sort(key=lambda f: (f["liga"], f["fecha"]))
     with open(os.path.join(DIR, "partidos.csv"), "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=CAMPOS); w.writeheader(); w.writerows(todos)
