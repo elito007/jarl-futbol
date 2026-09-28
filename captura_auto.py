@@ -5,7 +5,8 @@
   próximas 30 h. De ahí salen las horas de inicio que se usan para el resto del día.
 - 'pre_partido': una captura por franja de inicio (partidos que empiezan con ≤ 45 min de diferencia
   forman una franja), entre 100 y 30 min antes. Solo guarda los partidos de las próximas 3 h.
-- Liquidación diaria (≥ 10:00): actualiza football-data y liquida. Silenciosa.
+- Liquidación diaria (≥ 10:00): actualiza football-data y liquida. Si quedan propuestas de partidos ya jugados sin
+  resultado, reintenta cada 4 h (hasta las 23:00). Cada vez que se liquidan propuestas, aviso corto por Telegram.
 - Lunes: informe semanal corto (stdout → Telegram).
 bwin solo se consulta en esas capturas (unas 4-6 un sábado, 1-2 entre semana), con retraso aleatorio.
 Estado en datos/estado_futbol.json.
@@ -33,6 +34,18 @@ def iso(d):
 def ejecutar(args):
     r = subprocess.run([sys.executable] + args, cwd=BASE, capture_output=True, text=True)
     return r.returncode, (r.stdout + r.stderr).strip().splitlines() or [""]
+
+
+def vencidas_pendientes(ahora):
+    """¿Hay propuestas de papel sin resultado de partidos que empezaron hace más de 3 h?"""
+    ruta = os.path.join(BASE, "papel", "apuestas.csv")
+    if not os.path.exists(ruta):
+        return False
+    import csv
+    for p in csv.DictReader(open(ruta, encoding="utf-8")):
+        if not p.get("resultado") and p.get("inicio_utc") and ts(p["inicio_utc"]) < ahora - timedelta(hours=3):
+            return True
+    return False
 
 
 def franjas(inicios, hueco=timedelta(minutes=45)):
@@ -93,7 +106,10 @@ def main():
     est["hechas"] = [h for h in est["hechas"] if ts(h) > ahora - timedelta(days=3)]
 
     # 3) liquidación diaria (silenciosa) e informe semanal (lunes)
-    if est.get("liquidado") != hoy and local.hour >= 10:
+    ult = est.get("liq_intento")
+    reintento = (vencidas_pendientes(ahora) and local.hour < 23 and (not ult or ahora - ts(ult) >= timedelta(hours=4)))
+    if local.hour >= 10 and (est.get("liquidado") != hoy or reintento):
+        est["liq_intento"] = iso(ahora)
         if a.no_ejecutar:
             hechos.append("tocaría liquidar")
         else:
@@ -103,6 +119,17 @@ def main():
                 fallos.append(f"liquidación FALLO {o1[-1]} | {o2[-1]}")
             else:
                 est["liquidado"] = hoy; hechos.append("liquidación OK")
+                avisos = [l[len("AVISO_LIQ: "):] for l in o2 if l.startswith("AVISO_LIQ: ")]
+                if avisos:
+                    import banca as bk
+                    tot = 0.0
+                    for l in avisos:
+                        try:
+                            tot += float(l.rsplit("→ ", 1)[1].split(" €")[0])
+                        except (IndexError, ValueError):
+                            pass
+                    telegram.append(f"⚽ Resultados — {len(avisos)} propuesta(s) liquidada(s) · 📝 SOLO PAPEL · balance {tot:+.2f} €\n"
+                                    + "\n".join(avisos) + "\n" + "\n".join(bk.resumen()))
                 semana = local.strftime("%G-W%V")
                 if local.weekday() == 0 and est.get("informe") != semana:
                     rc3, o3 = ejecutar(["informe_mercados.py", "--min-n", "30"])

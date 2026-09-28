@@ -9,6 +9,7 @@ def chk(n, c):
     global ok; print(("✓" if c else "✗"), n); ok &= bool(c)
 
 llam = []
+AVISO = False
 INICIOS = ["2026-10-10T12:00:00Z", "2026-10-10T14:15:00Z", "2026-10-10T14:30:00Z", "2026-10-10T16:30:00Z", "2026-10-10T19:00:00Z"]
 def ej(args):
     llam.append(args)
@@ -16,6 +17,8 @@ def ej(args):
         return 0, ["fixtures", "INICIOS: " + ",".join(INICIOS), "Guardado datos/cuotas/x.csv.gz (10 filas, 1 partidos)"]
     if args[0] == "propuestas_futbol.py":
         return 0, ["⚽ Propuestas de hoy"]
+    if args[0] == "liquidar_futbol.py" and AVISO:
+        return 0, ["papel: 1 apuestas liquidadas", "AVISO_LIQ: ✅ A - B · Total de córners «Más de 9,5» @ 2.0 → +1.00 € (de 1.0 €)"]
     if args[0] == "informe_mercados.py":
         return 0, ["GP liquidados: 3 | selecciones: 900", "goles No 40 50.0 55.0 4.0% 3.0% 1.0%"]
     return 0, ["ok"]
@@ -40,4 +43,17 @@ chk("15:07 → pre_partido 16:30", correr("2026-10-10T15:07:00Z") == ["pre_parti
 chk("17:47 → pre_partido 19:00", correr("2026-10-10T17:47:00Z") == ["pre_partido"])
 chk("sábado entero: 5 peticiones a bwin", sum(1 for x in llam if x[0] == "bwin_futbol.py") == 5)
 chk("lunes 10:07 → liquida + informe", correr("2026-10-12T09:07:00Z")[-3:] == ["descargar_futbol.py", "liquidar_futbol.py", "informe_mercados.py"])
+# reintentos si quedan propuestas vencidas sin resultado, y aviso al liquidar
+os.makedirs(os.path.join(ca.BASE, "papel"), exist_ok=True)
+with open(os.path.join(ca.BASE, "papel", "apuestas.csv"), "w") as fh:
+    fh.write("fecha,partido,inicio_utc,mercado,seleccion,resultado\n2026-10-12,A - B,2026-10-12T18:00:00Z,x,y,\n")
+chk("martes 10:07 → liquida (partido del lunes pendiente)", correr("2026-10-13T09:07:00Z")[-2:] == ["descargar_futbol.py", "liquidar_futbol.py"])
+chk("martes 11:07 → no reintenta antes de 4 h", "liquidar_futbol.py" not in correr("2026-10-13T10:07:00Z"))
+chk("martes 13:07 → reintenta (4 h)", "liquidar_futbol.py" in correr("2026-10-13T13:07:00Z"))
+import io, contextlib
+AVISO = True
+buf = io.StringIO()
+with contextlib.redirect_stdout(buf):
+    correr("2026-10-13T17:07:00Z")
+chk("aviso de resultados por Telegram", "⚽ Resultados — 1 propuesta(s)" in buf.getvalue() and "+1.00 €" in buf.getvalue())
 raise SystemExit(0 if ok else 1)

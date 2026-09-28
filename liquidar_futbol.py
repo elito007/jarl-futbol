@@ -310,11 +310,12 @@ def liquidar_papel():
             k = (r["fixture_id"], r["mercado"], r["seleccion"])
             if k not in liq or r["ts_utc"] > liq[k]["ts_utc"]:
                 liq[k] = r
-    n = 0
+    n, nuevas = 0, []
     for p in pend:
         r = liq.get((p["fixture_id"], p["mercado"], p["seleccion"]))
         if not r or r["resultado"] not in ("0", "1", "V"):
             continue
+        nuevas.append(p)
         c = float(p["cuota_tomada"]); eur = num(p.get("importe_eur")) or 0
         p["resultado"], p["cuota_cierre"] = r["resultado"], r["cuota"]
         p["beneficio_u"] = round(c - 1, 3) if r["resultado"] == "1" else -1 if r["resultado"] == "0" else 0
@@ -323,6 +324,10 @@ def liquidar_papel():
     with open(ruta, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(papel[0].keys())); w.writeheader(); w.writerows(papel)
     print(f"papel: {n} apuestas liquidadas")
+    for p in nuevas:  # captura_auto las recoge para el aviso por Telegram
+        ico = {"1": "✅", "0": "❌"}.get(p["resultado"], "↩️")
+        print(f"AVISO_LIQ: {ico} {p['partido']} · {p['mercado']} «{p['seleccion']}» @ {p['cuota_tomada']} → "
+              f"{float(p['beneficio_eur'] or 0):+.2f} € (de {num(p.get('importe_eur')) or 0:.1f} €)")
 
 
 def resumen_papel():
