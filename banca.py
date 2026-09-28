@@ -1,35 +1,48 @@
 #!/usr/bin/env python3
-"""Banca viva: teórica (siguiendo el sistema al 100 %) y real (la que declara Elito).
+"""Banca viva COMÚN para jarl-f1 y jarl-futbol (Elito tiene una sola cuenta en bwin).
 
-- Teórica: parte de la banca inicial y reproduce, día a día, todas las propuestas liquidadas con su
-  fracción de banca (columna 'fraccion' de papel/apuestas.csv), capitalizando: el importe de cada día
-  se calcula sobre la banca teórica de ese día. Es «lo que habría pasado si hubieras seguido todo».
-- Real: último valor declarado por Elito (recalibración). Si existe, los importes sugeridos se
-  calculan sobre ella; si no, sobre la teórica.
+Fichero común fuera de los repos: /opt/data/banca_comun.json (ruta cambiable con BANCA_COMUN).
+  {"inicial": 200, "real": null | {"valor": €, "fecha": "AAAA-MM-DD"},
+   "papeles": ["/opt/data/f1/papel/apuestas.csv", "/opt/data/futbol/papel/apuestas.csv"]}
+Si no existe (p. ej. en pruebas), usa banca.json y papel/apuestas.csv del repo actual.
 
-Uso:  python3 banca.py                 → muestra teórica, real e importe base
-      python3 banca.py --real 185.40    → declara la banca real (hoy)
-      python3 banca.py --sin-real       → vuelve a usar la teórica para los importes
-Datos en banca.json (versionado).
+- Teórica: inicial + TODAS las propuestas liquidadas de F1 y fútbol, día a día y capitalizando
+  (cada importe sobre la banca teórica de ese día): lo que habría pasado siguiendo todo.
+- Real: la que declara Elito (recalibración). Si existe, es la base de los importes; si no, la teórica.
+
+Uso:  python3 banca.py | --real 185.40 | --sin-real | --inicial 200
+Cada cambio se registra también en banca_historial.log junto al fichero común.
 """
 import argparse, csv, json, os
 from collections import defaultdict
 from datetime import datetime, timezone
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-RUTA = os.path.join(BASE, "banca.json")
-PAPEL = os.path.join(BASE, "papel", "apuestas.csv")
-INICIAL_DEF = 200.0
+COMUN = os.environ.get("BANCA_COMUN", "/opt/data/banca_comun.json")
+LOCAL = os.path.join(BASE, "banca.json")
+PAPELES_DEF = ["/opt/data/f1/papel/apuestas.csv", "/opt/data/futbol/papel/apuestas.csv"]
+
+
+def ruta():
+    return COMUN if os.path.exists(COMUN) or os.path.isdir(os.path.dirname(COMUN)) and os.path.isdir("/opt/data/f1") else LOCAL
 
 
 def leer():
-    d = json.load(open(RUTA)) if os.path.exists(RUTA) else {}
-    d.setdefault("inicial", INICIAL_DEF); d.setdefault("real", None)
+    r = ruta()
+    d = json.load(open(r)) if os.path.exists(r) else {}
+    d.setdefault("inicial", 200.0); d.setdefault("real", None)
+    if r == COMUN:
+        d.setdefault("papeles", PAPELES_DEF)
+    else:
+        d["papeles"] = [os.path.join(BASE, "papel", "apuestas.csv")]
     return d
 
 
-def guardar(d):
-    json.dump(d, open(RUTA, "w"), indent=1, ensure_ascii=False)
+def guardar(d, motivo):
+    r = ruta()
+    json.dump(d if r == COMUN else {k: v for k, v in d.items() if k != "papeles"}, open(r, "w"), indent=1, ensure_ascii=False)
+    with open(os.path.join(os.path.dirname(r), "banca_historial.log"), "a", encoding="utf-8") as fh:
+        fh.write(f"{datetime.now(timezone.utc):%Y-%m-%dT%H:%M:%SZ} {motivo}\n")
 
 
 def _f(x):
@@ -40,22 +53,21 @@ def _f(x):
 
 
 def teorica(d=None):
-    """(banca_teorica, n_apuestas_contadas, pendientes)."""
+    """(banca_teorica, n_apuestas, pendientes) sumando todos los papeles."""
     d = d or leer()
-    if not os.path.exists(PAPEL):
-        return d["inicial"], 0, 0
-    por_dia = defaultdict(list)
-    pend = 0
-    for p in csv.DictReader(open(PAPEL, encoding="utf-8")):
-        fr = _f(p.get("fraccion"))
-        if fr is None:
-            eur = _f(p.get("importe_eur"))
-            fr = eur / d["inicial"] if eur else None   # propuestas antiguas sin fracción
-        if fr is None:
+    por_dia, pend = defaultdict(list), 0
+    for pp in d["papeles"]:
+        if not os.path.exists(pp):
             continue
-        if p.get("resultado") not in ("0", "1", "V"):
-            pend += 1; continue
-        por_dia[p["fecha"]].append((fr, p["resultado"], float(p["cuota_tomada"])))
+        for p in csv.DictReader(open(pp, encoding="utf-8")):
+            fr = _f(p.get("fraccion"))
+            if fr is None:
+                eur = _f(p.get("importe_eur")); fr = eur / d["inicial"] if eur else None
+            if fr is None:
+                continue
+            if p.get("resultado") not in ("0", "1", "V"):
+                pend += 1; continue
+            por_dia[p["fecha"]].append((fr, p["resultado"], float(p["cuota_tomada"])))
     banca, n = d["inicial"], 0
     for dia in sorted(por_dia):
         base = banca
@@ -67,7 +79,6 @@ def teorica(d=None):
 
 
 def para_importes():
-    """(banca sobre la que se calculan los importes, etiqueta)."""
     d = leer()
     if d.get("real"):
         return float(d["real"]["valor"]), f"real declarada {d['real']['valor']:.2f} € ({d['real']['fecha']})"
@@ -77,23 +88,26 @@ def para_importes():
 
 def resumen():
     d = leer(); t, n, pend = teorica(d)
-    lin = [f"💰 Banca teórica (siguiendo todo): {t:.2f} € (inicial {d['inicial']:.0f} €, {n} apuestas, {pend} pendientes)"]
-    if d.get("real"):
-        lin.append(f"   Banca real declarada: {d['real']['valor']:.2f} € ({d['real']['fecha']}) → base de los importes")
+    lin = [f"💰 Banca común F1+fútbol — teórica (siguiendo todo): {t:.2f} € (inicial {d['inicial']:.0f} €, {n} apuestas liquidadas, {pend} pendientes)"]
+    lin.append(f"   Real declarada: {d['real']['valor']:.2f} € ({d['real']['fecha']}) → base de los importes" if d.get("real")
+               else "   Sin banca real declarada → los importes usan la teórica")
     return lin
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--real", type=float); ap.add_argument("--sin-real", action="store_true")
+    ap.add_argument("--real", type=float); ap.add_argument("--sin-real", action="store_true"); ap.add_argument("--inicial", type=float)
     a = ap.parse_args()
     d = leer()
     if a.real is not None:
-        d["real"] = {"valor": round(a.real, 2), "fecha": datetime.now(timezone.utc).strftime("%Y-%m-%d")}; guardar(d)
-    elif a.sin_real:
-        d["real"] = None; guardar(d)
+        d["real"] = {"valor": round(a.real, 2), "fecha": datetime.now(timezone.utc).strftime("%Y-%m-%d")}; guardar(d, f"real = {a.real:.2f}")
+    if a.sin_real:
+        d["real"] = None; guardar(d, "real eliminada (usa teórica)")
+    if a.inicial is not None:
+        d["inicial"] = a.inicial; guardar(d, f"inicial = {a.inicial:.2f}")
+    print(f"(fichero: {ruta()})")
     print("\n".join(resumen()))
-    b, et = para_importes(); print(f"   Importes calculados sobre: {et}")
+    print(f"   Importes calculados sobre: {para_importes()[1]}")
 
 
 if __name__ == "__main__":

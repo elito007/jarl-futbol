@@ -30,3 +30,7 @@
 - `banca.py`: banca teórica = inicial (200 €) + resultado de TODAS las propuestas liquidadas, capitalizando día a día con la fracción de banca de cada una (lo que habría pasado siguiendo el sistema al 100 %).
 - Banca real: la declara Elito cuando quiera (recalibración): `python3 banca.py --real <€>` (vía Jarl). Si existe, los importes sugeridos se calculan sobre ella; si no, sobre la teórica. `--sin-real` vuelve a la teórica.
 - Los resúmenes muestran ambas.
+
+## Banca común (29-sep-2026, Elito)
+- Una sola cuenta en bwin → una sola banca para F1 y fútbol: `/opt/data/banca_comun.json` (fuera de los repos) con historial en `/opt/data/banca_historial.log`.
+- Teórica común = 200 € + todas las propuestas liquidadas de ambos sistemas, capitalizando día a día. Real: solo si Elito la declara (`python3 banca.py --real <€>` desde cualquiera de los dos repos). A 29-sep no hay banca real: cuenta aún sin abrir.

@@ -1,7 +1,4 @@
 {
  "inicial": 200.0,
- "real": {
-  "valor": 200.0,
-  "fecha": "2026-09-28"
- }
+ "real": null
 }
