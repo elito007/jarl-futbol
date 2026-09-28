@@ -1,0 +1,35 @@
+Partidos evaluados: 16525 (con cuotas: 16525) desde 2020
+
+Precisión (log-loss, menor = mejor):
+  modelo 0.7020 | mercado 0.6711 | mezcla 50/50 0.6794
+  (si el mercado gana claramente, el modelo solo tiene sentido donde discrepa mucho)
+
+Apostar cuando EV ≥ umbral (1 u por apuesta):
+  umbral fuente      n     ROI   ±err
+      3%   avg  11565   -6.4%   0.9
+      3%  b365  11780   -6.0%   0.9
+      3%   max  14288   -1.8%   0.9
+      5%   avg  10381   -6.7%   1.0
+      5%  b365  10595   -6.0%   1.0
+      5%   max  13148   -1.8%   0.9
+     10%   avg   7706   -7.8%   1.1
+     10%  b365   7945   -6.9%   1.1
+     10%   max  10307   -2.3%   1.0
+
+Por liga (umbral 5 %, cuota Bet365) y referencia 'siempre más' / 'siempre menos' con cuota media:
+  D1   modelo -11.7% (n=1102)    siempre más -2.4% (n=1797)     siempre menos -10.7% (n=1797)
+  E0   modelo -2.5% (n=1537)     siempre más -3.3% (n=2259)     siempre menos -6.0% (n=2259)
+  E1   modelo -5.9% (n=2064)     siempre más -6.2% (n=3246)     siempre menos -4.6% (n=3246)
+  F1   modelo -7.2% (n=1330)     siempre más -3.8% (n=2036)     siempre menos -7.2% (n=2036)
+  I1   modelo -6.3% (n=1443)     siempre más -5.9% (n=2244)     siempre menos -3.7% (n=2244)
+  SP1  modelo -3.5% (n=1494)     siempre más -5.8% (n=2267)     siempre menos -4.9% (n=2267)
+  SP2  modelo -6.6% (n=1625)     siempre más -4.7% (n=2676)     siempre menos -7.9% (n=2676)
+
+Calibración del mercado (prob. sin margen → frecuencia real de 'más de 2,5'):
+   20- 30%  n=  115  mercado  28.4%  real  26.1%  modelo  22.8%
+   30- 40%  n= 2446  mercado  36.4%  real  36.9%  modelo  34.2%
+   40- 50%  n= 6389  mercado  45.2%  real  44.2%  modelo  44.2%
+   50- 60%  n= 5074  mercado  54.5%  real  56.0%  modelo  54.5%
+   60- 70%  n= 2015  mercado  63.9%  real  65.7%  modelo  64.0%
+   70- 80%  n=  460  mercado  73.4%  real  72.2%  modelo  74.3%
+   80- 90%  n=   26  mercado  81.7%  real  84.6%  modelo  85.5%
