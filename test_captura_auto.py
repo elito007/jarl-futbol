@@ -56,4 +56,11 @@ buf = io.StringIO()
 with contextlib.redirect_stdout(buf):
     correr("2026-10-13T17:07:00Z")
 chk("aviso de resultados por Telegram", "⚽ Resultados — 1 propuesta(s)" in buf.getvalue() and "+1.00 €" in buf.getvalue())
+# día sin partidos → una línea de «sistema OK»
+INICIOS_BAK = list(INICIOS); INICIOS.clear(); SIN = True
+ca.ejecutar = lambda args: (llam.append(args), (0, ["INICIOS: "]) if args[0] == "bwin_futbol.py" else (0, ["ok"]))[1]
+buf = io.StringIO()
+with contextlib.redirect_stdout(buf):
+    correr("2026-10-14T08:07:00Z")
+chk("día sin partidos → aviso de sistema OK", "Hoy no hay partidos" in buf.getvalue())
 raise SystemExit(0 if ok else 1)

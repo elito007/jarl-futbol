@@ -86,6 +86,9 @@ def main():
                     telegram.append("\n".join(o4))
                 else:
                     fallos.append(f"propuestas FALLO {o4[-1]}")
+            else:  # sin partidos: una línea para saber que el sistema sigue vivo
+                telegram.append("⚽ Hoy no hay partidos de las 7 ligas en las próximas 30 h. Sistema OK; "
+                                "próxima revisión mañana a partir de las 08:00. (/estado para ver el detalle)")
         hechos.append(f"{momento} OK"); return True
 
     # 1) captura de la mañana
