@@ -1,0 +1,1123 @@
+ts_utc,momento,liga,fixture_id,fixture,mercado_id,mercado,seleccion_id,seleccion,cuota,overround_mercado,n_selecciones,tipo,prob_justa,resultado,beneficio_1u
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014157,Ambos equipos 3+ córners,787209391,Sí,1.5,1.1014,2,ambos_3_corners,0.6053,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014157,Ambos equipos 3+ córners,787209392,No,2.3,1.1014,2,ambos_3_corners,0.3948,1,1.3
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014158,Ambos equipos 4+ córners,787209393,Sí,2.37,1.0931,2,ambos_4_corners,0.386,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014158,Ambos equipos 4+ córners,787209394,No,1.49,1.0931,2,ambos_4_corners,0.6139,1,0.49
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014159,Ambos equipos 5+ córners,787209395,Sí,4.33,1.0856,2,ambos_5_corners,0.2127,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014159,Ambos equipos 5+ córners,787209396,No,1.17,1.0856,2,ambos_5_corners,0.7873,1,0.17
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014160,1er gol de la 2ª parte,787209397,CD Leganés,2.55,1.1248,3,sin_regla,0.3487,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014160,1er gol de la 2ª parte,787209398,No hay gol,3.9,1.1248,3,sin_regla,0.228,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014160,1er gol de la 2ª parte,787209399,CD Castellón,2.1,1.1248,3,sin_regla,0.4234,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405623,Total de goles,789747824,"Más de 2,5",1.85,1.087,2,goles,0.4972,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405623,Total de goles,789747825,"Menos de 2,5",1.83,1.087,2,goles,0.5027,1,0.83
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405624,Total de goles,789747826,"Más de 1,5",1.26,1.0794,2,goles,0.7353,1,0.26
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405624,Total de goles,789747827,"Menos de 1,5",3.5,1.0794,2,goles,0.2647,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405625,Total de goles,789747828,"Más de 3,5",3.1,1.0802,2,goles,0.2986,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405625,Total de goles,789747829,"Menos de 3,5",1.32,1.0802,2,goles,0.7014,1,0.32
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405626,Total de goles,789747830,"Más de 0,5",1.04,1.0568,2,goles,0.9098,1,0.04
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405626,Total de goles,789747831,"Menos de 0,5",10.5,1.0568,2,goles,0.0901,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405627,Total de goles,789747832,"Más de 4,5",6.0,1.0676,2,goles,0.1561,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405627,Total de goles,789747833,"Menos de 4,5",1.11,1.0676,2,goles,0.8439,1,0.11
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405628,Total de goles,789747834,"Más de 5,5",12.5,1.0509,2,goles,0.0761,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405628,Total de goles,789747835,"Menos de 5,5",1.03,1.0509,2,goles,0.9239,1,0.03
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405629,Total de goles,789747836,"Más de 6,5",26.0,1.0385,2,goles,0.0371,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405629,Total de goles,789747837,"Menos de 6,5",1.0,1.0385,2,goles,0.9629,1,0.0
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405630,Total de goles - 1ª parte,789747838,"Más de 1,5",2.75,1.0831,2,goles_1t,0.3357,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405630,Total de goles - 1ª parte,789747839,"Menos de 1,5",1.39,1.0831,2,goles_1t,0.6642,1,0.39
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405631,Total de goles - 1ª parte,789747840,"Más de 0,5",1.36,1.0801,2,goles_1t,0.6808,1,0.36
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405631,Total de goles - 1ª parte,789747841,"Menos de 0,5",2.9,1.0801,2,goles_1t,0.3192,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405632,Total de goles - 1ª parte,789747842,"Más de 2,5",7.5,1.0679,2,goles_1t,0.1248,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405632,Total de goles - 1ª parte,789747843,"Menos de 2,5",1.07,1.0679,2,goles_1t,0.8752,1,0.07
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405633,Total de goles - 1ª parte,789747844,"Más de 3,5",21.0,1.0446,2,goles_1t,0.0456,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405633,Total de goles - 1ª parte,789747845,"Menos de 3,5",1.003,1.0446,2,goles_1t,0.9544,1,0.003
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405634,Total de goles - 1ª parte,789747846,"Más de 4,5",56.0,1.0179,2,goles_1t,0.0176,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405634,Total de goles - 1ª parte,789747847,"Menos de 4,5",1.0,1.0179,2,goles_1t,0.9824,1,0.0
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405635,Total de goles - 2ª parte,789747848,"Más de 1,5",2.05,1.083,2,goles_2t,0.4504,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405635,Total de goles - 2ª parte,789747849,"Menos de 1,5",1.68,1.083,2,goles_2t,0.5496,1,0.68
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405636,Total de goles - 2ª parte,789747850,"Más de 0,5",1.22,1.0761,2,goles_2t,0.7617,1,0.22
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405636,Total de goles - 2ª parte,789747851,"Menos de 0,5",3.9,1.0761,2,goles_2t,0.2383,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405637,Total de goles - 2ª parte,789747852,"Más de 2,5",4.2,1.0784,2,goles_2t,0.2208,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405637,Total de goles - 2ª parte,789747853,"Menos de 2,5",1.19,1.0784,2,goles_2t,0.7792,1,0.19
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405638,Total de goles - 2ª parte,789747854,"Más de 3,5",10.5,1.0568,2,goles_2t,0.0901,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405638,Total de goles - 2ª parte,789747855,"Menos de 3,5",1.04,1.0568,2,goles_2t,0.9098,1,0.04
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405639,CD Leganés - Total de goles,789747856,"Más de 0,5",1.33,1.0852,2,equipo_goles,0.6929,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405639,CD Leganés - Total de goles,789747857,"Menos de 0,5",3.0,1.0852,2,equipo_goles,0.3071,1,2.0
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405640,CD Leganés - Total de goles,789747858,"Más de 1,5",2.65,1.0866,2,equipo_goles,0.3473,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405640,CD Leganés - Total de goles,789747859,"Menos de 1,5",1.41,1.0866,2,equipo_goles,0.6527,1,0.41
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405641,CD Leganés - Total de goles,789747860,"Más de 2,5",6.5,1.0713,2,equipo_goles,0.1436,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405641,CD Leganés - Total de goles,789747861,"Menos de 2,5",1.09,1.0713,2,equipo_goles,0.8563,1,0.09
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405642,CD Leganés - Total de goles,789747862,"Más de 3,5",17.0,1.0489,2,equipo_goles,0.0561,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405642,CD Leganés - Total de goles,789747863,"Menos de 3,5",1.01,1.0489,2,equipo_goles,0.9439,1,0.01
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405643,CD Castellón - Total de goles,789747864,"Más de 1,5",2.15,1.0824,2,equipo_goles,0.4297,1,1.15
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405643,CD Castellón - Total de goles,789747865,"Menos de 1,5",1.62,1.0824,2,equipo_goles,0.5703,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405644,CD Castellón - Total de goles,789747866,"Más de 2,5",4.6,1.0795,2,equipo_goles,0.2014,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405644,CD Castellón - Total de goles,789747867,"Menos de 2,5",1.16,1.0795,2,equipo_goles,0.7986,1,0.16
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405645,CD Castellón - Total de goles,789747868,"Más de 0,5",1.22,1.0761,2,equipo_goles,0.7617,1,0.22
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405645,CD Castellón - Total de goles,789747869,"Menos de 0,5",3.9,1.0761,2,equipo_goles,0.2383,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405646,CD Castellón - Total de goles,789747870,"Más de 3,5",11.5,1.0531,2,equipo_goles,0.0826,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405646,CD Castellón - Total de goles,789747871,"Menos de 3,5",1.035,1.0531,2,equipo_goles,0.9175,1,0.035
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405647,Hándicap 1X2 (1) - Tiempo reglamentario,789747872,CD Leganés 1,1.6,1.1195,3,sin_regla,0.5583,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405647,Hándicap 1X2 (1) - Tiempo reglamentario,789747873,Hándicap empate - CD Leganés (1),3.9,1.1195,3,sin_regla,0.229,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405647,Hándicap 1X2 (1) - Tiempo reglamentario,789747874,CD Castellón -1,4.2,1.1195,3,sin_regla,0.2127,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405648,Hándicap 1X2 (-1) - Tiempo reglamentario,789747875,CD Leganés -1,6.25,1.1168,3,sin_regla,0.1433,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405648,Hándicap 1X2 (-1) - Tiempo reglamentario,789747876,Hándicap empate - CD Leganés (-1),4.75,1.1168,3,sin_regla,0.1885,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405648,Hándicap 1X2 (-1) - Tiempo reglamentario,789747877,CD Castellón 1,1.34,1.1168,3,sin_regla,0.6682,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405649,Hándicap 1X2 (2) - Tiempo reglamentario,789747878,CD Leganés 2,1.19,1.1023,3,sin_regla,0.7623,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405649,Hándicap 1X2 (2) - Tiempo reglamentario,789747879,Hándicap empate - CD Leganés (2),6.5,1.1023,3,sin_regla,0.1395,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405649,Hándicap 1X2 (2) - Tiempo reglamentario,789747880,CD Castellón -2,9.25,1.1023,3,sin_regla,0.0981,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405666,CD Leganés - Total de goles - 1ª parte,789747929,"Más de 0,5",2.2,1.0875,2,equipo_goles_1t,0.4179,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405666,CD Leganés - Total de goles - 1ª parte,789747930,"Menos de 0,5",1.58,1.0875,2,equipo_goles_1t,0.582,1,0.58
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405667,CD Leganés - Total de goles - 1ª parte,789747931,"Más de 1,5",8.25,1.0646,2,equipo_goles_1t,0.1138,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405667,CD Leganés - Total de goles - 1ª parte,789747932,"Menos de 1,5",1.06,1.0646,2,equipo_goles_1t,0.8862,1,0.06
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405668,CD Leganés - Total de goles - 1ª parte,789747933,"Más de 2,5",31.0,1.0323,2,equipo_goles_1t,0.0313,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405668,CD Leganés - Total de goles - 1ª parte,789747934,"Menos de 2,5",1.0,1.0323,2,equipo_goles_1t,0.9687,1,0.0
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405669,CD Castellón - Total de goles - 1ª parte,789747935,"Más de 0,5",1.93,1.0831,2,equipo_goles_1t,0.4783,1,0.93
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405669,CD Castellón - Total de goles - 1ª parte,789747936,"Menos de 0,5",1.77,1.0831,2,equipo_goles_1t,0.5217,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405670,CD Castellón - Total de goles - 1ª parte,789747937,"Más de 1,5",6.25,1.0691,2,equipo_goles_1t,0.1497,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405670,CD Castellón - Total de goles - 1ª parte,789747938,"Menos de 1,5",1.1,1.0691,2,equipo_goles_1t,0.8503,1,0.1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405671,CD Castellón - Total de goles - 1ª parte,789747939,"Más de 2,5",23.0,1.0415,2,equipo_goles_1t,0.0418,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405671,CD Castellón - Total de goles - 1ª parte,789747940,"Menos de 2,5",1.002,1.0415,2,equipo_goles_1t,0.9582,1,0.002
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405672,CD Leganés - Total de goles - 2ª parte,789747941,"Más de 0,5",1.83,1.087,2,equipo_goles_2t,0.5027,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405672,CD Leganés - Total de goles - 2ª parte,789747942,"Menos de 0,5",1.85,1.087,2,equipo_goles_2t,0.4972,1,0.85
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405673,CD Leganés - Total de goles - 2ª parte,789747943,"Más de 1,5",5.5,1.0668,2,equipo_goles_2t,0.1704,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405673,CD Leganés - Total de goles - 2ª parte,789747944,"Menos de 1,5",1.13,1.0668,2,equipo_goles_2t,0.8296,1,0.13
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405674,CD Leganés - Total de goles - 2ª parte,789747945,"Más de 2,5",18.0,1.0457,2,equipo_goles_2t,0.0532,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405674,CD Leganés - Total de goles - 2ª parte,789747946,"Menos de 2,5",1.01,1.0457,2,equipo_goles_2t,0.9468,1,0.01
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405675,CD Castellón - Total de goles - 2ª parte,789747947,"Más de 0,5",1.62,1.0935,2,equipo_goles_2t,0.5645,1,0.62
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405675,CD Castellón - Total de goles - 2ª parte,789747948,"Menos de 0,5",2.1,1.0935,2,equipo_goles_2t,0.4355,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405676,CD Castellón - Total de goles - 2ª parte,789747949,"Más de 1,5",4.2,1.0714,2,equipo_goles_2t,0.2222,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405676,CD Castellón - Total de goles - 2ª parte,789747950,"Menos de 1,5",1.2,1.0714,2,equipo_goles_2t,0.7778,1,0.2
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405677,CD Castellón - Total de goles - 2ª parte,789747951,"Más de 2,5",13.0,1.0525,2,equipo_goles_2t,0.0731,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405677,CD Castellón - Total de goles - 2ª parte,789747952,"Menos de 2,5",1.025,1.0525,2,equipo_goles_2t,0.9269,1,0.025
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405684,Hándicap 1X2 (1) - 1ª parte,789747981,CD Leganés 1,1.4,1.1097,3,sin_regla,0.6437,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405684,Hándicap 1X2 (1) - 1ª parte,789747982,Hándicap empate - CD Leganés (1),3.6,1.1097,3,sin_regla,0.2503,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405684,Hándicap 1X2 (1) - 1ª parte,789747983,CD Castellón -1,8.5,1.1097,3,sin_regla,0.106,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405685,Hándicap 1X2 (-1) - 1ª parte,789747984,CD Leganés -1,12.0,1.1017,3,sin_regla,0.0756,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405685,Hándicap 1X2 (-1) - 1ª parte,789747985,Hándicap empate - CD Leganés (-1),4.33,1.1017,3,sin_regla,0.2096,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405685,Hándicap 1X2 (-1) - 1ª parte,789747986,CD Castellón 1,1.27,1.1017,3,sin_regla,0.7147,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405690,"Hándicap 1-2 (0,5)",789748008,"CD Leganés (0,5)",1.6,1.0901,2,sin_regla,0.5733,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205405690,"Hándicap 1-2 (0,5)",789748009,"CD Castellón (-0,5)",2.15,1.0901,2,sin_regla,0.4267,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014056,Resultado - 1ª parte,787208458,CD Leganés,3.4,1.1296,3,1x2_1t,0.2604,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014056,Resultado - 1ª parte,787208460,X,2.15,1.1296,3,1x2_1t,0.4117,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014056,Resultado - 1ª parte,787208459,CD Castellón,2.7,1.1296,3,1x2_1t,0.3279,1,1.7
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014060,Gana el partido exactamente por 1 gol,787208516,Sí,2.3,1.0884,2,gana_por_n,0.3995,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014060,Gana el partido exactamente por 1 gol,787208517,No,1.53,1.0884,2,gana_por_n,0.6005,1,0.53
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014061,Gana el partido exactamente por 2 goles,787208518,Sí,4.2,1.0714,2,gana_por_n,0.2222,1,3.2
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014061,Gana el partido exactamente por 2 goles,787208519,No,1.2,1.0714,2,gana_por_n,0.7778,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014062,Doble oportunidad,787208520,CD Leganés o X,1.6,2.1288,3,doble_oportunidad,0.2936,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014062,Doble oportunidad,787208521,X o CD Castellón,1.34,2.1288,3,doble_oportunidad,0.3506,1,0.34
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014062,Doble oportunidad,787208522,CD Leganés o CD Castellón,1.32,2.1288,3,doble_oportunidad,0.3559,1,0.32
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014063,Ganador sin empate,787208523,CD Leganés,2.2,1.0795,2,dnb,0.421,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014063,Ganador sin empate,787208524,CD Castellón,1.6,1.0795,2,dnb,0.579,1,0.6
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014064,Total de goles par o impar,787208525,Impar,1.88,1.0875,2,goles_par,0.4891,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014064,Total de goles par o impar,787208526,Par,1.8,1.0875,2,goles_par,0.5109,1,0.8
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014065,CD Leganés no cuenta,787208527,X,2.25,1.0814,2,sin_equipo,0.4109,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014065,CD Leganés no cuenta,787208528,CD Castellón,1.57,1.0814,2,sin_equipo,0.589,1,0.57
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014066,CD Castellón no cuenta,787208529,CD Leganés,1.8,1.0875,2,sin_equipo,0.5109,V,0
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014066,CD Castellón no cuenta,787208530,X,1.88,1.0875,2,sin_equipo,0.4891,V,0
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014067,1ª parte - 1° córner,787208531,CD Leganés,2.05,1.1153,3,sin_regla,0.4374,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014067,1ª parte - 1° córner,787208532,No hay córners,31.0,1.1153,3,sin_regla,0.029,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014067,1ª parte - 1° córner,787208533,CD Castellón,1.68,1.1153,3,sin_regla,0.5337,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014068,Total de córners lanzados par o impar,787208534,Impar,1.8,1.102,2,corners_par,0.5042,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014068,Total de córners lanzados par o impar,787208535,Par,1.83,1.102,2,corners_par,0.4958,1,0.83
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014069,Doble Oportunidad - 1ª parte,787208536,CD Leganés o X,1.4,2.119,3,doble_oportunidad_parte,0.3371,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014069,Doble Oportunidad - 1ª parte,787208537,X o CD Castellón,1.27,2.119,3,doble_oportunidad_parte,0.3716,1,0.27
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014069,Doble Oportunidad - 1ª parte,787208538,CD Leganés o CD Castellón,1.62,2.119,3,doble_oportunidad_parte,0.2913,1,0.62
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014070,Doble Oportunidad - 2ª parte,787208539,CD Leganés o X,1.47,2.1298,3,doble_oportunidad_parte,0.3194,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014070,Doble Oportunidad - 2ª parte,787208540,X o CD Castellón,1.3,2.1298,3,doble_oportunidad_parte,0.3612,1,0.3
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014070,Doble Oportunidad - 2ª parte,787208541,CD Leganés o CD Castellón,1.47,2.1298,3,doble_oportunidad_parte,0.3194,1,0.47
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014071,Ganador sin empate - 1ª parte,787208542,CD Leganés,2.1,1.0823,2,dnb,0.44,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014071,Ganador sin empate - 1ª parte,787208543,CD Castellón,1.65,1.0823,2,dnb,0.56,1,0.65
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014072,Más córners,787208544,CD Leganés,2.4,1.136,3,mas_corners,0.3668,1,1.4
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014072,Más córners,787208545,X,7.25,1.136,3,mas_corners,0.1214,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014072,Más córners,787208546,CD Castellón,1.72,1.136,3,mas_corners,0.5118,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014073,1ª parte - Más córners,787208547,CD Leganés,2.6,1.1368,3,sin_regla,0.3383,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014073,1ª parte - Más córners,787208548,X,4.6,1.1368,3,sin_regla,0.1912,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014073,1ª parte - Más córners,787208549,CD Castellón,1.87,1.1368,3,sin_regla,0.4704,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014074,2ª parte - Más córners,787208550,CD Leganés,2.37,1.1387,3,sin_regla,0.3705,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014074,2ª parte - Más córners,787208551,X,5.25,1.1387,3,sin_regla,0.1673,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014074,2ª parte - Más córners,787208552,CD Castellón,1.9,1.1387,3,sin_regla,0.4622,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208553,No hay gol,10.5,1.2578,9,goles_exacto,0.0757,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208554,1,4.6,1.2578,9,goles_exacto,0.1728,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208555,2,3.4,1.2578,9,goles_exacto,0.2338,1,2.4
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208556,3,4.0,1.2578,9,goles_exacto,0.1988,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208557,4,5.5,1.2578,9,goles_exacto,0.1445,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208558,5,9.25,1.2578,9,goles_exacto,0.0859,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208559,6,17.5,1.2578,9,goles_exacto,0.0454,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208560,7,31.0,1.2578,9,goles_exacto,0.0257,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208561,8 o más,46.0,1.2578,9,goles_exacto,0.0173,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014085,Número exacto de goles - 1ª parte,787208780,No hay gol,2.9,1.1512,4,sin_regla,0.2995,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014085,Número exacto de goles - 1ª parte,787208781,1,2.4,1.1512,4,sin_regla,0.362,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014085,Número exacto de goles - 1ª parte,787208782,2,3.9,1.1512,4,sin_regla,0.2227,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014085,Número exacto de goles - 1ª parte,787208783,3 o más,7.5,1.1512,4,sin_regla,0.1158,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014086,Ambos equipos marcan,787208784,Sí,1.66,1.0902,2,btts,0.5526,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014086,Ambos equipos marcan,787208785,No,2.05,1.0902,2,btts,0.4474,1,1.05
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014087,Ambos equipos marcan en la 1ª parte,787208786,Sí,4.4,1.0747,2,btts_1t,0.2115,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014087,Ambos equipos marcan en la 1ª parte,787208787,No,1.18,1.0747,2,btts_1t,0.7886,1,0.18
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014088,Ambos equipos marcan en la 2ª parte,787208788,Sí,3.0,1.0852,2,btts_2t,0.3071,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014088,Ambos equipos marcan en la 2ª parte,787208789,No,1.33,1.0852,2,btts_2t,0.6929,1,0.33
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014091,Parte con más goles,787208797,1ª parte,3.1,1.1256,3,sin_regla,0.2866,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014091,Parte con más goles,787208798,Mismo número de goles,3.3,1.1256,3,sin_regla,0.2692,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014091,Parte con más goles,787208799,2ª parte,2.0,1.1256,3,sin_regla,0.4442,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014092,Parte con más córners,787208800,1ª parte,2.4,1.14,3,sin_regla,0.3655,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014092,Parte con más córners,787208801,Mismo número de goles,5.75,1.14,3,sin_regla,0.1525,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014092,Parte con más córners,787208802,2ª parte,1.82,1.14,3,sin_regla,0.482,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014093,CD Leganés - Parte con más córners,787208803,1ª parte,2.5,1.1439,3,sin_regla,0.3497,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014093,CD Leganés - Parte con más córners,787208804,Mismo número de goles,4.1,1.1439,3,sin_regla,0.2132,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014093,CD Leganés - Parte con más córners,787208805,2ª parte,2.0,1.1439,3,sin_regla,0.4371,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014094,CD Castellón - Parte con más córners,787208806,1ª parte,2.35,1.1406,3,sin_regla,0.373,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014094,CD Castellón - Parte con más córners,787208807,Mismo número de goles,4.4,1.1406,3,sin_regla,0.1993,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014094,CD Castellón - Parte con más córners,787208808,2ª parte,2.05,1.1406,3,sin_regla,0.4277,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014098,Resultado - 2ª parte,787208829,CD Leganés,3.2,1.1288,3,1x2_2t,0.2768,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014098,Resultado - 2ª parte,787208831,X,2.45,1.1288,3,1x2_2t,0.3616,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014098,Resultado - 2ª parte,787208830,CD Castellón,2.45,1.1288,3,1x2_2t,0.3616,1,1.45
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014101,¿Habrá gol en ambas partes?,787208838,Sí,1.7,1.0882,2,sin_regla,0.5405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014101,¿Habrá gol en ambas partes?,787208839,No,2.0,1.0882,2,sin_regla,0.4595,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014103,CD Leganés marca en ambas partes,787208866,Sí,4.2,1.0714,2,equipo_marca_ambas,0.2222,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014103,CD Leganés marca en ambas partes,787208867,No,1.2,1.0714,2,equipo_marca_ambas,0.7778,1,0.2
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014104,CD Castellón marca en ambas partes,787208868,Sí,3.25,1.0829,2,equipo_marca_ambas,0.2841,1,2.25
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014104,CD Castellón marca en ambas partes,787208869,No,1.29,1.0829,2,equipo_marca_ambas,0.7159,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014105,Gana ambas partes,787208870,CD Leganés,10.5,1.0981,3,gana_ambas_partes,0.0867,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014105,Gana ambas partes,787208871,CD Castellón,6.75,1.0981,3,gana_ambas_partes,0.1349,1,5.75
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014105,Gana ambas partes,787208872,Ningún equipo gana ambas partes,1.17,1.0981,3,gana_ambas_partes,0.7783,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014106,CD Leganés marca,787208873,Sí,1.33,1.0852,2,equipo_marca,0.6929,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014106,CD Leganés marca,787208874,No,3.0,1.0852,2,equipo_marca,0.3071,1,2.0
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014107,CD Castellón marca,787208875,Sí,1.22,1.0761,2,equipo_marca,0.7617,1,0.22
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014107,CD Castellón marca,787208876,No,3.9,1.0761,2,equipo_marca,0.2383,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014108,Goles totales par o impar - 1ª parte,787208877,Impar,2.0,1.0882,2,goles_par_1t,0.4595,1,1.0
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014108,Goles totales par o impar - 1ª parte,787208878,Par,1.7,1.0882,2,goles_par_1t,0.5405,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014109,Número de córners par o impar - 1ª parte,787208879,Impar,1.8,1.0961,2,sin_regla,0.5069,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014109,Número de córners par o impar - 1ª parte,787208880,Par,1.85,1.0961,2,sin_regla,0.4931,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014110,Número de córners par o impar - 2ª parte,787208881,Impar,1.8,1.102,2,sin_regla,0.5042,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014110,Número de córners par o impar - 2ª parte,787208882,Par,1.83,1.102,2,sin_regla,0.4958,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014111,Gana la 1ª parte o la 2ª parte,787208883,CD Leganés,2.0,1.3173,3,sin_regla,0.3796,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014111,Gana la 1ª parte o la 2ª parte,787208884,CD Castellón,1.62,1.3173,3,sin_regla,0.4686,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014111,Gana la 1ª parte o la 2ª parte,787208885,Ninguno,5.0,1.3173,3,sin_regla,0.1518,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014115,2 o más goles se marcan en ambas partes,787208895,Sí,5.5,1.0668,2,sin_regla,0.1704,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014115,2 o más goles se marcan en ambas partes,787208896,No,1.13,1.0668,2,sin_regla,0.8296,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014116,Ambos equipos marcan en ambas partes,787208897,Sí,12.5,1.0509,2,sin_regla,0.0761,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014116,Ambos equipos marcan en ambas partes,787208898,No,1.03,1.0509,2,sin_regla,0.9239,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014117,Ambos equipos marcan y cualquier equipo gana,787208899,Sí,2.6,1.0839,2,sin_regla,0.3548,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014117,Ambos equipos marcan y cualquier equipo gana,787208900,No,1.43,1.0839,2,sin_regla,0.6452,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014123,Gana al descanso pero no el partido,787208923,CD Leganés,8.75,1.0996,3,sin_regla,0.1039,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014123,Gana al descanso pero no el partido,787208924,CD Castellón,9.25,1.0996,3,sin_regla,0.0983,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014123,Gana al descanso pero no el partido,787208925,Ninguno,1.14,1.0996,3,sin_regla,0.7977,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209148,1-2 Sí,2.1,24.7196,32,sin_regla,0.0193,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209149,1-3 Sí,1.44,24.7196,32,sin_regla,0.0281,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209150,1-4 Sí,1.19,24.7196,32,sin_regla,0.034,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209151,1-5 Sí,1.1,24.7196,32,sin_regla,0.0368,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209152,1-6 Sí,1.06,24.7196,32,sin_regla,0.0382,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209153,2-3 Sí,1.95,24.7196,32,sin_regla,0.0207,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209154,2-4 Sí,1.51,24.7196,32,sin_regla,0.0268,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209155,2-5 Sí,1.35,24.7196,32,sin_regla,0.03,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209156,2-6 Sí,1.29,24.7196,32,sin_regla,0.0314,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209157,3-4 Sí,2.45,24.7196,32,sin_regla,0.0165,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209158,3-5 Sí,2.05,24.7196,32,sin_regla,0.0197,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209159,3-6 Sí,1.93,24.7196,32,sin_regla,0.021,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209160,4-5 Sí,3.75,24.7196,32,sin_regla,0.0108,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209161,4-6 Sí,3.3,24.7196,32,sin_regla,0.0123,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209162,5-6 Sí,7.0,24.7196,32,sin_regla,0.0058,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209163,7+ Sí,26.0,24.7196,32,sin_regla,0.0016,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209164,1-2 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209165,1-3 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209166,1-4 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209167,1-5 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209168,1-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209169,2-3 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209170,2-4 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209171,2-5 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209172,2-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209173,3-4 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209174,3-5 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209175,3-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209176,4-5 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209177,4-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209178,5-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209179,7+ No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209180,1-2 Sí,1.57,5.7378,8,sin_regla,0.111,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209181,1-3 Sí,1.4,5.7378,8,sin_regla,0.1245,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209182,2-3 Sí,2.95,5.7378,8,sin_regla,0.0591,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209183,4+ Sí,21.0,5.7378,8,sin_regla,0.0083,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209184,1-2 No,1.0,5.7378,8,sin_regla,0.1743,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209185,1-3 No,1.0,5.7378,8,sin_regla,0.1743,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209186,2-3 No,1.0,5.7378,8,sin_regla,0.1743,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209187,4+ No,1.0,5.7378,8,sin_regla,0.1743,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209188,1-2 Sí,1.6,5.9033,8,sin_regla,0.1059,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209189,1-3 Sí,1.32,5.9033,8,sin_regla,0.1283,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209190,2-3 Sí,2.35,5.9033,8,sin_regla,0.0721,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209191,4+ Sí,10.5,5.9033,8,sin_regla,0.0161,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209192,1-2 No,1.0,5.9033,8,sin_regla,0.1694,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209193,1-3 No,1.0,5.9033,8,sin_regla,0.1694,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209194,2-3 No,1.0,5.9033,8,sin_regla,0.1694,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209195,4+ No,1.0,5.9033,8,sin_regla,0.1694,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209196,1-2 Sí,1.58,9.9697,14,sin_regla,0.0635,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209197,1-3 Sí,1.39,9.9697,14,sin_regla,0.0722,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209198,1-4 Sí,1.35,9.9697,14,sin_regla,0.0743,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209199,2-3 Sí,2.95,9.9697,14,sin_regla,0.034,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209200,2-4 Sí,2.7,9.9697,14,sin_regla,0.0372,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209201,3-4 Sí,7.0,9.9697,14,sin_regla,0.0143,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209202,5+ Sí,41.0,9.9697,14,sin_regla,0.0024,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209203,1-2 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209204,1-3 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209205,1-4 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209206,2-3 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209207,2-4 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209208,3-4 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209209,5+ No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209210,1-2 Sí,1.55,10.3097,14,sin_regla,0.0626,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209211,1-3 Sí,1.31,10.3097,14,sin_regla,0.074,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209212,1-4 Sí,1.25,10.3097,14,sin_regla,0.0776,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209213,2-3 Sí,2.45,10.3097,14,sin_regla,0.0396,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209214,2-4 Sí,2.2,10.3097,14,sin_regla,0.0441,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209215,3-4 Sí,5.0,10.3097,14,sin_regla,0.0194,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209216,5+ Sí,26.0,10.3097,14,sin_regla,0.0037,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209217,1-2 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209218,1-3 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209219,1-4 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209220,2-3 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209221,2-4 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209222,3-4 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209223,5+ No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014137,Total de goles (0-4+),787209338,0-1,3.5,1.1211,3,sin_regla,0.2548,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014137,Total de goles (0-4+),787209339,2-3,1.95,1.1211,3,sin_regla,0.4574,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014137,Total de goles (0-4+),787209340,4 o más,3.1,1.1211,3,sin_regla,0.2878,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014138,Total de goles (0-5+),787209341,0-2,1.83,1.1213,3,sin_regla,0.4873,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014138,Total de goles (0-5+),787209342,3-4,2.45,1.1213,3,sin_regla,0.364,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014138,Total de goles (0-5+),787209343,5 o más,6.0,1.1213,3,sin_regla,0.1487,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014139,Total de goles (0-6+),787209344,0-3,1.32,1.1042,3,sin_regla,0.6861,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014139,Total de goles (0-6+),787209345,4-5,3.75,1.1042,3,sin_regla,0.2415,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014139,Total de goles (0-6+),787209346,6 o más,12.5,1.1042,3,sin_regla,0.0725,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209347,0-5,7.25,1.2058,5,corners_rango,0.1144,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209348,6-8,2.7,1.2058,5,corners_rango,0.3072,1,1.7
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209349,9-11,2.5,1.2058,5,corners_rango,0.3317,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209350,12-14,4.75,1.2058,5,corners_rango,0.1746,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209351,15 o más,11.5,1.2058,5,corners_rango,0.0722,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014141,Número de córners (0-13 o más),787209352,0-9,1.66,1.1377,3,corners_rango,0.5295,1,0.66
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014141,Número de córners (0-13 o más),787209353,10-12,2.9,1.1377,3,corners_rango,0.3031,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014141,Número de córners (0-13 o más),787209354,13 o más,5.25,1.1377,3,corners_rango,0.1674,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014142,Número de córners - 1ª parte (0-6 o más),787209355,0-2,4.5,1.14,3,sin_regla,0.1949,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014142,Número de córners - 1ª parte (0-6 o más),787209356,3-5,1.68,1.14,3,sin_regla,0.5221,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014142,Número de córners - 1ª parte (0-6 o más),787209357,6 o más,3.1,1.14,3,sin_regla,0.283,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014143,Número de córners - 2ª parte (0-6 o más),787209358,0-2,6.0,1.1389,3,sin_regla,0.1464,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014143,Número de córners - 2ª parte (0-6 o más),787209359,3-5,1.8,1.1389,3,sin_regla,0.4878,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014143,Número de córners - 2ª parte (0-6 o más),787209360,6 o más,2.4,1.1389,3,sin_regla,0.3659,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014144,CD Leganés - Número de córners (0-7 o más),787209361,0-3,2.15,1.1302,3,equipo_corners_rango,0.4115,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014144,CD Leganés - Número de córners (0-7 o más),787209362,4-6,2.15,1.1302,3,equipo_corners_rango,0.4115,1,1.15
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014144,CD Leganés - Número de córners (0-7 o más),787209363,7 o más,5.0,1.1302,3,equipo_corners_rango,0.177,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014145,CD Castellón - Número de córners (0-7 o más),787209364,0-3,2.9,1.1403,3,equipo_corners_rango,0.3024,1,1.9
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014145,CD Castellón - Número de córners (0-7 o más),787209365,4-6,2.05,1.1403,3,equipo_corners_rango,0.4278,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014145,CD Castellón - Número de córners (0-7 o más),787209366,7 o más,3.25,1.1403,3,equipo_corners_rango,0.2698,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209370,CD Leganés / CD Leganés,5.25,1.1989,9,sin_regla,0.1589,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209371,CD Leganés / Empate,12.5,1.1989,9,sin_regla,0.0667,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209372,CD Leganés / CD Castellón,26.0,1.1989,9,sin_regla,0.0321,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209373,Empate / CD Leganés,7.5,1.1989,9,sin_regla,0.1112,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209374,Empate / Empate,5.25,1.1989,9,sin_regla,0.1589,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209375,Empate / CD Castellón,5.75,1.1989,9,sin_regla,0.145,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209376,CD Castellón / CD Leganés,29.0,1.1989,9,sin_regla,0.0288,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209377,CD Castellón / Empate,12.5,1.1989,9,sin_regla,0.0667,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209378,CD Castellón / CD Castellón,3.6,1.1989,9,sin_regla,0.2317,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014149,Resultado del partido VA (+2),787209382,CD Leganés,3.1,1.0896,3,sin_regla,0.2961,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014149,Resultado del partido VA (+2),787209383,X,3.2,1.0896,3,sin_regla,0.2868,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014149,Resultado del partido VA (+2),787209384,CD Castellón,2.2,1.0896,3,sin_regla,0.4171,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840867,Israel Suero,3.3,2.7259,22,sin_regla,0.1112,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840857,Álvaro Martín,5.25,2.7259,22,sin_regla,0.0699,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840831,Alex Sancris,5.5,2.7259,22,sin_regla,0.0667,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840850,Iñigo Córdoba,5.75,2.7259,22,sin_regla,0.0638,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840861,Ousmane Camara,6.25,2.7259,22,sin_regla,0.0587,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840868,Adam Jakobsen,6.5,2.7259,22,sin_regla,0.0564,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840842,Naim Garcia,6.75,2.7259,22,sin_regla,0.0543,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840858,Juanjo,7.0,2.7259,22,sin_regla,0.0524,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840833,Álvaro Morata,7.25,2.7259,22,sin_regla,0.0506,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840852,Matías Orozco,7.5,2.7259,22,sin_regla,0.0489,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840824,Yassine Kechta,8.25,2.7259,22,sin_regla,0.0445,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840826,Patrick Soko,8.25,2.7259,22,sin_regla,0.0445,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840846,Diego Barri,9.0,2.7259,22,sin_regla,0.0408,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840830,Zico Buurmeester,9.25,2.7259,22,sin_regla,0.0397,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840865,Jeremy Mellot,11.5,2.7259,22,sin_regla,0.0319,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840818,Amadou Diawara,12.0,2.7259,22,sin_regla,0.0306,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840819,Miguel Atienza,12.5,2.7259,22,sin_regla,0.0293,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840838,Marvel,16.5,2.7259,22,sin_regla,0.0222,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840859,Alberto Jiménez,16.5,2.7259,22,sin_regla,0.0222,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840869,Agustin Sienra,16.5,2.7259,22,sin_regla,0.0222,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840839,Lalo Aguilar,18.0,2.7259,22,sin_regla,0.0204,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840817,Francisco Montero,19.5,2.7259,22,sin_regla,0.0188,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840914,Ousmane Camara,1.32,8.4534,22,sin_regla,0.0896,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840879,Patrick Soko,1.4,8.4534,22,sin_regla,0.0845,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840920,Israel Suero,1.52,8.4534,22,sin_regla,0.0778,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840884,Alex Sancris,1.58,8.4534,22,sin_regla,0.0749,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840921,Adam Jakobsen,1.65,8.4534,22,sin_regla,0.0717,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840886,Álvaro Morata,1.83,8.4534,22,sin_regla,0.0646,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840883,Zico Buurmeester,2.05,8.4534,22,sin_regla,0.0577,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840903,Iñigo Córdoba,2.1,8.4534,22,sin_regla,0.0563,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840905,Matías Orozco,2.15,8.4534,22,sin_regla,0.055,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840895,Naim Garcia,2.3,8.4534,22,sin_regla,0.0514,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840877,Yassine Kechta,2.6,8.4534,22,sin_regla,0.0455,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840910,Álvaro Martín,2.75,8.4534,22,sin_regla,0.043,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840899,Diego Barri,3.4,8.4534,22,sin_regla,0.0348,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840871,Amadou Diawara,3.75,8.4534,22,sin_regla,0.0315,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840911,Juanjo,4.33,8.4534,22,sin_regla,0.0273,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840872,Miguel Atienza,4.6,8.4534,22,sin_regla,0.0257,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840922,Agustin Sienra,5.25,8.4534,22,sin_regla,0.0225,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840892,Lalo Aguilar,5.25,8.4534,22,sin_regla,0.0225,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840912,Alberto Jiménez,5.25,8.4534,22,sin_regla,0.0225,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840891,Marvel,7.75,8.4534,22,sin_regla,0.0153,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840870,Francisco Montero,8.25,8.4534,22,sin_regla,0.0143,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840918,Jeremy Mellot,10.5,8.4534,22,sin_regla,0.0113,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840967,Ousmane Camara,2.55,2.6699,15,sin_regla,0.1469,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840932,Patrick Soko,2.9,2.6699,15,sin_regla,0.1291,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840973,Israel Suero,3.5,2.6699,15,sin_regla,0.107,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840937,Alex Sancris,3.8,2.6699,15,sin_regla,0.0986,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840974,Adam Jakobsen,4.2,2.6699,15,sin_regla,0.0892,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840939,Álvaro Morata,5.25,2.6699,15,sin_regla,0.0714,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840936,Zico Buurmeester,6.5,2.6699,15,sin_regla,0.0576,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840956,Iñigo Córdoba,6.5,2.6699,15,sin_regla,0.0576,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840958,Matías Orozco,7.0,2.6699,15,sin_regla,0.0535,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840948,Naim Garcia,7.75,2.6699,15,sin_regla,0.0483,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840930,Yassine Kechta,9.5,2.6699,15,sin_regla,0.0394,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840963,Álvaro Martín,10.5,2.6699,15,sin_regla,0.0357,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840952,Diego Barri,14.5,2.6699,15,sin_regla,0.0258,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840924,Amadou Diawara,17.0,2.6699,15,sin_regla,0.022,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840964,Juanjo,21.0,2.6699,15,sin_regla,0.0178,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789841020,Ousmane Camara,6.0,0.7481,8,sin_regla,0.2228,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789840985,Patrick Soko,7.5,0.7481,8,sin_regla,0.1782,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789841026,Israel Suero,9.25,0.7481,8,sin_regla,0.1445,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789840990,Alex Sancris,11.0,0.7481,8,sin_regla,0.1215,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789841027,Adam Jakobsen,11.5,0.7481,8,sin_regla,0.1163,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789840992,Álvaro Morata,15.5,0.7481,8,sin_regla,0.0862,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789840989,Zico Buurmeester,20.0,0.7481,8,sin_regla,0.0668,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789841009,Iñigo Córdoba,21.0,0.7481,8,sin_regla,0.0636,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014154,4 o más tiros a portería,789841073,Ousmane Camara,14.5,0.1245,2,sin_regla,0.5542,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014154,4 o más tiros a portería,789841038,Patrick Soko,18.0,0.1245,2,sin_regla,0.4466,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014155,1ª parte - 1er equipo en marcar,787209385,CD Leganés,2.8,1.1275,3,sin_regla,0.3167,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014155,1ª parte - 1er equipo en marcar,787209386,No hay gol,2.9,1.1275,3,sin_regla,0.3058,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014155,1ª parte - 1er equipo en marcar,787209387,CD Castellón,2.35,1.1275,3,sin_regla,0.3774,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014156,1er equipo en marcar,787209388,CD Leganés,2.15,1.1159,3,sin_regla,0.4168,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014156,1er equipo en marcar,787209389,No hay gol,10.5,1.1159,3,sin_regla,0.0853,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205014156,1er equipo en marcar,787209390,CD Castellón,1.8,1.1159,3,sin_regla,0.4979,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543405,Total de córners,790481042,"Más de 8,5",1.6,1.1012,2,corners_linea,0.5676,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543405,Total de córners,790481043,"Menos de 8,5",2.1,1.1012,2,corners_linea,0.4324,1,1.1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543406,Total de córners,790481044,"Más de 9,5",2.0,1.1024,2,corners_linea,0.4536,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543406,Total de córners,790481045,"Menos de 9,5",1.66,1.1024,2,corners_linea,0.5464,1,0.66
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543407,Total de córners,790481046,"Más de 7,5",1.33,1.0967,2,corners_linea,0.6856,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543407,Total de córners,790481047,"Menos de 7,5",2.9,1.0967,2,corners_linea,0.3144,1,1.9
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543408,Total de córners,790481048,"Más de 10,5",2.65,1.0916,2,corners_linea,0.3457,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543408,Total de córners,790481049,"Menos de 10,5",1.4,1.0916,2,corners_linea,0.6544,1,0.4
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543410,Total de córners - 1ª parte,790481052,"Más de 4,5",2.0,1.1024,2,sin_regla,0.4536,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543410,Total de córners - 1ª parte,790481053,"Menos de 4,5",1.66,1.1024,2,sin_regla,0.5464,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543411,Total de córners - 1ª parte,790481054,"Más de 3,5",1.46,1.0931,2,sin_regla,0.6266,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543411,Total de córners - 1ª parte,790481055,"Menos de 3,5",2.45,1.0931,2,sin_regla,0.3734,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543412,Total de córners - 1ª parte,790481056,"Más de 5,5",3.1,1.0918,2,sin_regla,0.2955,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543412,Total de córners - 1ª parte,790481057,"Menos de 5,5",1.3,1.0918,2,sin_regla,0.7045,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543413,CD Leganés - Total de córners,790481058,"Más de 3,5",1.6,1.0901,2,sin_regla,0.5733,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543413,CD Leganés - Total de córners,790481059,"Menos de 3,5",2.15,1.0901,2,sin_regla,0.4267,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543414,CD Castellón - Total de córners,790481060,"Más de 4,5",1.68,1.1003,2,sin_regla,0.5409,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543414,CD Castellón - Total de córners,790481061,"Menos de 4,5",1.98,1.1003,2,sin_regla,0.4591,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543415,Total de córners - 2ª parte,790481062,"Más de 4,5",1.68,1.1003,2,sin_regla,0.5409,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543415,Total de córners - 2ª parte,790481063,"Menos de 4,5",1.98,1.1003,2,sin_regla,0.4591,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543416,Total de córners - 2ª parte,790481064,"Más de 5,5",2.4,1.1016,2,sin_regla,0.3783,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543416,Total de córners - 2ª parte,790481065,"Menos de 5,5",1.46,1.1016,2,sin_regla,0.6217,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543417,Total de córners - 2ª parte,790481066,"Más de 3,5",1.3,1.0918,2,sin_regla,0.7045,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543417,Total de córners - 2ª parte,790481067,"Menos de 3,5",3.1,1.0918,2,sin_regla,0.2955,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543420,CD Leganés - Total de córners - 1ª parte,790481073,"Más de 1,5",1.61,1.0973,2,sin_regla,0.566,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543420,CD Leganés - Total de córners - 1ª parte,790481074,"Menos de 1,5",2.1,1.0973,2,sin_regla,0.434,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543421,CD Castellón - Total de córners - 1ª parte,790481075,"Más de 2,5",2.1,1.0935,2,sin_regla,0.4355,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543421,CD Castellón - Total de córners - 1ª parte,790481076,"Menos de 2,5",1.62,1.0935,2,sin_regla,0.5645,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543423,CD Castellón - Total de córners - 2ª parte,790481079,"Más de 2,5",1.93,1.0962,2,sin_regla,0.4726,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205543423,CD Castellón - Total de córners - 2ª parte,790481080,"Menos de 2,5",1.73,1.0962,2,sin_regla,0.5273,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205589013,Total de córners,790730147,"Más de 11,5",3.7,1.0899,2,corners_linea,0.248,0,-1
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205589013,Total de córners,790730148,"Menos de 11,5",1.22,1.0899,2,corners_linea,0.7521,1,0.22
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205589014,CD Leganés - Total de córners - 2ª parte,790730149,"Más de 2,5",2.3,1.097,2,sin_regla,0.3964,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205589014,CD Leganés - Total de córners - 2ª parte,790730150,"Menos de 2,5",1.51,1.097,2,sin_regla,0.6037,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516756,Ousmane Camara,5.75,1.7815,22,sin_regla,0.0976,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516731,Nzanza,7.0,1.7815,22,sin_regla,0.0802,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516718,Adam Jakobsen,7.25,1.7815,22,sin_regla,0.0774,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516726,Álvaro Morata,7.25,1.7815,22,sin_regla,0.0774,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516758,Patrick Soko,7.75,1.7815,22,sin_regla,0.0724,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516742,Israel Suero,9.25,1.7815,22,sin_regla,0.0607,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516725,Álvaro Martín,9.75,1.7815,22,sin_regla,0.0576,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516740,Inigo Cordoba,9.75,1.7815,22,sin_regla,0.0576,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516767,No hay goleador,9.75,1.7815,22,sin_regla,0.0576,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516723,Alex Sancris,11.0,1.7815,22,sin_regla,0.051,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516766,Zico Buurmeester,11.5,1.7815,22,sin_regla,0.0488,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516755,Naim Garcia,12.5,1.7815,22,sin_regla,0.0449,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516765,Yassine Kechta,13.0,1.7815,22,sin_regla,0.0432,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516732,Diego Barri,17.5,1.7815,22,sin_regla,0.0321,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516754,Miguel Atienza,21.0,1.7815,22,sin_regla,0.0267,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516720,Alberto Jiménez,29.0,1.7815,22,sin_regla,0.0194,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516747,Juanjo,29.0,1.7815,22,sin_regla,0.0194,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516719,Agustin Sienra,36.0,1.7815,22,sin_regla,0.0156,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516744,Francisco Montero,36.0,1.7815,22,sin_regla,0.0156,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516745,Jeremy Mellot,36.0,1.7815,22,sin_regla,0.0156,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516751,Marvel,36.0,1.7815,22,sin_regla,0.0156,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516748,Lalo Aguilar,41.0,1.7815,22,sin_regla,0.0137,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516810,Ousmane Camara,2.7,3.7604,22,sin_regla,0.0985,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516786,Nzanza,3.2,3.7604,22,sin_regla,0.0831,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516772,Adam Jakobsen,3.3,3.7604,22,sin_regla,0.0806,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516780,Álvaro Morata,3.3,3.7604,22,sin_regla,0.0806,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516812,Patrick Soko,3.5,3.7604,22,sin_regla,0.076,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516796,Israel Suero,4.1,3.7604,22,sin_regla,0.0649,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516794,Inigo Cordoba,4.4,3.7604,22,sin_regla,0.0604,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516779,Álvaro Martín,4.4,3.7604,22,sin_regla,0.0604,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516777,Alex Sancris,5.0,3.7604,22,sin_regla,0.0532,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516820,Zico Buurmeester,5.25,3.7604,22,sin_regla,0.0507,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516809,Naim Garcia,5.5,3.7604,22,sin_regla,0.0483,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516819,Yassine Kechta,6.0,3.7604,22,sin_regla,0.0443,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516787,Diego Barri,8.0,3.7604,22,sin_regla,0.0332,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516808,Miguel Atienza,9.75,3.7604,22,sin_regla,0.0273,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516821,No hay goleador,9.75,3.7604,22,sin_regla,0.0273,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516801,Juanjo,13.5,3.7604,22,sin_regla,0.0197,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516774,Alberto Jiménez,13.5,3.7604,22,sin_regla,0.0197,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516799,Jeremy Mellot,17.5,3.7604,22,sin_regla,0.0152,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516773,Agustin Sienra,17.5,3.7604,22,sin_regla,0.0152,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516798,Francisco Montero,18.0,3.7604,22,sin_regla,0.0148,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516805,Marvel,19.0,3.7604,22,sin_regla,0.014,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516802,Lalo Aguilar,21.0,3.7604,22,sin_regla,0.0127,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516860,Ousmane Camara,61.0,0.0722,8,sin_regla,0.2271,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516836,Nzanza,91.0,0.0722,8,sin_regla,0.1524,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516822,Adam Jakobsen,101.0,0.0722,8,sin_regla,0.1371,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516830,Álvaro Morata,101.0,0.0722,8,sin_regla,0.1371,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516862,Patrick Soko,126.0,0.0722,8,sin_regla,0.1094,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516829,Álvaro Martín,176.0,0.0722,8,sin_regla,0.0789,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516844,Inigo Cordoba,176.0,0.0722,8,sin_regla,0.0789,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516846,Israel Suero,176.0,0.0722,8,sin_regla,0.0789,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516909,Ousmane Camara,4.1,2.2385,21,sin_regla,0.109,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516885,Nzanza,4.8,2.2385,21,sin_regla,0.0931,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516871,Adam Jakobsen,5.0,2.2385,21,sin_regla,0.0893,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516879,Álvaro Morata,5.75,2.2385,21,sin_regla,0.0777,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516911,Patrick Soko,6.25,2.2385,21,sin_regla,0.0715,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516895,Israel Suero,6.5,2.2385,21,sin_regla,0.0687,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516878,Álvaro Martín,6.75,2.2385,21,sin_regla,0.0662,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516893,Inigo Cordoba,6.75,2.2385,21,sin_regla,0.0662,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516876,Alex Sancris,8.75,2.2385,21,sin_regla,0.0511,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516919,Zico Buurmeester,9.25,2.2385,21,sin_regla,0.0483,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516908,Naim Garcia,10.0,2.2385,21,sin_regla,0.0447,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516918,Yassine Kechta,10.5,2.2385,21,sin_regla,0.0425,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516886,Diego Barri,12.5,2.2385,21,sin_regla,0.0357,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516907,Miguel Atienza,17.5,2.2385,21,sin_regla,0.0255,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516873,Alberto Jiménez,21.0,2.2385,21,sin_regla,0.0213,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516900,Juanjo,21.0,2.2385,21,sin_regla,0.0213,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516872,Agustin Sienra,29.0,2.2385,21,sin_regla,0.0154,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516898,Jeremy Mellot,29.0,2.2385,21,sin_regla,0.0154,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516897,Francisco Montero,34.0,2.2385,21,sin_regla,0.0131,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516904,Marvel,34.0,2.2385,21,sin_regla,0.0131,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516901,Lalo Aguilar,41.0,2.2385,21,sin_regla,0.0109,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517068,Ousmane Camara,5.75,3.3206,40,sin_regla,0.0524,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517038,Álvaro Morata,6.75,3.3206,40,sin_regla,0.0446,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517034,Alex Millan,7.0,3.3206,40,sin_regla,0.043,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517036,Álvaro García,7.0,3.3206,40,sin_regla,0.043,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517044,Nzanza,7.0,3.3206,40,sin_regla,0.043,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517070,Patrick Soko,7.25,3.3206,40,sin_regla,0.0415,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517030,Adam Jakobsen,7.25,3.3206,40,sin_regla,0.0415,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517076,Unax del Cura,7.5,3.3206,40,sin_regla,0.0401,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517075,Suleiman El Haddadi,7.75,3.3206,40,sin_regla,0.0388,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517069,Pablo Santiago,8.0,3.3206,40,sin_regla,0.0376,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517054,Israel Suero,9.25,3.3206,40,sin_regla,0.0326,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517071,Raúl Sánchez,9.25,3.3206,40,sin_regla,0.0326,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517048,Fran Castillo,9.25,3.3206,40,sin_regla,0.0326,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517049,Hamza Bellari,9.5,3.3206,40,sin_regla,0.0317,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517052,Inigo Cordoba,9.75,3.3206,40,sin_regla,0.0309,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517037,Álvaro Martín,9.75,3.3206,40,sin_regla,0.0309,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517079,No hay goleador,9.75,3.3206,40,sin_regla,0.0309,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517035,Alex Sancris,10.0,3.3206,40,sin_regla,0.0301,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517042,Antonio Gala,10.5,3.3206,40,sin_regla,0.0287,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517043,Dani Rodriguez,10.5,3.3206,40,sin_regla,0.0287,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517078,Zico Buurmeester,11.0,3.3206,40,sin_regla,0.0274,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517067,Naim Garcia,11.5,3.3206,40,sin_regla,0.0262,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517077,Yassine Kechta,12.5,3.3206,40,sin_regla,0.0241,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517041,Andrés Campos,14.5,3.3206,40,sin_regla,0.0208,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517045,Diego Barri,17.5,3.3206,40,sin_regla,0.0172,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517058,Jorge Herrero,19.0,3.3206,40,sin_regla,0.0158,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517066,Miguel Atienza,19.5,3.3206,40,sin_regla,0.0154,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517059,Juanjo,29.0,3.3206,40,sin_regla,0.0104,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517032,Alberto Jiménez,29.0,3.3206,40,sin_regla,0.0104,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517050,Ignasi Miquel,31.0,3.3206,40,sin_regla,0.0097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517061,Lucas Alcázar,31.0,3.3206,40,sin_regla,0.0097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517047,Federico Ceccherini,31.0,3.3206,40,sin_regla,0.0097,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517051,Ilias Kostis,34.0,3.3206,40,sin_regla,0.0089,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517056,Francisco Montero,34.0,3.3206,40,sin_regla,0.0089,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517074,Ruben Pulido,34.0,3.3206,40,sin_regla,0.0089,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517039,Álvaro Tejero,34.0,3.3206,40,sin_regla,0.0089,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517057,Jeremy Mellot,36.0,3.3206,40,sin_regla,0.0084,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517063,Marvel,36.0,3.3206,40,sin_regla,0.0084,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517031,Agustin Sienra,36.0,3.3206,40,sin_regla,0.0084,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517060,Lalo Aguilar,41.0,3.3206,40,sin_regla,0.0073,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517210,Ousmane Camara,13.0,0.4806,16,sin_regla,0.16,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517176,Nzanza,18.5,0.4806,16,sin_regla,0.1126,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517162,Adam Jakobsen,19.5,0.4806,16,sin_regla,0.1067,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517170,Álvaro Morata,19.5,0.4806,16,sin_regla,0.1067,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517197,Patrick Soko,23.0,0.4806,16,sin_regla,0.0905,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517186,Israel Suero,31.0,0.4806,16,sin_regla,0.0672,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517169,Álvaro Martín,34.0,0.4806,16,sin_regla,0.0612,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517184,Inigo Cordoba,34.0,0.4806,16,sin_regla,0.0612,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517167,Alex Sancris,41.0,0.4806,16,sin_regla,0.0508,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517205,Zico Buurmeester,46.0,0.4806,16,sin_regla,0.0452,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517209,Naim Garcia,51.0,0.4806,16,sin_regla,0.0408,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517204,Yassine Kechta,56.0,0.4806,16,sin_regla,0.0372,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517177,Diego Barri,91.0,0.4806,16,sin_regla,0.0229,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517208,Miguel Atienza,126.0,0.4806,16,sin_regla,0.0164,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517164,Alberto Jiménez,201.0,0.4806,16,sin_regla,0.0104,?,
+2026-09-28T17:39:48Z,manana,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517191,Juanjo,201.0,0.4806,16,sin_regla,0.0104,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014157,Ambos equipos 3+ córners,787209391,Sí,1.5,1.1014,2,ambos_3_corners,0.6053,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014157,Ambos equipos 3+ córners,787209392,No,2.3,1.1014,2,ambos_3_corners,0.3948,1,1.3
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014158,Ambos equipos 4+ córners,787209393,Sí,2.37,1.0931,2,ambos_4_corners,0.386,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014158,Ambos equipos 4+ córners,787209394,No,1.49,1.0931,2,ambos_4_corners,0.6139,1,0.49
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014159,Ambos equipos 5+ córners,787209395,Sí,4.33,1.0856,2,ambos_5_corners,0.2127,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014159,Ambos equipos 5+ córners,787209396,No,1.17,1.0856,2,ambos_5_corners,0.7873,1,0.17
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014160,1er gol de la 2ª parte,787209397,CD Leganés,2.55,1.1248,3,sin_regla,0.3487,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014160,1er gol de la 2ª parte,787209398,No hay gol,3.9,1.1248,3,sin_regla,0.228,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014160,1er gol de la 2ª parte,787209399,CD Castellón,2.1,1.1248,3,sin_regla,0.4234,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405623,Total de goles,789747824,"Más de 2,5",1.85,1.087,2,goles,0.4972,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405623,Total de goles,789747825,"Menos de 2,5",1.83,1.087,2,goles,0.5027,1,0.83
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405624,Total de goles,789747826,"Más de 1,5",1.26,1.0794,2,goles,0.7353,1,0.26
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405624,Total de goles,789747827,"Menos de 1,5",3.5,1.0794,2,goles,0.2647,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405625,Total de goles,789747828,"Más de 3,5",3.1,1.0802,2,goles,0.2986,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405625,Total de goles,789747829,"Menos de 3,5",1.32,1.0802,2,goles,0.7014,1,0.32
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405626,Total de goles,789747830,"Más de 0,5",1.04,1.0568,2,goles,0.9098,1,0.04
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405626,Total de goles,789747831,"Menos de 0,5",10.5,1.0568,2,goles,0.0901,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405627,Total de goles,789747832,"Más de 4,5",6.0,1.0676,2,goles,0.1561,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405627,Total de goles,789747833,"Menos de 4,5",1.11,1.0676,2,goles,0.8439,1,0.11
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405628,Total de goles,789747834,"Más de 5,5",12.5,1.0509,2,goles,0.0761,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405628,Total de goles,789747835,"Menos de 5,5",1.03,1.0509,2,goles,0.9239,1,0.03
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405629,Total de goles,789747836,"Más de 6,5",26.0,1.0385,2,goles,0.0371,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405629,Total de goles,789747837,"Menos de 6,5",1.0,1.0385,2,goles,0.9629,1,0.0
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405630,Total de goles - 1ª parte,789747838,"Más de 1,5",2.75,1.0831,2,goles_1t,0.3357,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405630,Total de goles - 1ª parte,789747839,"Menos de 1,5",1.39,1.0831,2,goles_1t,0.6642,1,0.39
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405631,Total de goles - 1ª parte,789747840,"Más de 0,5",1.36,1.0801,2,goles_1t,0.6808,1,0.36
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405631,Total de goles - 1ª parte,789747841,"Menos de 0,5",2.9,1.0801,2,goles_1t,0.3192,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405632,Total de goles - 1ª parte,789747842,"Más de 2,5",7.5,1.0679,2,goles_1t,0.1248,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405632,Total de goles - 1ª parte,789747843,"Menos de 2,5",1.07,1.0679,2,goles_1t,0.8752,1,0.07
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405633,Total de goles - 1ª parte,789747844,"Más de 3,5",21.0,1.0446,2,goles_1t,0.0456,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405633,Total de goles - 1ª parte,789747845,"Menos de 3,5",1.003,1.0446,2,goles_1t,0.9544,1,0.003
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405634,Total de goles - 1ª parte,789747846,"Más de 4,5",56.0,1.0179,2,goles_1t,0.0176,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405634,Total de goles - 1ª parte,789747847,"Menos de 4,5",1.0,1.0179,2,goles_1t,0.9824,1,0.0
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405635,Total de goles - 2ª parte,789747848,"Más de 1,5",2.05,1.083,2,goles_2t,0.4504,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405635,Total de goles - 2ª parte,789747849,"Menos de 1,5",1.68,1.083,2,goles_2t,0.5496,1,0.68
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405636,Total de goles - 2ª parte,789747850,"Más de 0,5",1.22,1.0761,2,goles_2t,0.7617,1,0.22
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405636,Total de goles - 2ª parte,789747851,"Menos de 0,5",3.9,1.0761,2,goles_2t,0.2383,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405637,Total de goles - 2ª parte,789747852,"Más de 2,5",4.2,1.0784,2,goles_2t,0.2208,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405637,Total de goles - 2ª parte,789747853,"Menos de 2,5",1.19,1.0784,2,goles_2t,0.7792,1,0.19
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405638,Total de goles - 2ª parte,789747854,"Más de 3,5",10.5,1.0568,2,goles_2t,0.0901,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405638,Total de goles - 2ª parte,789747855,"Menos de 3,5",1.04,1.0568,2,goles_2t,0.9098,1,0.04
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405639,CD Leganés - Total de goles,789747856,"Más de 0,5",1.33,1.0852,2,equipo_goles,0.6929,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405639,CD Leganés - Total de goles,789747857,"Menos de 0,5",3.0,1.0852,2,equipo_goles,0.3071,1,2.0
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405640,CD Leganés - Total de goles,789747858,"Más de 1,5",2.65,1.0866,2,equipo_goles,0.3473,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405640,CD Leganés - Total de goles,789747859,"Menos de 1,5",1.41,1.0866,2,equipo_goles,0.6527,1,0.41
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405641,CD Leganés - Total de goles,789747860,"Más de 2,5",6.5,1.0713,2,equipo_goles,0.1436,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405641,CD Leganés - Total de goles,789747861,"Menos de 2,5",1.09,1.0713,2,equipo_goles,0.8563,1,0.09
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405642,CD Leganés - Total de goles,789747862,"Más de 3,5",17.0,1.0489,2,equipo_goles,0.0561,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405642,CD Leganés - Total de goles,789747863,"Menos de 3,5",1.01,1.0489,2,equipo_goles,0.9439,1,0.01
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405643,CD Castellón - Total de goles,789747864,"Más de 1,5",2.15,1.0824,2,equipo_goles,0.4297,1,1.15
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405643,CD Castellón - Total de goles,789747865,"Menos de 1,5",1.62,1.0824,2,equipo_goles,0.5703,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405644,CD Castellón - Total de goles,789747866,"Más de 2,5",4.6,1.0795,2,equipo_goles,0.2014,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405644,CD Castellón - Total de goles,789747867,"Menos de 2,5",1.16,1.0795,2,equipo_goles,0.7986,1,0.16
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405645,CD Castellón - Total de goles,789747868,"Más de 0,5",1.22,1.0761,2,equipo_goles,0.7617,1,0.22
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405645,CD Castellón - Total de goles,789747869,"Menos de 0,5",3.9,1.0761,2,equipo_goles,0.2383,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405646,CD Castellón - Total de goles,789747870,"Más de 3,5",11.5,1.0531,2,equipo_goles,0.0826,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405646,CD Castellón - Total de goles,789747871,"Menos de 3,5",1.035,1.0531,2,equipo_goles,0.9175,1,0.035
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405647,Hándicap 1X2 (1) - Tiempo reglamentario,789747872,CD Leganés 1,1.6,1.1195,3,sin_regla,0.5583,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405647,Hándicap 1X2 (1) - Tiempo reglamentario,789747873,Hándicap empate - CD Leganés (1),3.9,1.1195,3,sin_regla,0.229,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405647,Hándicap 1X2 (1) - Tiempo reglamentario,789747874,CD Castellón -1,4.2,1.1195,3,sin_regla,0.2127,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405648,Hándicap 1X2 (-1) - Tiempo reglamentario,789747875,CD Leganés -1,6.25,1.1168,3,sin_regla,0.1433,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405648,Hándicap 1X2 (-1) - Tiempo reglamentario,789747876,Hándicap empate - CD Leganés (-1),4.75,1.1168,3,sin_regla,0.1885,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405648,Hándicap 1X2 (-1) - Tiempo reglamentario,789747877,CD Castellón 1,1.34,1.1168,3,sin_regla,0.6682,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405649,Hándicap 1X2 (2) - Tiempo reglamentario,789747878,CD Leganés 2,1.19,1.1023,3,sin_regla,0.7623,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405649,Hándicap 1X2 (2) - Tiempo reglamentario,789747879,Hándicap empate - CD Leganés (2),6.5,1.1023,3,sin_regla,0.1395,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405649,Hándicap 1X2 (2) - Tiempo reglamentario,789747880,CD Castellón -2,9.25,1.1023,3,sin_regla,0.0981,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405666,CD Leganés - Total de goles - 1ª parte,789747929,"Más de 0,5",2.2,1.0875,2,equipo_goles_1t,0.4179,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405666,CD Leganés - Total de goles - 1ª parte,789747930,"Menos de 0,5",1.58,1.0875,2,equipo_goles_1t,0.582,1,0.58
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405667,CD Leganés - Total de goles - 1ª parte,789747931,"Más de 1,5",8.25,1.0646,2,equipo_goles_1t,0.1138,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405667,CD Leganés - Total de goles - 1ª parte,789747932,"Menos de 1,5",1.06,1.0646,2,equipo_goles_1t,0.8862,1,0.06
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405668,CD Leganés - Total de goles - 1ª parte,789747933,"Más de 2,5",31.0,1.0323,2,equipo_goles_1t,0.0313,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405668,CD Leganés - Total de goles - 1ª parte,789747934,"Menos de 2,5",1.0,1.0323,2,equipo_goles_1t,0.9687,1,0.0
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405669,CD Castellón - Total de goles - 1ª parte,789747935,"Más de 0,5",1.93,1.0831,2,equipo_goles_1t,0.4783,1,0.93
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405669,CD Castellón - Total de goles - 1ª parte,789747936,"Menos de 0,5",1.77,1.0831,2,equipo_goles_1t,0.5217,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405670,CD Castellón - Total de goles - 1ª parte,789747937,"Más de 1,5",6.25,1.0691,2,equipo_goles_1t,0.1497,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405670,CD Castellón - Total de goles - 1ª parte,789747938,"Menos de 1,5",1.1,1.0691,2,equipo_goles_1t,0.8503,1,0.1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405671,CD Castellón - Total de goles - 1ª parte,789747939,"Más de 2,5",23.0,1.0415,2,equipo_goles_1t,0.0418,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405671,CD Castellón - Total de goles - 1ª parte,789747940,"Menos de 2,5",1.002,1.0415,2,equipo_goles_1t,0.9582,1,0.002
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405672,CD Leganés - Total de goles - 2ª parte,789747941,"Más de 0,5",1.83,1.087,2,equipo_goles_2t,0.5027,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405672,CD Leganés - Total de goles - 2ª parte,789747942,"Menos de 0,5",1.85,1.087,2,equipo_goles_2t,0.4972,1,0.85
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405673,CD Leganés - Total de goles - 2ª parte,789747943,"Más de 1,5",5.5,1.0668,2,equipo_goles_2t,0.1704,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405673,CD Leganés - Total de goles - 2ª parte,789747944,"Menos de 1,5",1.13,1.0668,2,equipo_goles_2t,0.8296,1,0.13
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405674,CD Leganés - Total de goles - 2ª parte,789747945,"Más de 2,5",18.0,1.0457,2,equipo_goles_2t,0.0532,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405674,CD Leganés - Total de goles - 2ª parte,789747946,"Menos de 2,5",1.01,1.0457,2,equipo_goles_2t,0.9468,1,0.01
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405675,CD Castellón - Total de goles - 2ª parte,789747947,"Más de 0,5",1.62,1.0935,2,equipo_goles_2t,0.5645,1,0.62
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405675,CD Castellón - Total de goles - 2ª parte,789747948,"Menos de 0,5",2.1,1.0935,2,equipo_goles_2t,0.4355,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405676,CD Castellón - Total de goles - 2ª parte,789747949,"Más de 1,5",4.2,1.0714,2,equipo_goles_2t,0.2222,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405676,CD Castellón - Total de goles - 2ª parte,789747950,"Menos de 1,5",1.2,1.0714,2,equipo_goles_2t,0.7778,1,0.2
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405677,CD Castellón - Total de goles - 2ª parte,789747951,"Más de 2,5",13.0,1.0525,2,equipo_goles_2t,0.0731,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405677,CD Castellón - Total de goles - 2ª parte,789747952,"Menos de 2,5",1.025,1.0525,2,equipo_goles_2t,0.9269,1,0.025
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405684,Hándicap 1X2 (1) - 1ª parte,789747981,CD Leganés 1,1.4,1.1097,3,sin_regla,0.6437,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405684,Hándicap 1X2 (1) - 1ª parte,789747982,Hándicap empate - CD Leganés (1),3.6,1.1097,3,sin_regla,0.2503,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405684,Hándicap 1X2 (1) - 1ª parte,789747983,CD Castellón -1,8.5,1.1097,3,sin_regla,0.106,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405685,Hándicap 1X2 (-1) - 1ª parte,789747984,CD Leganés -1,12.0,1.1017,3,sin_regla,0.0756,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405685,Hándicap 1X2 (-1) - 1ª parte,789747985,Hándicap empate - CD Leganés (-1),4.33,1.1017,3,sin_regla,0.2096,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405685,Hándicap 1X2 (-1) - 1ª parte,789747986,CD Castellón 1,1.27,1.1017,3,sin_regla,0.7147,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405690,"Hándicap 1-2 (0,5)",789748008,"CD Leganés (0,5)",1.6,1.0901,2,sin_regla,0.5733,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205405690,"Hándicap 1-2 (0,5)",789748009,"CD Castellón (-0,5)",2.15,1.0901,2,sin_regla,0.4267,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014056,Resultado - 1ª parte,787208458,CD Leganés,3.4,1.1296,3,1x2_1t,0.2604,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014056,Resultado - 1ª parte,787208460,X,2.15,1.1296,3,1x2_1t,0.4117,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014056,Resultado - 1ª parte,787208459,CD Castellón,2.7,1.1296,3,1x2_1t,0.3279,1,1.7
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014060,Gana el partido exactamente por 1 gol,787208516,Sí,2.3,1.0884,2,gana_por_n,0.3995,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014060,Gana el partido exactamente por 1 gol,787208517,No,1.53,1.0884,2,gana_por_n,0.6005,1,0.53
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014061,Gana el partido exactamente por 2 goles,787208518,Sí,4.2,1.0714,2,gana_por_n,0.2222,1,3.2
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014061,Gana el partido exactamente por 2 goles,787208519,No,1.2,1.0714,2,gana_por_n,0.7778,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014062,Doble oportunidad,787208520,CD Leganés o X,1.6,2.1288,3,doble_oportunidad,0.2936,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014062,Doble oportunidad,787208521,X o CD Castellón,1.34,2.1288,3,doble_oportunidad,0.3506,1,0.34
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014062,Doble oportunidad,787208522,CD Leganés o CD Castellón,1.32,2.1288,3,doble_oportunidad,0.3559,1,0.32
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014063,Ganador sin empate,787208523,CD Leganés,2.2,1.0795,2,dnb,0.421,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014063,Ganador sin empate,787208524,CD Castellón,1.6,1.0795,2,dnb,0.579,1,0.6
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014064,Total de goles par o impar,787208525,Impar,1.88,1.0875,2,goles_par,0.4891,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014064,Total de goles par o impar,787208526,Par,1.8,1.0875,2,goles_par,0.5109,1,0.8
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014065,CD Leganés no cuenta,787208527,X,2.25,1.0814,2,sin_equipo,0.4109,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014065,CD Leganés no cuenta,787208528,CD Castellón,1.57,1.0814,2,sin_equipo,0.589,1,0.57
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014066,CD Castellón no cuenta,787208529,CD Leganés,1.8,1.0875,2,sin_equipo,0.5109,V,0
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014066,CD Castellón no cuenta,787208530,X,1.88,1.0875,2,sin_equipo,0.4891,V,0
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014067,1ª parte - 1° córner,787208531,CD Leganés,2.05,1.1153,3,sin_regla,0.4374,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014067,1ª parte - 1° córner,787208532,No hay córners,31.0,1.1153,3,sin_regla,0.029,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014067,1ª parte - 1° córner,787208533,CD Castellón,1.68,1.1153,3,sin_regla,0.5337,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014068,Total de córners lanzados par o impar,787208534,Impar,1.8,1.102,2,corners_par,0.5042,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014068,Total de córners lanzados par o impar,787208535,Par,1.83,1.102,2,corners_par,0.4958,1,0.83
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014069,Doble Oportunidad - 1ª parte,787208536,CD Leganés o X,1.4,2.119,3,doble_oportunidad_parte,0.3371,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014069,Doble Oportunidad - 1ª parte,787208537,X o CD Castellón,1.27,2.119,3,doble_oportunidad_parte,0.3716,1,0.27
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014069,Doble Oportunidad - 1ª parte,787208538,CD Leganés o CD Castellón,1.62,2.119,3,doble_oportunidad_parte,0.2913,1,0.62
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014070,Doble Oportunidad - 2ª parte,787208539,CD Leganés o X,1.47,2.1298,3,doble_oportunidad_parte,0.3194,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014070,Doble Oportunidad - 2ª parte,787208540,X o CD Castellón,1.3,2.1298,3,doble_oportunidad_parte,0.3612,1,0.3
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014070,Doble Oportunidad - 2ª parte,787208541,CD Leganés o CD Castellón,1.47,2.1298,3,doble_oportunidad_parte,0.3194,1,0.47
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014071,Ganador sin empate - 1ª parte,787208542,CD Leganés,2.1,1.0823,2,dnb,0.44,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014071,Ganador sin empate - 1ª parte,787208543,CD Castellón,1.65,1.0823,2,dnb,0.56,1,0.65
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014072,Más córners,787208544,CD Leganés,2.4,1.136,3,mas_corners,0.3668,1,1.4
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014072,Más córners,787208545,X,7.25,1.136,3,mas_corners,0.1214,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014072,Más córners,787208546,CD Castellón,1.72,1.136,3,mas_corners,0.5118,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014073,1ª parte - Más córners,787208547,CD Leganés,2.6,1.1368,3,sin_regla,0.3383,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014073,1ª parte - Más córners,787208548,X,4.6,1.1368,3,sin_regla,0.1912,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014073,1ª parte - Más córners,787208549,CD Castellón,1.87,1.1368,3,sin_regla,0.4704,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014074,2ª parte - Más córners,787208550,CD Leganés,2.37,1.1387,3,sin_regla,0.3705,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014074,2ª parte - Más córners,787208551,X,5.25,1.1387,3,sin_regla,0.1673,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014074,2ª parte - Más córners,787208552,CD Castellón,1.9,1.1387,3,sin_regla,0.4622,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208553,No hay gol,10.5,1.2578,9,goles_exacto,0.0757,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208554,1,4.6,1.2578,9,goles_exacto,0.1728,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208555,2,3.4,1.2578,9,goles_exacto,0.2338,1,2.4
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208556,3,4.0,1.2578,9,goles_exacto,0.1988,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208557,4,5.5,1.2578,9,goles_exacto,0.1445,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208558,5,9.25,1.2578,9,goles_exacto,0.0859,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208559,6,17.5,1.2578,9,goles_exacto,0.0454,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208560,7,31.0,1.2578,9,goles_exacto,0.0257,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014075,Número exacto de goles,787208561,8 o más,46.0,1.2578,9,goles_exacto,0.0173,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014085,Número exacto de goles - 1ª parte,787208780,No hay gol,2.9,1.1512,4,sin_regla,0.2995,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014085,Número exacto de goles - 1ª parte,787208781,1,2.4,1.1512,4,sin_regla,0.362,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014085,Número exacto de goles - 1ª parte,787208782,2,3.9,1.1512,4,sin_regla,0.2227,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014085,Número exacto de goles - 1ª parte,787208783,3 o más,7.5,1.1512,4,sin_regla,0.1158,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014086,Ambos equipos marcan,787208784,Sí,1.66,1.0902,2,btts,0.5526,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014086,Ambos equipos marcan,787208785,No,2.05,1.0902,2,btts,0.4474,1,1.05
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014087,Ambos equipos marcan en la 1ª parte,787208786,Sí,4.4,1.0747,2,btts_1t,0.2115,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014087,Ambos equipos marcan en la 1ª parte,787208787,No,1.18,1.0747,2,btts_1t,0.7886,1,0.18
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014088,Ambos equipos marcan en la 2ª parte,787208788,Sí,3.0,1.0852,2,btts_2t,0.3071,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014088,Ambos equipos marcan en la 2ª parte,787208789,No,1.33,1.0852,2,btts_2t,0.6929,1,0.33
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014091,Parte con más goles,787208797,1ª parte,3.1,1.1256,3,sin_regla,0.2866,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014091,Parte con más goles,787208798,Mismo número de goles,3.3,1.1256,3,sin_regla,0.2692,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014091,Parte con más goles,787208799,2ª parte,2.0,1.1256,3,sin_regla,0.4442,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014092,Parte con más córners,787208800,1ª parte,2.4,1.14,3,sin_regla,0.3655,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014092,Parte con más córners,787208801,Mismo número de goles,5.75,1.14,3,sin_regla,0.1525,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014092,Parte con más córners,787208802,2ª parte,1.82,1.14,3,sin_regla,0.482,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014093,CD Leganés - Parte con más córners,787208803,1ª parte,2.5,1.1439,3,sin_regla,0.3497,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014093,CD Leganés - Parte con más córners,787208804,Mismo número de goles,4.1,1.1439,3,sin_regla,0.2132,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014093,CD Leganés - Parte con más córners,787208805,2ª parte,2.0,1.1439,3,sin_regla,0.4371,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014094,CD Castellón - Parte con más córners,787208806,1ª parte,2.35,1.1406,3,sin_regla,0.373,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014094,CD Castellón - Parte con más córners,787208807,Mismo número de goles,4.4,1.1406,3,sin_regla,0.1993,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014094,CD Castellón - Parte con más córners,787208808,2ª parte,2.05,1.1406,3,sin_regla,0.4277,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014098,Resultado - 2ª parte,787208829,CD Leganés,3.2,1.1288,3,1x2_2t,0.2768,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014098,Resultado - 2ª parte,787208831,X,2.45,1.1288,3,1x2_2t,0.3616,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014098,Resultado - 2ª parte,787208830,CD Castellón,2.45,1.1288,3,1x2_2t,0.3616,1,1.45
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014101,¿Habrá gol en ambas partes?,787208838,Sí,1.7,1.0882,2,sin_regla,0.5405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014101,¿Habrá gol en ambas partes?,787208839,No,2.0,1.0882,2,sin_regla,0.4595,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014103,CD Leganés marca en ambas partes,787208866,Sí,4.2,1.0714,2,equipo_marca_ambas,0.2222,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014103,CD Leganés marca en ambas partes,787208867,No,1.2,1.0714,2,equipo_marca_ambas,0.7778,1,0.2
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014104,CD Castellón marca en ambas partes,787208868,Sí,3.25,1.0829,2,equipo_marca_ambas,0.2841,1,2.25
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014104,CD Castellón marca en ambas partes,787208869,No,1.29,1.0829,2,equipo_marca_ambas,0.7159,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014105,Gana ambas partes,787208870,CD Leganés,10.5,1.0981,3,gana_ambas_partes,0.0867,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014105,Gana ambas partes,787208871,CD Castellón,6.75,1.0981,3,gana_ambas_partes,0.1349,1,5.75
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014105,Gana ambas partes,787208872,Ningún equipo gana ambas partes,1.17,1.0981,3,gana_ambas_partes,0.7783,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014106,CD Leganés marca,787208873,Sí,1.33,1.0852,2,equipo_marca,0.6929,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014106,CD Leganés marca,787208874,No,3.0,1.0852,2,equipo_marca,0.3071,1,2.0
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014107,CD Castellón marca,787208875,Sí,1.22,1.0761,2,equipo_marca,0.7617,1,0.22
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014107,CD Castellón marca,787208876,No,3.9,1.0761,2,equipo_marca,0.2383,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014108,Goles totales par o impar - 1ª parte,787208877,Impar,2.0,1.0882,2,goles_par_1t,0.4595,1,1.0
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014108,Goles totales par o impar - 1ª parte,787208878,Par,1.7,1.0882,2,goles_par_1t,0.5405,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014109,Número de córners par o impar - 1ª parte,787208879,Impar,1.8,1.0961,2,sin_regla,0.5069,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014109,Número de córners par o impar - 1ª parte,787208880,Par,1.85,1.0961,2,sin_regla,0.4931,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014110,Número de córners par o impar - 2ª parte,787208881,Impar,1.8,1.102,2,sin_regla,0.5042,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014110,Número de córners par o impar - 2ª parte,787208882,Par,1.83,1.102,2,sin_regla,0.4958,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014111,Gana la 1ª parte o la 2ª parte,787208883,CD Leganés,2.0,1.3173,3,sin_regla,0.3796,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014111,Gana la 1ª parte o la 2ª parte,787208884,CD Castellón,1.62,1.3173,3,sin_regla,0.4686,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014111,Gana la 1ª parte o la 2ª parte,787208885,Ninguno,5.0,1.3173,3,sin_regla,0.1518,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014115,2 o más goles se marcan en ambas partes,787208895,Sí,5.5,1.0668,2,sin_regla,0.1704,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014115,2 o más goles se marcan en ambas partes,787208896,No,1.13,1.0668,2,sin_regla,0.8296,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014116,Ambos equipos marcan en ambas partes,787208897,Sí,12.5,1.0509,2,sin_regla,0.0761,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014116,Ambos equipos marcan en ambas partes,787208898,No,1.03,1.0509,2,sin_regla,0.9239,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014117,Ambos equipos marcan y cualquier equipo gana,787208899,Sí,2.6,1.0839,2,sin_regla,0.3548,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014117,Ambos equipos marcan y cualquier equipo gana,787208900,No,1.43,1.0839,2,sin_regla,0.6452,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014123,Gana al descanso pero no el partido,787208923,CD Leganés,8.75,1.0996,3,sin_regla,0.1039,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014123,Gana al descanso pero no el partido,787208924,CD Castellón,9.25,1.0996,3,sin_regla,0.0983,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014123,Gana al descanso pero no el partido,787208925,Ninguno,1.14,1.0996,3,sin_regla,0.7977,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209148,1-2 Sí,2.1,24.7196,32,sin_regla,0.0193,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209149,1-3 Sí,1.44,24.7196,32,sin_regla,0.0281,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209150,1-4 Sí,1.19,24.7196,32,sin_regla,0.034,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209151,1-5 Sí,1.1,24.7196,32,sin_regla,0.0368,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209152,1-6 Sí,1.06,24.7196,32,sin_regla,0.0382,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209153,2-3 Sí,1.95,24.7196,32,sin_regla,0.0207,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209154,2-4 Sí,1.51,24.7196,32,sin_regla,0.0268,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209155,2-5 Sí,1.35,24.7196,32,sin_regla,0.03,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209156,2-6 Sí,1.29,24.7196,32,sin_regla,0.0314,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209157,3-4 Sí,2.45,24.7196,32,sin_regla,0.0165,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209158,3-5 Sí,2.05,24.7196,32,sin_regla,0.0197,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209159,3-6 Sí,1.93,24.7196,32,sin_regla,0.021,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209160,4-5 Sí,3.75,24.7196,32,sin_regla,0.0108,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209161,4-6 Sí,3.3,24.7196,32,sin_regla,0.0123,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209162,5-6 Sí,7.0,24.7196,32,sin_regla,0.0058,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209163,7+ Sí,26.0,24.7196,32,sin_regla,0.0016,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209164,1-2 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209165,1-3 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209166,1-4 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209167,1-5 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209168,1-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209169,2-3 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209170,2-4 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209171,2-5 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209172,2-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209173,3-4 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209174,3-5 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209175,3-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209176,4-5 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209177,4-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209178,5-6 No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014128,Multigol,787209179,7+ No,1.0,24.7196,32,sin_regla,0.0405,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209180,1-2 Sí,1.57,5.7378,8,sin_regla,0.111,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209181,1-3 Sí,1.4,5.7378,8,sin_regla,0.1245,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209182,2-3 Sí,2.95,5.7378,8,sin_regla,0.0591,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209183,4+ Sí,21.0,5.7378,8,sin_regla,0.0083,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209184,1-2 No,1.0,5.7378,8,sin_regla,0.1743,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209185,1-3 No,1.0,5.7378,8,sin_regla,0.1743,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209186,2-3 No,1.0,5.7378,8,sin_regla,0.1743,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014129,Multigol - 1ª parte,787209187,4+ No,1.0,5.7378,8,sin_regla,0.1743,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209188,1-2 Sí,1.6,5.9033,8,sin_regla,0.1059,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209189,1-3 Sí,1.32,5.9033,8,sin_regla,0.1283,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209190,2-3 Sí,2.35,5.9033,8,sin_regla,0.0721,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209191,4+ Sí,10.5,5.9033,8,sin_regla,0.0161,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209192,1-2 No,1.0,5.9033,8,sin_regla,0.1694,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209193,1-3 No,1.0,5.9033,8,sin_regla,0.1694,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209194,2-3 No,1.0,5.9033,8,sin_regla,0.1694,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014130,Multigol - 2ª parte,787209195,4+ No,1.0,5.9033,8,sin_regla,0.1694,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209196,1-2 Sí,1.58,9.9697,14,sin_regla,0.0635,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209197,1-3 Sí,1.39,9.9697,14,sin_regla,0.0722,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209198,1-4 Sí,1.35,9.9697,14,sin_regla,0.0743,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209199,2-3 Sí,2.95,9.9697,14,sin_regla,0.034,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209200,2-4 Sí,2.7,9.9697,14,sin_regla,0.0372,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209201,3-4 Sí,7.0,9.9697,14,sin_regla,0.0143,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209202,5+ Sí,41.0,9.9697,14,sin_regla,0.0024,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209203,1-2 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209204,1-3 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209205,1-4 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209206,2-3 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209207,2-4 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209208,3-4 No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014131,CD Leganés - Multigol,787209209,5+ No,1.0,9.9697,14,sin_regla,0.1003,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209210,1-2 Sí,1.55,10.3097,14,sin_regla,0.0626,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209211,1-3 Sí,1.31,10.3097,14,sin_regla,0.074,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209212,1-4 Sí,1.25,10.3097,14,sin_regla,0.0776,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209213,2-3 Sí,2.45,10.3097,14,sin_regla,0.0396,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209214,2-4 Sí,2.2,10.3097,14,sin_regla,0.0441,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209215,3-4 Sí,5.0,10.3097,14,sin_regla,0.0194,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209216,5+ Sí,26.0,10.3097,14,sin_regla,0.0037,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209217,1-2 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209218,1-3 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209219,1-4 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209220,2-3 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209221,2-4 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209222,3-4 No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014132,CD Castellón - Multigol,787209223,5+ No,1.0,10.3097,14,sin_regla,0.097,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014137,Total de goles (0-4+),787209338,0-1,3.5,1.1211,3,sin_regla,0.2548,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014137,Total de goles (0-4+),787209339,2-3,1.95,1.1211,3,sin_regla,0.4574,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014137,Total de goles (0-4+),787209340,4 o más,3.1,1.1211,3,sin_regla,0.2878,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014138,Total de goles (0-5+),787209341,0-2,1.83,1.1213,3,sin_regla,0.4873,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014138,Total de goles (0-5+),787209342,3-4,2.45,1.1213,3,sin_regla,0.364,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014138,Total de goles (0-5+),787209343,5 o más,6.0,1.1213,3,sin_regla,0.1487,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014139,Total de goles (0-6+),787209344,0-3,1.32,1.1042,3,sin_regla,0.6861,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014139,Total de goles (0-6+),787209345,4-5,3.75,1.1042,3,sin_regla,0.2415,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014139,Total de goles (0-6+),787209346,6 o más,12.5,1.1042,3,sin_regla,0.0725,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209347,0-5,7.25,1.2058,5,corners_rango,0.1144,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209348,6-8,2.7,1.2058,5,corners_rango,0.3072,1,1.7
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209349,9-11,2.5,1.2058,5,corners_rango,0.3317,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209350,12-14,4.75,1.2058,5,corners_rango,0.1746,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014140,Número de córners (0-15 o más),787209351,15 o más,11.5,1.2058,5,corners_rango,0.0722,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014141,Número de córners (0-13 o más),787209352,0-9,1.66,1.1377,3,corners_rango,0.5295,1,0.66
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014141,Número de córners (0-13 o más),787209353,10-12,2.9,1.1377,3,corners_rango,0.3031,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014141,Número de córners (0-13 o más),787209354,13 o más,5.25,1.1377,3,corners_rango,0.1674,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014142,Número de córners - 1ª parte (0-6 o más),787209355,0-2,4.5,1.14,3,sin_regla,0.1949,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014142,Número de córners - 1ª parte (0-6 o más),787209356,3-5,1.68,1.14,3,sin_regla,0.5221,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014142,Número de córners - 1ª parte (0-6 o más),787209357,6 o más,3.1,1.14,3,sin_regla,0.283,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014143,Número de córners - 2ª parte (0-6 o más),787209358,0-2,6.0,1.1389,3,sin_regla,0.1464,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014143,Número de córners - 2ª parte (0-6 o más),787209359,3-5,1.8,1.1389,3,sin_regla,0.4878,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014143,Número de córners - 2ª parte (0-6 o más),787209360,6 o más,2.4,1.1389,3,sin_regla,0.3659,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014144,CD Leganés - Número de córners (0-7 o más),787209361,0-3,2.15,1.1302,3,equipo_corners_rango,0.4115,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014144,CD Leganés - Número de córners (0-7 o más),787209362,4-6,2.15,1.1302,3,equipo_corners_rango,0.4115,1,1.15
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014144,CD Leganés - Número de córners (0-7 o más),787209363,7 o más,5.0,1.1302,3,equipo_corners_rango,0.177,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014145,CD Castellón - Número de córners (0-7 o más),787209364,0-3,2.9,1.1403,3,equipo_corners_rango,0.3024,1,1.9
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014145,CD Castellón - Número de córners (0-7 o más),787209365,4-6,2.05,1.1403,3,equipo_corners_rango,0.4278,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014145,CD Castellón - Número de córners (0-7 o más),787209366,7 o más,3.25,1.1403,3,equipo_corners_rango,0.2698,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209370,CD Leganés / CD Leganés,5.25,1.1989,9,sin_regla,0.1589,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209371,CD Leganés / Empate,12.5,1.1989,9,sin_regla,0.0667,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209372,CD Leganés / CD Castellón,26.0,1.1989,9,sin_regla,0.0321,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209373,Empate / CD Leganés,7.5,1.1989,9,sin_regla,0.1112,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209374,Empate / Empate,5.25,1.1989,9,sin_regla,0.1589,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209375,Empate / CD Castellón,5.75,1.1989,9,sin_regla,0.145,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209376,CD Castellón / CD Leganés,29.0,1.1989,9,sin_regla,0.0288,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209377,CD Castellón / Empate,12.5,1.1989,9,sin_regla,0.0667,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014147,Descanso/Final del partido,787209378,CD Castellón / CD Castellón,3.6,1.1989,9,sin_regla,0.2317,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014149,Resultado del partido VA (+2),787209382,CD Leganés,3.1,1.0896,3,sin_regla,0.2961,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014149,Resultado del partido VA (+2),787209383,X,3.2,1.0896,3,sin_regla,0.2868,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014149,Resultado del partido VA (+2),787209384,CD Castellón,2.2,1.0896,3,sin_regla,0.4171,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840867,Israel Suero,3.3,2.7218,22,sin_regla,0.1113,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840857,Álvaro Martín,5.25,2.7218,22,sin_regla,0.07,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840831,Alex Sancris,5.75,2.7218,22,sin_regla,0.0639,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840850,Iñigo Córdoba,5.75,2.7218,22,sin_regla,0.0639,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840861,Ousmane Camara,6.25,2.7218,22,sin_regla,0.0588,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840868,Adam Jakobsen,6.5,2.7218,22,sin_regla,0.0565,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840842,Naim Garcia,6.75,2.7218,22,sin_regla,0.0544,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840858,Juanjo,7.0,2.7218,22,sin_regla,0.0525,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840833,Álvaro Morata,7.25,2.7218,22,sin_regla,0.0507,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840852,Matías Orozco,7.5,2.7218,22,sin_regla,0.049,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840824,Yassine Kechta,8.0,2.7218,22,sin_regla,0.0459,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840826,Patrick Soko,8.25,2.7218,22,sin_regla,0.0445,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840846,Diego Barri,9.0,2.7218,22,sin_regla,0.0408,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840830,Zico Buurmeester,9.25,2.7218,22,sin_regla,0.0397,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840865,Jeremy Mellot,11.5,2.7218,22,sin_regla,0.032,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840818,Amadou Diawara,12.0,2.7218,22,sin_regla,0.0306,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840819,Miguel Atienza,12.5,2.7218,22,sin_regla,0.0294,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840838,Marvel,16.5,2.7218,22,sin_regla,0.0223,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840859,Alberto Jiménez,16.5,2.7218,22,sin_regla,0.0223,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840869,Agustin Sienra,16.5,2.7218,22,sin_regla,0.0223,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840839,Lalo Aguilar,18.0,2.7218,22,sin_regla,0.0204,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014150,1 o más asistencias,789840817,Francisco Montero,19.5,2.7218,22,sin_regla,0.0188,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840914,Ousmane Camara,1.33,8.4801,22,sin_regla,0.0887,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840879,Patrick Soko,1.39,8.4801,22,sin_regla,0.0848,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840920,Israel Suero,1.52,8.4801,22,sin_regla,0.0776,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840884,Alex Sancris,1.63,8.4801,22,sin_regla,0.0723,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840921,Adam Jakobsen,1.65,8.4801,22,sin_regla,0.0715,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840886,Álvaro Morata,1.82,8.4801,22,sin_regla,0.0648,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840883,Zico Buurmeester,2.05,8.4801,22,sin_regla,0.0575,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840903,Iñigo Córdoba,2.1,8.4801,22,sin_regla,0.0562,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840905,Matías Orozco,2.15,8.4801,22,sin_regla,0.0548,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840895,Naim Garcia,2.25,8.4801,22,sin_regla,0.0524,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840877,Yassine Kechta,2.5,8.4801,22,sin_regla,0.0472,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840910,Álvaro Martín,2.7,8.4801,22,sin_regla,0.0437,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840899,Diego Barri,3.4,8.4801,22,sin_regla,0.0347,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840871,Amadou Diawara,3.6,8.4801,22,sin_regla,0.0328,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840911,Juanjo,4.33,8.4801,22,sin_regla,0.0272,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840872,Miguel Atienza,4.6,8.4801,22,sin_regla,0.0256,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840892,Lalo Aguilar,5.0,8.4801,22,sin_regla,0.0236,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840912,Alberto Jiménez,5.25,8.4801,22,sin_regla,0.0225,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840922,Agustin Sienra,5.5,8.4801,22,sin_regla,0.0214,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840891,Marvel,7.75,8.4801,22,sin_regla,0.0152,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840870,Francisco Montero,8.25,8.4801,22,sin_regla,0.0143,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014151,1 o más tiros a portería,789840918,Jeremy Mellot,10.5,8.4801,22,sin_regla,0.0112,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840967,Ousmane Camara,2.55,2.655,15,sin_regla,0.1477,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840932,Patrick Soko,2.9,2.655,15,sin_regla,0.1299,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840973,Israel Suero,3.5,2.655,15,sin_regla,0.1076,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840937,Alex Sancris,4.1,2.655,15,sin_regla,0.0919,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840974,Adam Jakobsen,4.1,2.655,15,sin_regla,0.0919,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840939,Álvaro Morata,5.25,2.655,15,sin_regla,0.0718,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840936,Zico Buurmeester,6.5,2.655,15,sin_regla,0.0579,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840956,Iñigo Córdoba,6.75,2.655,15,sin_regla,0.0558,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840958,Matías Orozco,7.0,2.655,15,sin_regla,0.0538,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840948,Naim Garcia,7.75,2.655,15,sin_regla,0.0486,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840930,Yassine Kechta,9.25,2.655,15,sin_regla,0.0407,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840963,Álvaro Martín,10.5,2.655,15,sin_regla,0.0359,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840952,Diego Barri,15.0,2.655,15,sin_regla,0.0251,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840924,Amadou Diawara,16.0,2.655,15,sin_regla,0.0235,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014152,2 o más tiros a portería,789840964,Juanjo,21.0,2.655,15,sin_regla,0.0179,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789841020,Ousmane Camara,6.0,0.7512,8,sin_regla,0.2219,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789840985,Patrick Soko,7.0,0.7512,8,sin_regla,0.1902,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789841026,Israel Suero,9.5,0.7512,8,sin_regla,0.1402,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789840990,Alex Sancris,11.0,0.7512,8,sin_regla,0.121,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789841027,Adam Jakobsen,12.0,0.7512,8,sin_regla,0.1109,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789840992,Álvaro Morata,15.5,0.7512,8,sin_regla,0.0859,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789840989,Zico Buurmeester,20.0,0.7512,8,sin_regla,0.0666,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014153,3 o más tiros a portería,789841009,Iñigo Córdoba,21.0,0.7512,8,sin_regla,0.0634,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014154,4 o más tiros a portería,789841073,Ousmane Camara,15.0,0.1255,2,sin_regla,0.5315,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014154,4 o más tiros a portería,789841038,Patrick Soko,17.0,0.1255,2,sin_regla,0.4685,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014155,1ª parte - 1er equipo en marcar,787209385,CD Leganés,2.8,1.1275,3,sin_regla,0.3167,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014155,1ª parte - 1er equipo en marcar,787209386,No hay gol,2.9,1.1275,3,sin_regla,0.3058,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014155,1ª parte - 1er equipo en marcar,787209387,CD Castellón,2.35,1.1275,3,sin_regla,0.3774,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014156,1er equipo en marcar,787209388,CD Leganés,2.15,1.1159,3,sin_regla,0.4168,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014156,1er equipo en marcar,787209389,No hay gol,10.5,1.1159,3,sin_regla,0.0853,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205014156,1er equipo en marcar,787209390,CD Castellón,1.8,1.1159,3,sin_regla,0.4979,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543405,Total de córners,790481042,"Más de 8,5",1.6,1.1012,2,corners_linea,0.5676,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543405,Total de córners,790481043,"Menos de 8,5",2.1,1.1012,2,corners_linea,0.4324,1,1.1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543406,Total de córners,790481044,"Más de 9,5",2.0,1.1024,2,corners_linea,0.4536,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543406,Total de córners,790481045,"Menos de 9,5",1.66,1.1024,2,corners_linea,0.5464,1,0.66
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543407,Total de córners,790481046,"Más de 7,5",1.33,1.0967,2,corners_linea,0.6856,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543407,Total de córners,790481047,"Menos de 7,5",2.9,1.0967,2,corners_linea,0.3144,1,1.9
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543408,Total de córners,790481048,"Más de 10,5",2.65,1.0916,2,corners_linea,0.3457,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543408,Total de córners,790481049,"Menos de 10,5",1.4,1.0916,2,corners_linea,0.6544,1,0.4
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543410,Total de córners - 1ª parte,790481052,"Más de 4,5",2.0,1.1024,2,sin_regla,0.4536,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543410,Total de córners - 1ª parte,790481053,"Menos de 4,5",1.66,1.1024,2,sin_regla,0.5464,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543411,Total de córners - 1ª parte,790481054,"Más de 3,5",1.46,1.0931,2,sin_regla,0.6266,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543411,Total de córners - 1ª parte,790481055,"Menos de 3,5",2.45,1.0931,2,sin_regla,0.3734,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543412,Total de córners - 1ª parte,790481056,"Más de 5,5",3.1,1.0918,2,sin_regla,0.2955,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543412,Total de córners - 1ª parte,790481057,"Menos de 5,5",1.3,1.0918,2,sin_regla,0.7045,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543413,CD Leganés - Total de córners,790481058,"Más de 3,5",1.6,1.0901,2,sin_regla,0.5733,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543413,CD Leganés - Total de córners,790481059,"Menos de 3,5",2.15,1.0901,2,sin_regla,0.4267,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543414,CD Castellón - Total de córners,790481060,"Más de 4,5",1.68,1.1003,2,sin_regla,0.5409,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543414,CD Castellón - Total de córners,790481061,"Menos de 4,5",1.98,1.1003,2,sin_regla,0.4591,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543415,Total de córners - 2ª parte,790481062,"Más de 4,5",1.68,1.1003,2,sin_regla,0.5409,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543415,Total de córners - 2ª parte,790481063,"Menos de 4,5",1.98,1.1003,2,sin_regla,0.4591,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543416,Total de córners - 2ª parte,790481064,"Más de 5,5",2.4,1.1016,2,sin_regla,0.3783,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543416,Total de córners - 2ª parte,790481065,"Menos de 5,5",1.46,1.1016,2,sin_regla,0.6217,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543417,Total de córners - 2ª parte,790481066,"Más de 3,5",1.3,1.0918,2,sin_regla,0.7045,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543417,Total de córners - 2ª parte,790481067,"Menos de 3,5",3.1,1.0918,2,sin_regla,0.2955,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543420,CD Leganés - Total de córners - 1ª parte,790481073,"Más de 1,5",1.61,1.0973,2,sin_regla,0.566,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543420,CD Leganés - Total de córners - 1ª parte,790481074,"Menos de 1,5",2.1,1.0973,2,sin_regla,0.434,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543421,CD Castellón - Total de córners - 1ª parte,790481075,"Más de 2,5",2.1,1.0935,2,sin_regla,0.4355,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543421,CD Castellón - Total de córners - 1ª parte,790481076,"Menos de 2,5",1.62,1.0935,2,sin_regla,0.5645,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543423,CD Castellón - Total de córners - 2ª parte,790481079,"Más de 2,5",1.93,1.0962,2,sin_regla,0.4726,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205543423,CD Castellón - Total de córners - 2ª parte,790481080,"Menos de 2,5",1.73,1.0962,2,sin_regla,0.5273,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205589013,Total de córners,790730147,"Más de 11,5",3.7,1.0899,2,corners_linea,0.248,0,-1
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205589013,Total de córners,790730148,"Menos de 11,5",1.22,1.0899,2,corners_linea,0.7521,1,0.22
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205589014,CD Leganés - Total de córners - 2ª parte,790730149,"Más de 2,5",2.3,1.097,2,sin_regla,0.3964,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205589014,CD Leganés - Total de córners - 2ª parte,790730150,"Menos de 2,5",1.51,1.097,2,sin_regla,0.6037,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516756,Ousmane Camara,5.75,1.8112,23,sin_regla,0.096,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516731,Nzanza,7.0,1.8112,23,sin_regla,0.0789,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516718,Adam Jakobsen,7.25,1.8112,23,sin_regla,0.0761,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516726,Álvaro Morata,7.25,1.8112,23,sin_regla,0.0761,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516758,Patrick Soko,7.75,1.8112,23,sin_regla,0.0712,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516742,Israel Suero,9.25,1.8112,23,sin_regla,0.0597,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516725,Álvaro Martín,9.75,1.8112,23,sin_regla,0.0566,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516740,Inigo Cordoba,9.75,1.8112,23,sin_regla,0.0566,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516767,No hay goleador,10.0,1.8112,23,sin_regla,0.0552,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516723,Alex Sancris,11.0,1.8112,23,sin_regla,0.0502,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516766,Zico Buurmeester,11.5,1.8112,23,sin_regla,0.048,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516755,Naim Garcia,12.5,1.8112,23,sin_regla,0.0442,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516765,Yassine Kechta,13.0,1.8112,23,sin_regla,0.0425,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516732,Diego Barri,17.5,1.8112,23,sin_regla,0.0315,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516754,Miguel Atienza,21.0,1.8112,23,sin_regla,0.0263,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516720,Alberto Jiménez,29.0,1.8112,23,sin_regla,0.019,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516747,Juanjo,29.0,1.8112,23,sin_regla,0.019,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791796750,Martin Conde,31.0,1.8112,23,sin_regla,0.0178,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516719,Agustin Sienra,36.0,1.8112,23,sin_regla,0.0153,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516744,Francisco Montero,36.0,1.8112,23,sin_regla,0.0153,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516745,Jeremy Mellot,36.0,1.8112,23,sin_regla,0.0153,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516751,Marvel,36.0,1.8112,23,sin_regla,0.0153,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729293,1º goleador,791516748,Lalo Aguilar,41.0,1.8112,23,sin_regla,0.0135,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516810,Ousmane Camara,2.65,3.8705,23,sin_regla,0.0975,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516786,Nzanza,3.2,3.8705,23,sin_regla,0.0807,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516772,Adam Jakobsen,3.25,3.8705,23,sin_regla,0.0795,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516780,Álvaro Morata,3.25,3.8705,23,sin_regla,0.0795,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516812,Patrick Soko,3.5,3.8705,23,sin_regla,0.0738,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516796,Israel Suero,4.1,3.8705,23,sin_regla,0.063,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516794,Inigo Cordoba,4.33,3.8705,23,sin_regla,0.0597,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516779,Álvaro Martín,4.33,3.8705,23,sin_regla,0.0597,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516777,Alex Sancris,4.8,3.8705,23,sin_regla,0.0538,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516820,Zico Buurmeester,5.25,3.8705,23,sin_regla,0.0492,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516809,Naim Garcia,5.5,3.8705,23,sin_regla,0.047,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516819,Yassine Kechta,6.0,3.8705,23,sin_regla,0.0431,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516787,Diego Barri,7.75,3.8705,23,sin_regla,0.0333,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516808,Miguel Atienza,9.5,3.8705,23,sin_regla,0.0272,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516821,No hay goleador,10.0,3.8705,23,sin_regla,0.0258,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516801,Juanjo,13.0,3.8705,23,sin_regla,0.0199,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516774,Alberto Jiménez,13.0,3.8705,23,sin_regla,0.0199,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791796754,Martin Conde,15.0,3.8705,23,sin_regla,0.0172,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516798,Francisco Montero,17.5,3.8705,23,sin_regla,0.0148,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516799,Jeremy Mellot,17.5,3.8705,23,sin_regla,0.0148,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516773,Agustin Sienra,17.5,3.8705,23,sin_regla,0.0148,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516805,Marvel,19.0,3.8705,23,sin_regla,0.0136,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729296,Marca en cualquier momento,791516802,Lalo Aguilar,21.0,3.8705,23,sin_regla,0.0123,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516860,Ousmane Camara,61.0,0.0766,9,sin_regla,0.2141,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516836,Nzanza,91.0,0.0766,9,sin_regla,0.1436,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516822,Adam Jakobsen,101.0,0.0766,9,sin_regla,0.1292,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516830,Álvaro Morata,101.0,0.0766,9,sin_regla,0.1292,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516862,Patrick Soko,126.0,0.0766,9,sin_regla,0.1031,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516829,Álvaro Martín,176.0,0.0766,9,sin_regla,0.0744,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516844,Inigo Cordoba,176.0,0.0766,9,sin_regla,0.0744,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516846,Israel Suero,176.0,0.0766,9,sin_regla,0.0744,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729297,Marca 3 o más goles,791516827,Alex Sancris,226.0,0.0766,9,sin_regla,0.0574,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516909,Ousmane Camara,4.1,2.3002,22,sin_regla,0.106,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516885,Nzanza,4.8,2.3002,22,sin_regla,0.0906,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516871,Adam Jakobsen,5.0,2.3002,22,sin_regla,0.0869,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516879,Álvaro Morata,5.75,2.3002,22,sin_regla,0.0756,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516911,Patrick Soko,6.0,2.3002,22,sin_regla,0.0725,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516895,Israel Suero,6.25,2.3002,22,sin_regla,0.0696,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516878,Álvaro Martín,6.75,2.3002,22,sin_regla,0.0644,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516893,Inigo Cordoba,6.75,2.3002,22,sin_regla,0.0644,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516876,Alex Sancris,8.75,2.3002,22,sin_regla,0.0497,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516919,Zico Buurmeester,9.25,2.3002,22,sin_regla,0.047,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516908,Naim Garcia,9.75,2.3002,22,sin_regla,0.0446,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516918,Yassine Kechta,10.5,2.3002,22,sin_regla,0.0414,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516886,Diego Barri,12.5,2.3002,22,sin_regla,0.0348,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516907,Miguel Atienza,17.0,2.3002,22,sin_regla,0.0256,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516873,Alberto Jiménez,21.0,2.3002,22,sin_regla,0.0207,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516900,Juanjo,21.0,2.3002,22,sin_regla,0.0207,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791796755,Martin Conde,26.0,2.3002,22,sin_regla,0.0167,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516872,Agustin Sienra,29.0,2.3002,22,sin_regla,0.015,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516898,Jeremy Mellot,29.0,2.3002,22,sin_regla,0.015,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516897,Francisco Montero,31.0,2.3002,22,sin_regla,0.014,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516904,Marvel,34.0,2.3002,22,sin_regla,0.0128,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729298,Jugador que marca y su equipo gana,791516901,Lalo Aguilar,36.0,2.3002,22,sin_regla,0.0121,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517068,Ousmane Camara,5.75,3.3529,41,sin_regla,0.0519,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517038,Álvaro Morata,6.75,3.3529,41,sin_regla,0.0442,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517034,Alex Millan,7.0,3.3529,41,sin_regla,0.0426,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517036,Álvaro García,7.0,3.3529,41,sin_regla,0.0426,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517044,Nzanza,7.0,3.3529,41,sin_regla,0.0426,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517070,Patrick Soko,7.25,3.3529,41,sin_regla,0.0411,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517030,Adam Jakobsen,7.25,3.3529,41,sin_regla,0.0411,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517076,Unax del Cura,7.5,3.3529,41,sin_regla,0.0398,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517075,Suleiman El Haddadi,7.75,3.3529,41,sin_regla,0.0385,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517069,Pablo Santiago,8.0,3.3529,41,sin_regla,0.0373,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517054,Israel Suero,9.25,3.3529,41,sin_regla,0.0322,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517071,Raúl Sánchez,9.25,3.3529,41,sin_regla,0.0322,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517048,Fran Castillo,9.25,3.3529,41,sin_regla,0.0322,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517049,Hamza Bellari,9.5,3.3529,41,sin_regla,0.0314,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517052,Inigo Cordoba,9.75,3.3529,41,sin_regla,0.0306,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517037,Álvaro Martín,9.75,3.3529,41,sin_regla,0.0306,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517079,No hay goleador,9.75,3.3529,41,sin_regla,0.0306,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517035,Alex Sancris,10.0,3.3529,41,sin_regla,0.0298,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517042,Antonio Gala,10.5,3.3529,41,sin_regla,0.0284,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517043,Dani Rodriguez,10.5,3.3529,41,sin_regla,0.0284,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517078,Zico Buurmeester,11.0,3.3529,41,sin_regla,0.0271,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517067,Naim Garcia,11.5,3.3529,41,sin_regla,0.0259,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517077,Yassine Kechta,12.5,3.3529,41,sin_regla,0.0239,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517041,Andrés Campos,14.5,3.3529,41,sin_regla,0.0206,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517045,Diego Barri,17.5,3.3529,41,sin_regla,0.017,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517058,Jorge Herrero,19.0,3.3529,41,sin_regla,0.0157,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517066,Miguel Atienza,19.5,3.3529,41,sin_regla,0.0153,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517059,Juanjo,29.0,3.3529,41,sin_regla,0.0103,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517032,Alberto Jiménez,29.0,3.3529,41,sin_regla,0.0103,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517050,Ignasi Miquel,31.0,3.3529,41,sin_regla,0.0096,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517061,Lucas Alcázar,31.0,3.3529,41,sin_regla,0.0096,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517047,Federico Ceccherini,31.0,3.3529,41,sin_regla,0.0096,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791796756,Martin Conde,31.0,3.3529,41,sin_regla,0.0096,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517051,Ilias Kostis,34.0,3.3529,41,sin_regla,0.0088,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517056,Francisco Montero,34.0,3.3529,41,sin_regla,0.0088,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517074,Ruben Pulido,34.0,3.3529,41,sin_regla,0.0088,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517039,Álvaro Tejero,34.0,3.3529,41,sin_regla,0.0088,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517057,Jeremy Mellot,36.0,3.3529,41,sin_regla,0.0083,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517063,Marvel,36.0,3.3529,41,sin_regla,0.0083,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517031,Agustin Sienra,36.0,3.3529,41,sin_regla,0.0083,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729304,Último goleador,791517060,Lalo Aguilar,41.0,3.3529,41,sin_regla,0.0073,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517210,Ousmane Camara,13.0,0.4914,17,sin_regla,0.1565,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517176,Nzanza,18.5,0.4914,17,sin_regla,0.1101,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517162,Adam Jakobsen,19.5,0.4914,17,sin_regla,0.1044,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517170,Álvaro Morata,19.5,0.4914,17,sin_regla,0.1044,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517197,Patrick Soko,21.0,0.4914,17,sin_regla,0.0969,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517186,Israel Suero,29.0,0.4914,17,sin_regla,0.0702,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517169,Álvaro Martín,34.0,0.4914,17,sin_regla,0.0598,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517184,Inigo Cordoba,34.0,0.4914,17,sin_regla,0.0598,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517167,Alex Sancris,41.0,0.4914,17,sin_regla,0.0497,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517205,Zico Buurmeester,46.0,0.4914,17,sin_regla,0.0442,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517209,Naim Garcia,51.0,0.4914,17,sin_regla,0.0399,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517204,Yassine Kechta,56.0,0.4914,17,sin_regla,0.0364,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517177,Diego Barri,91.0,0.4914,17,sin_regla,0.0224,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517208,Miguel Atienza,126.0,0.4914,17,sin_regla,0.0161,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517164,Alberto Jiménez,201.0,0.4914,17,sin_regla,0.0102,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791517191,Juanjo,201.0,0.4914,17,sin_regla,0.0102,?,
+2026-09-28T17:44:39Z,pre_partido,SP2,2:7868490,CD Leganés - CD Castellón,205729346,Marca 2 o más goles,791796751,Martin Conde,226.0,0.4914,17,sin_regla,0.009,?,
