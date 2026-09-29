@@ -17,4 +17,6 @@ Resultados en `analisis/`.
 - `propuestas_futbol.py` — propuestas diarias (solo papel) → Telegram y `papel/apuestas.csv`.
 - `informe_mercados.py` — el mismo de jarl-f1: bwin vs realidad por tipo de mercado y lado, ROI, CLV, calibración.
 - `bwin_base.py` — copia de `bwin_snapshot.py` de jarl-f1 (cabeceras, curl_cffi).
-- `banca.py` — banca viva: teórica (siguiendo todo) y real declarada (`--real <€>`); base de los importes sugeridos.
+- `banca.py` — copia de la de jarl-f1: banca COMÚN F1+fútbol (`/opt/data/banca_comun.json`), teórica desde 200 € y real declarada.
+- Mensajes: propuestas por partido con el nombre exacto del mercado de bwin en su propia línea (🎯) e importe real + teórico; aviso al liquidar; «hoy no hay partidos» si no hay; reintento de liquidación cada 4 h si quedan partidos jugados sin resultado.
+- Comandos de Telegram (/estado, /propuestas, /banca, /ayuda): viven en jarl-f1, ver su README.
