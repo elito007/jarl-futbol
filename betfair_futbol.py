@@ -22,10 +22,10 @@ LOGIN = os.environ.get("BETFAIR_LOGIN_URL", "https://identitysso.betfair.es/api/
 API = os.environ.get("BETFAIR_API_URL", "https://api.betfair.es/exchange/betting/json-rpc/v1")
 DIR = os.path.join(cb.BASE, "datos", "cuotas_betfair")
 # nombre de la competición en Betfair (inglés o español) → código football-data que usamos en todo el sistema
-LIGAS = [(re.compile(r"^(?!.*(federaci|women|femen|rfef)).*(segunda|la ?liga ?2|hypermotion)", re.I), "SP2"),  # antes que SP1 («Spanish La Liga 2»)
+LIGAS = [(re.compile(r"^(?!.*(federaci|women|femen|rfef)).*((spanish|españa|espana).*(segunda|la ?liga ?2)|^la ?liga ?2|hypermotion)", re.I), "SP2"),  # antes que SP1 («Spanish La Liga 2»)
          (re.compile(r"^(?!.*(women|femen|feminin|liga f)).*((spanish|españa|espana).*(la ?liga|primera)|^la ?liga( ea sports)?$)", re.I), "SP1"),
          (re.compile(r"english premier league|^premier league$|inglaterra.*premier", re.I), "E0"),
-         (re.compile(r"english championship|^championship$|inglaterra.*championship", re.I), "E1"),
+         (re.compile(r"^(?!.*(women|ladies)).*(english.*championship|^championship$|inglaterra.*championship)", re.I), "E1"),
          (re.compile(r"italian serie a|^serie a$|italia.*serie a", re.I), "I1"),
          (re.compile(r"german bundesliga$|^bundesliga$|alemania.*bundesliga$", re.I), "D1"),
          (re.compile(r"french ligue 1|^ligue 1|francia.*ligue 1", re.I), "F1")]

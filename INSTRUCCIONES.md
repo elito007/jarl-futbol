@@ -4,7 +4,17 @@
 
 ---
 
-## TAREA ACTUAL (30-sep) — Tarea C: otras casas (Betfair Exchange ES + OddsPapi), SOLO LECTURA
+## TAREA ACTUAL (30-sep) — Tarea D: repetir los diagnósticos de otras casas
+
+Arreglos: Betfair reconoce ya la Championship (E1 = «English Sky Bet Championship») y SP2 solo la española. OddsPapi: la llamada que daba 400 era /odds con slugs de casa inventados; ahora el diagnóstico lista los slugs reales, filtra nuestras 7 ligas (ids de torneo fijos), trae los nombres de los equipos (caché mensual) y pide las cuotas de un partido sin filtro de casas. Los errores HTTP muestran ya el motivo.
+1. `git pull` en `/opt/data/futbol`. `python3 test_captura_auto.py` → todo ✓.
+2. `.venv/bin/python betfair_futbol.py --diagnostico` → pega la salida (debe reconocer las 7 ligas, SP2 solo una vez).
+3. `.venv/bin/python oddspapi_futbol.py --diagnostico` (≈4 peticiones) → pega la salida completa.
+4. Sube también `datos/cuotas_oddspapi/diagnostico_*.json.gz` (Claude lo necesita para escribir el parser). Log y push.
+
+(Tarea C: hecha. Nota: `.env.casas` debe ser `hermes:hermes` y 600.)
+
+## Tarea C (30-sep, hecha): otras casas (Betfair Exchange ES + OddsPapi), SOLO LECTURA
 
 Qué cambia: tras cada captura de bwin se guardan también las cuotas del Exchange español de Betfair (API oficial) y, tras las propuestas, las de otras casas .es vía OddsPapi (solo partidos propuestos; 250 peticiones/mes). Nada apuesta. Sin credenciales, los scripts salen con código 3 y el cron los ignora sin avisar.
 Credenciales: `/opt/data/futbol/.env.casas` (fuera de git, chmod 600) **lo crea Elito a mano**. Tú NO lo abras, NO lo imprimas y NO hagas `cat`/`grep` sobre él; como mucho `ls -l` para ver que existe y tiene permisos 600.
