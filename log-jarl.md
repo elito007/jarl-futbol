@@ -26,3 +26,10 @@
 - **Betfair** `--diagnostico` exit 0: login OK, 96 competiciones, reconoce D1/E0/F1/I1/SP1/SP2 (SP2 ambigua: la española, portuguesa y venezolana). **E1 sin reconocer** (= división inglesa; candidatas English Sky Bet League 1/2). 0 partidos en 30 h.
 - **OddsPapi** `--diagnostico` **exit 2**: responde (361 casas, 33.115 mercados fútbol, 570 córners/tarjetas, 136 fixtures hoy-mañana) pero **una llamada da HTTP 400 Bad Request**. Además `casas españolas: []`. Para que Claude lo revise.
 - Salidas completas en `conversacion/2026-09-30.md`. Push.
+
+## 30-sep-2026 — Tarea D: repetición de diagnósticos (fix de presupuesto OddsPapi)
+
+- `git pull` → fix de presupuesto (betfair/oddspapi/casas_base). `test_captura_auto.py` ✓ exit 0.
+- **Betfair** `--diagnostico` exit 0: **SP2 ahora = solo la española** (antes también pt/ve). E1 sin reconocer (candidatas Sky Bet League 1/2). 0 partidos en 30 h.
+- **OddsPapi** `--diagnostico` **exit 2**: el fix funciona (361 casas + de interés, 5 partidos de nuestras ligas en 4 días), pero **cuota agotada** (presupuesto 8/8 mes 2026-09, los 8 hoy) al pedir las cuotas del 1er partido. **NO se generó `diagnostico_*.json.gz`** (el script lo guarda solo tras obtener cuotas, línea ~190; no llegó). No fabrico el fichero; repetir mañana.
+- Commit: `datos/oddspapi_presupuesto.json` (m) + `datos/oddspapi_participantes.json` (nuevo). Salidas completas en `conversacion/2026-09-30.md`. Push.
