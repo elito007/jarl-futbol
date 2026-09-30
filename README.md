@@ -20,3 +20,9 @@ Resultados en `analisis/`.
 - `banca.py` — copia de la de jarl-f1: banca COMÚN F1+fútbol (`/opt/data/banca_comun.json`), teórica desde 200 € y real declarada.
 - Mensajes: propuestas por partido con el nombre exacto del mercado de bwin en su propia línea (🎯) e importe real + teórico; aviso al liquidar; «hoy no hay partidos» si no hay; reintento de liquidación cada 4 h si quedan partidos jugados sin resultado.
 - Comandos de Telegram (/estado, /propuestas, /banca, /ayuda): viven en jarl-f1, ver su README.
+
+## Otras casas (desde 30-sep-2026, solo lectura)
+- `betfair_futbol.py` — Exchange ESPAÑOL de Betfair por su API oficial, en los mismos momentos que bwin → `datos/cuotas_betfair/`. Guarda back/lay, dinero disponible, dinero cruzado y la cuota neta tras comisión (5 % por defecto, `BETFAIR_COMISION`).
+- `oddspapi_futbol.py` — otras casas .es (bet365, Codere, Winamax…) vía el agregador OddsPapi, solo para los partidos con propuesta (plan gratuito, 250 peticiones/mes con presupuesto controlado) → `datos/cuotas_oddspapi/`.
+- `casas_base.py` — credenciales desde `.env.casas` (fuera de git, lo crea Elito; nadie lo imprime) y HTTP.
+Fase 1: capturar y diagnosticar. Fase 2: comparador (dónde paga más cada propuesta) en las propuestas y en el informe semanal.

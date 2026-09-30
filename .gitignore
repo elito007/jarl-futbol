@@ -4,3 +4,4 @@ __pycache__/
 .env
 .venv/
 captura_auto.log
+.env.casas

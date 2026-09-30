@@ -8,6 +8,8 @@
 - Liquidación diaria (≥ 10:00): actualiza football-data y liquida. Si quedan propuestas de partidos ya jugados sin
   resultado, reintenta cada 4 h (hasta las 23:00). Cada vez que se liquidan propuestas, aviso corto por Telegram.
 - Lunes: informe semanal corto (stdout → Telegram).
+Tras cada captura de bwin: Betfair Exchange ES (API oficial) en el mismo momento; tras las propuestas,
+OddsPapi (otras casas .es) solo para los partidos propuestos. Sin credenciales se omiten sin avisar.
 bwin solo se consulta en esas capturas (unas 4-6 un sábado, 1-2 entre semana), con retraso aleatorio.
 Estado en datos/estado_futbol.json.
 """
@@ -68,6 +70,15 @@ def main():
     est.setdefault("inicios", []); est.setdefault("hechas", [])
     hechos, fallos, telegram = [], [], []
 
+    def otra_casa(args, nombre):
+        """Betfair / OddsPapi: solo registran; sin credenciales (código 3) se ignoran; un fallo se avisa una vez al día."""
+        rc, out = ejecutar(args)
+        if rc == 0:
+            hechos.append(f"{nombre} OK")
+        elif rc != 3 and est.get(f"aviso_{nombre}") != local.strftime("%Y-%m-%d"):
+            est[f"aviso_{nombre}"] = local.strftime("%Y-%m-%d")
+            fallos.append(f"{nombre} FALLO {out[-1]}")
+
     def capturar(momento, horas):
         if a.no_ejecutar:
             hechos.append(f"tocaría {momento}"); return True
@@ -77,6 +88,7 @@ def main():
         if rc != 0:
             fallos.append(f"{momento} FALLO {out[-1]}"); return False
         ini = next((l[len("INICIOS: "):] for l in out if l.startswith("INICIOS: ")), "")
+        otra_casa(["betfair_futbol.py", "--momento", momento, "--horas", str(horas)], "Betfair")
         if momento == "manana":
             est["inicios"] = [x for x in ini.split(",") if x]
             ruta = next((l.split("Guardado ", 1)[1].split(" (")[0] for l in out if l.startswith("Guardado ")), None)
@@ -84,6 +96,7 @@ def main():
                 rc4, o4 = ejecutar(["propuestas_futbol.py", "--captura", ruta])
                 if rc4 == 0:
                     telegram.append("\n".join(o4))
+                    otra_casa(["oddspapi_futbol.py", "--propuestas"], "OddsPapi")
                 else:
                     fallos.append(f"propuestas FALLO {o4[-1]}")
             else:  # sin partidos: una línea para saber que el sistema sigue vivo

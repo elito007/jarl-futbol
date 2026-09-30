@@ -33,14 +33,14 @@ def correr(iso_utc):
 
 # Canarias = UTC+1 en octubre
 chk("06:00 local → nada", correr("2026-10-10T05:00:00Z") == [])
-chk("09:07 local → captura mañana + propuestas", correr("2026-10-10T08:07:00Z") == ["manana", "propuestas_futbol.py"])
+chk("09:07 local → captura mañana + propuestas", correr("2026-10-10T08:07:00Z") == ["manana", "betfair_futbol.py", "propuestas_futbol.py", "oddspapi_futbol.py"])
 chk("10:07 local → liquida (descarga+liquidar)", correr("2026-10-10T09:07:00Z") == ["descargar_futbol.py", "liquidar_futbol.py"])
-chk("11:07 local (12:00 UTC −53 min) → pre_partido franja 12:00", correr("2026-10-10T11:07:00Z") == ["pre_partido"])
+chk("11:07 local (12:00 UTC −53 min) → pre_partido franja 12:00", correr("2026-10-10T11:07:00Z") == ["pre_partido", "betfair_futbol.py"])
 chk("12:07 → nada", correr("2026-10-10T12:07:00Z") == [])
-chk("13:07 UTC → pre_partido franja 14:15/14:30 (una sola)", correr("2026-10-10T13:07:00Z") == ["pre_partido"])
+chk("13:07 UTC → pre_partido franja 14:15/14:30 (una sola)", correr("2026-10-10T13:07:00Z") == ["pre_partido", "betfair_futbol.py"])
 chk("14:07 → nada (ya hecha)", correr("2026-10-10T14:07:00Z") == [])
-chk("15:07 → pre_partido 16:30", correr("2026-10-10T15:07:00Z") == ["pre_partido"])
-chk("17:47 → pre_partido 19:00", correr("2026-10-10T17:47:00Z") == ["pre_partido"])
+chk("15:07 → pre_partido 16:30", correr("2026-10-10T15:07:00Z") == ["pre_partido", "betfair_futbol.py"])
+chk("17:47 → pre_partido 19:00", correr("2026-10-10T17:47:00Z") == ["pre_partido", "betfair_futbol.py"])
 chk("sábado entero: 5 peticiones a bwin", sum(1 for x in llam if x[0] == "bwin_futbol.py") == 5)
 chk("lunes 10:07 → liquida + informe", correr("2026-10-12T09:07:00Z")[-3:] == ["descargar_futbol.py", "liquidar_futbol.py", "informe_mercados.py"])
 # reintentos si quedan propuestas vencidas sin resultado, y aviso al liquidar
@@ -63,4 +63,21 @@ buf = io.StringIO()
 with contextlib.redirect_stdout(buf):
     correr("2026-10-14T08:07:00Z")
 chk("día sin partidos → aviso de sistema OK", "Hoy no hay partidos" in buf.getvalue())
+# otra casa sin credenciales (código 3) → silencio; con fallo → un aviso al día
+def ej3(args):
+    llam.append(args)
+    if args[0] == "bwin_futbol.py":
+        return 0, ["INICIOS: 2026-10-20T19:00:00Z,2026-10-20T21:30:00Z", "Guardado datos/cuotas/x.csv.gz (1 filas, 1 partidos)"]
+    if args[0] == "betfair_futbol.py":
+        return RC_BF, ["SIN CREDENCIALES" if RC_BF == 3 else "ERROR Betfair: login"]
+    return 0, ["ok"]
+ca.ejecutar = ej3; RC_BF = 3
+buf = io.StringIO()
+with contextlib.redirect_stdout(buf):
+    correr("2026-10-20T08:07:00Z")
+chk("Betfair sin credenciales → sin aviso", "Betfair" not in buf.getvalue())
+RC_BF = 2; buf = io.StringIO()
+with contextlib.redirect_stdout(buf):
+    n0 = len(llam); correr("2026-10-20T17:47:00Z"); correr("2026-10-20T20:07:00Z")
+chk("Betfair con fallo → un solo aviso al día", buf.getvalue().count("Betfair FALLO") == 1 and sum(1 for x in llam[n0:] if x[0] == "betfair_futbol.py") == 2)
 raise SystemExit(0 if ok else 1)
