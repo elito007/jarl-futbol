@@ -33,3 +33,10 @@
 - **Betfair** `--diagnostico` exit 0: **SP2 ahora = solo la española** (antes también pt/ve). E1 sin reconocer (candidatas Sky Bet League 1/2). 0 partidos en 30 h.
 - **OddsPapi** `--diagnostico` **exit 2**: el fix funciona (361 casas + de interés, 5 partidos de nuestras ligas en 4 días), pero **cuota agotada** (presupuesto 8/8 mes 2026-09, los 8 hoy) al pedir las cuotas del 1er partido. **NO se generó `diagnostico_*.json.gz`** (el script lo guarda solo tras obtener cuotas, línea ~190; no llegó). No fabrico el fichero; repetir mañana.
 - Commit: `datos/oddspapi_presupuesto.json` (m) + `datos/oddspapi_participantes.json` (nuevo). Salidas completas en `conversacion/2026-09-30.md`. Push.
+
+## 30-sep-2026 — Tarea E: OddsPapi OK (guarda snapshot) + Betfair lista de las inglesas
+
+- `git pull` → fix (oddspapi/betfair: 53+/16-). `test_captura_auto.py` ✓ exit 0.
+- **OddsPapi** `--diagnostico` **exit 0** (presupuesto OK hoy): 361 casas con slugs de interés, 5 partidos de nuestras ligas en 4 días, 20.556 participantes, 260 casas con cuotas en Eldense–Real Oviedo (SP2 02-oct, bet365 162 mercados). **Generó `datos/cuotas_oddspapi/diagnostico_2026-09-30.json.gz` (1,8 MB)** ✓ subido. Peticiones mes: 12.
+- **Betfair** `--diagnostico` exit 0: solo línea «NO reconocidas» → `['E1'] · inglesas en el exchange: [English Football League Cup, English Ladies League Cup, English National League, English Premier League, English Sky Bet League 1, English Sky Bet League 2, English WSL]`. E1 sin asignar; candidatas Sky Bet League 1/2.
+- Salidas en `conversacion/2026-09-30.md`. Push (incluye el .json.gz nuevo).
