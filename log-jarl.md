@@ -40,3 +40,11 @@
 - **OddsPapi** `--diagnostico` **exit 0** (presupuesto OK hoy): 361 casas con slugs de interés, 5 partidos de nuestras ligas en 4 días, 20.556 participantes, 260 casas con cuotas en Eldense–Real Oviedo (SP2 02-oct, bet365 162 mercados). **Generó `datos/cuotas_oddspapi/diagnostico_2026-09-30.json.gz` (1,8 MB)** ✓ subido. Peticiones mes: 12.
 - **Betfair** `--diagnostico` exit 0: solo línea «NO reconocidas» → `['E1'] · inglesas en el exchange: [English Football League Cup, English Ladies League Cup, English National League, English Premier League, English Sky Bet League 1, English Sky Bet League 2, English WSL]`. E1 sin asignar; candidatas Sky Bet League 1/2.
 - Salidas en `conversacion/2026-09-30.md`. Push (incluye el .json.gz nuevo).
+
+## 1-oct-2026 — Tarea F: comparativa de cuotas (solo informativa)
+
+- `git pull` → main (comparar_casas.py nuevo; oddspapi/captura_auto 22+). `test_captura_auto.py` ✓ exit 0.
+- `git rm datos/cuotas_oddspapi/diagnostico_2026-09-30.json.gz` (Claude ya lo analizó) + push.
+- No hay captura de la mañana con propuestas hoy (pendientes 0; CSVs del 28-sep) → bloque «🔎 Comparativa» aún no generado; `datos/comparativas/` no existe. PENDIENTE: pegarlo cuando salga en la próxima captura matinal.
+- Qué hace: tras las propuestas, OddsPapi guarda 10 casas .es (~60 KB/partido) y comparar_casas.py envía la comparativa (mejor .es con ⭐ si supera bwin, Betfair neta, Pinnacle justa, enlace boleto bwin). No apuesta.
+- Salidas en `conversacion/2026-09-30.md`. Push.
