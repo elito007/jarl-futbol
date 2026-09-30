@@ -40,8 +40,11 @@ class Presupuesto:
         self.d = d if d.get("mes") == self.mes else {"mes": self.mes, "usadas": 0, "por_dia": {}}
         self.max_mes, self.max_dia = int(cfg("ODDSPAPI_MAX_MES", 230)), int(cfg("ODDSPAPI_MAX_DIA", 8))
 
+    ignorar_dia = False  # el --diagnostico solo respeta el tope mensual
+
     def quedan(self):
-        return min(self.max_mes - self.d["usadas"], self.max_dia - self.d["por_dia"].get(self.dia, 0))
+        mes = self.max_mes - self.d["usadas"]
+        return mes if self.ignorar_dia else min(mes, self.max_dia - self.d["por_dia"].get(self.dia, 0))
 
     def gastar(self):
         self.d["usadas"] += 1
@@ -111,17 +114,38 @@ def fixture_id(d):
     return None
 
 
-def nombres_participantes(op, ids, ahora):
-    """Nombres de equipos por id, con caché en disco (1 petición al mes como mucho)."""
+def _nombres(r):
+    """Admite lista de dicts, {id: nombre} o {id: {...}}."""
+    out = {}
+    if isinstance(r, dict) and not any(k in r for k in ("data", "participants", "items")):
+        for k, v in r.items():
+            if isinstance(v, str):
+                out[str(k)] = v
+            elif isinstance(v, dict):
+                nom = v.get("participantName") or v.get("name") or v.get("shortName")
+                if nom:
+                    out[str(v.get("participantId") or v.get("id") or k)] = nom
+        return out
+    for x in lista(r):
+        if isinstance(x, dict):
+            pid = x.get("participantId") or x.get("id")
+            nom = x.get("participantName") or x.get("name") or x.get("shortName")
+            if pid and nom:
+                out[str(pid)] = nom
+    return out
+
+
+def nombres_participantes(op, ids, ahora, verbose=False):
+    """Nombres de equipos por id, con caché en disco (como mucho 1 descarga al día)."""
     cache = json.load(open(PARTICIPANTES)) if os.path.exists(PARTICIPANTES) else {}
-    if cache.get("_mes") != ahora.strftime("%Y-%m") or any(str(i) not in cache for i in ids):
-        for x in lista(op.get("participants", sportId=SPORT)):
-            if isinstance(x, dict):
-                pid = x.get("participantId") or x.get("id")
-                nom = x.get("participantName") or x.get("name") or x.get("shortName")
-                if pid and nom:
-                    cache[str(pid)] = nom
-        cache["_mes"] = ahora.strftime("%Y-%m")
+    hoy = ahora.strftime("%Y-%m-%d")
+    if cache.get("_dia") != hoy and (cache.get("_mes") != ahora.strftime("%Y-%m") or any(str(i) not in cache for i in ids)):
+        r = op.get("participants", sportId=SPORT)
+        nuevos = _nombres(r)
+        if verbose:
+            print(f"participantes recibidos: {len(nuevos)}" + ("" if nuevos else f" · formato inesperado: {json.dumps(r, ensure_ascii=False)[:400]}"))
+        cache.update(nuevos)
+        cache["_mes"], cache["_dia"] = ahora.strftime("%Y-%m"), hoy
         os.makedirs(os.path.dirname(PARTICIPANTES), exist_ok=True)
         json.dump(cache, open(PARTICIPANTES, "w"), ensure_ascii=False)
     return cache
@@ -169,13 +193,16 @@ def main():
     hoy, manana = ahora.strftime("%Y-%m-%d"), (ahora + timedelta(days=1)).strftime("%Y-%m-%d")
     try:
         if a.diagnostico:
+            presu.ignorar_dia = True
             bks = [b for b in lista(op.get("bookmakers")) if isinstance(b, dict)]
-            print(f"casas: {len(bks)} · de interés: " + "; ".join(json.dumps(b, ensure_ascii=False)[:150] for b in bks
-                                                             if RX_CASAS.search(json.dumps(b, ensure_ascii=False)))[:3500])
+            slug = lambda b: b.get("slug") or b.get("bookmakerSlug") or b.get("id")
+            nom = lambda b: b.get("name") or b.get("bookmakerName") or ""
+            print(f"casas: {len(bks)} · slugs de interés (slug=nombre): " + ", ".join(
+                f"{slug(b)}={nom(b)}" for b in bks if RX_CASAS.search(f"{slug(b)} {nom(b)}")))
             fx = nuestros(lista(op.get("fixtures", sportId=SPORT, **{"from": hoy, "to": (ahora + timedelta(days=4)).strftime("%Y-%m-%d")}, hasOdds="true")))
             print(f"partidos de nuestras 7 ligas en 4 días: {len(fx)}")
             if fx:
-                nombres = nombres_participantes(op, [f.get("participant1Id") for f in fx], ahora)
+                nombres = nombres_participantes(op, [f.get("participant1Id") for f in fx], ahora, verbose=True)
                 con_nombres(fx, nombres)
                 f = fx[0]
                 print(f"ejemplo: {f['_local']} - {f['_visitante']} {f.get('startTime')} (torneo {TORNEOS[f['tournamentId']]})")

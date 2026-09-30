@@ -4,7 +4,17 @@
 
 ---
 
-## TAREA ACTUAL (30-sep) — Tarea D: repetir los diagnósticos de otras casas
+## TAREA ACTUAL (1-oct) — Tarea E: diagnóstico de OddsPapi (otra vez)
+
+Arreglos: el `--diagnostico` ya no respeta el tope diario (solo el mensual: hoy empieza mes nuevo, 230 disponibles); los nombres de equipos no se leían (formato distinto) y además se re-pedían en cada ejecución: ahora se leen en cualquier formato y se descargan como mucho una vez al día. La lista de casas sale como `slug=nombre`. Betfair: el diagnóstico lista todas las competiciones inglesas para ver si el exchange español tiene la Championship.
+1. `git pull`. `python3 test_captura_auto.py` → todo ✓.
+2. `.venv/bin/python oddspapi_futbol.py --diagnostico` → pega la salida completa. Sube `datos/cuotas_oddspapi/diagnostico_*.json.gz`.
+3. `.venv/bin/python betfair_futbol.py --diagnostico` → pega solo la línea «NO reconocidas…».
+4. Log y push.
+
+(Tarea D: hecha.)
+
+## Tarea D (30-sep, hecha): repetir los diagnósticos de otras casas
 
 Arreglos: Betfair reconoce ya la Championship (E1 = «English Sky Bet Championship») y SP2 solo la española. OddsPapi: la llamada que daba 400 era /odds con slugs de casa inventados; ahora el diagnóstico lista los slugs reales, filtra nuestras 7 ligas (ids de torneo fijos), trae los nombres de los equipos (caché mensual) y pide las cuotas de un partido sin filtro de casas. Los errores HTTP muestran ya el motivo.
 1. `git pull` en `/opt/data/futbol`. `python3 test_captura_auto.py` → todo ✓.

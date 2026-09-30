@@ -134,7 +134,7 @@ def main():
             falta = {c for _, c in LIGAS} - set(nuestras.values())
             if falta:
                 cand = [n for n in comps.values() if re.search(r"liga|league|serie|bundes|ligue|champion|segunda|premier", n, re.I)]
-                print(f"NO reconocidas: {sorted(falta)} · candidatas: {sorted(cand)[:40]}")
+                print(f"NO reconocidas: {sorted(falta)} · inglesas en el exchange: {sorted(n for n in comps.values() if re.search(r'english|england', n, re.I))}")
         if not nuestras:
             print("ERROR: ninguna de las 7 ligas reconocida en Betfair (ver --diagnostico)"); return 2
         desde, hasta = ahora.strftime("%Y-%m-%dT%H:%M:%SZ"), (ahora + timedelta(hours=a.horas)).strftime("%Y-%m-%dT%H:%M:%SZ")
