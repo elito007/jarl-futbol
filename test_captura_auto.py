@@ -33,7 +33,7 @@ def correr(iso_utc):
 
 # Canarias = UTC+1 en octubre
 chk("06:00 local → nada", correr("2026-10-10T05:00:00Z") == [])
-chk("09:07 local → captura mañana + propuestas", correr("2026-10-10T08:07:00Z") == ["manana", "betfair_futbol.py", "propuestas_futbol.py", "oddspapi_futbol.py"])
+chk("09:07 local → captura mañana + propuestas", correr("2026-10-10T08:07:00Z") == ["manana", "betfair_futbol.py", "propuestas_futbol.py", "oddspapi_futbol.py", "comparar_casas.py"])
 chk("10:07 local → liquida (descarga+liquidar)", correr("2026-10-10T09:07:00Z") == ["descargar_futbol.py", "liquidar_futbol.py"])
 chk("11:07 local (12:00 UTC −53 min) → pre_partido franja 12:00", correr("2026-10-10T11:07:00Z") == ["pre_partido", "betfair_futbol.py"])
 chk("12:07 → nada", correr("2026-10-10T12:07:00Z") == [])

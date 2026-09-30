@@ -177,6 +177,18 @@ def emparejar(fixtures, local, visit, ini):
     return mejor
 
 
+# casas que guardamos (la respuesta completa trae ~260 y pesa ~1,8 MB por partido)
+GUARDAR = ["bwin.es", "bet365.es", "codere.es", "winamax.es", "betway.es", "leovegas.es", "paf.es",
+           "betfair.es", "betfair-ex", "pinnacle"]
+
+
+def recortar(od):
+    if isinstance(od, dict) and isinstance(od.get("bookmakerOdds"), dict):
+        od = dict(od)
+        od["bookmakerOdds"] = {k: v for k, v in od["bookmakerOdds"].items() if k in GUARDAR}
+    return od
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--diagnostico", action="store_true")
@@ -241,6 +253,10 @@ def main():
                 if not f:
                     sin.append(f"{p['partido']} (no emparejado)"); continue
                 od = op.get("odds", fixtureId=fixture_id(f), **({"bookmakers": casas} if casas else {}))
+                od = recortar(od)
+                bw = (od.get("bookmakerOdds", {}).get("bwin.es") or {}) if isinstance(od, dict) else {}
+                if bw.get("bookmakerFixtureId") and bw["bookmakerFixtureId"] != fid_bwin:
+                    sin.append(f"{p['partido']} (emparejado con otro partido de bwin: {bw['bookmakerFixtureId']})"); continue
                 ruta = os.path.join(DIR, f"{hoy}_{str(fid_bwin).replace(':', '-')}.json.gz")
                 with gzip.open(ruta, "wt", encoding="utf-8") as fh:
                     json.dump({"ts_utc": ahora.strftime("%Y-%m-%dT%H:%M:%SZ"), "fixture_bwin": fid_bwin,

@@ -75,6 +75,7 @@ def main():
         rc, out = ejecutar(args)
         if rc == 0:
             hechos.append(f"{nombre} OK")
+            return True
         elif rc != 3 and est.get(f"aviso_{nombre}") != local.strftime("%Y-%m-%d"):
             est[f"aviso_{nombre}"] = local.strftime("%Y-%m-%d")
             fallos.append(f"{nombre} FALLO {out[-1]}")
@@ -96,7 +97,10 @@ def main():
                 rc4, o4 = ejecutar(["propuestas_futbol.py", "--captura", ruta])
                 if rc4 == 0:
                     telegram.append("\n".join(o4))
-                    otra_casa(["oddspapi_futbol.py", "--propuestas"], "OddsPapi")
+                    if otra_casa(["oddspapi_futbol.py", "--propuestas"], "OddsPapi"):
+                        rc5, o5 = ejecutar(["comparar_casas.py"])  # dónde paga más cada propuesta
+                        if rc5 == 0 and any(l.strip() for l in o5):
+                            telegram.append("\n".join(o5))
                 else:
                     fallos.append(f"propuestas FALLO {o4[-1]}")
             else:  # sin partidos: una línea para saber que el sistema sigue vivo

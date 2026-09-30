@@ -4,7 +4,17 @@
 
 ---
 
-## TAREA ACTUAL (1-oct) — Tarea E: diagnóstico de OddsPapi (otra vez)
+## TAREA ACTUAL (1-oct) — Tarea F: comparativa de cuotas (solo informativa)
+
+Qué cambia: tras las propuestas de la mañana, OddsPapi guarda las cuotas de los partidos propuestos (solo 10 casas: bwin.es, bet365.es, codere.es, winamax.es, betway.es, leovegas.es, paf.es, betfair.es, betfair-ex, pinnacle → ~60 KB por partido en vez de 1,8 MB) y `comparar_casas.py` envía un bloque «🔎 Comparativa de cuotas»: por propuesta, mejor cuota en casas .es (⭐ si supera a bwin), Betfair (neta de comisión y dinero disponible), cuota justa de Pinnacle y enlace directo al boleto de bwin. Emparejado exacto por ids de bwin. Resultados en `datos/comparativas/<fecha>.csv`.
+1. `git pull`. `python3 test_captura_auto.py` → todo ✓.
+2. Borra del repo el diagnóstico grande: `git rm datos/cuotas_oddspapi/diagnostico_2026-09-30.json.gz` (ya lo he analizado).
+3. No hace falta nada más: el cron lo usa en la próxima captura de la mañana con propuestas. Cuando salga el primer bloque «🔎 Comparativa», pégalo en `conversacion/`.
+4. Log y push.
+
+(Tarea E: hecha.)
+
+## Tarea E (30-sep, hecha): diagnóstico de OddsPapi (otra vez)
 
 Arreglos: el `--diagnostico` ya no respeta el tope diario (solo el mensual: hoy empieza mes nuevo, 230 disponibles); los nombres de equipos no se leían (formato distinto) y además se re-pedían en cada ejecución: ahora se leen en cualquier formato y se descargan como mucho una vez al día. La lista de casas sale como `slug=nombre`. Betfair: el diagnóstico lista todas las competiciones inglesas para ver si el exchange español tiene la Championship.
 1. `git pull`. `python3 test_captura_auto.py` → todo ✓.

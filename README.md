@@ -25,4 +25,5 @@ Resultados en `analisis/`.
 - `betfair_futbol.py` — Exchange ESPAÑOL de Betfair por su API oficial, en los mismos momentos que bwin → `datos/cuotas_betfair/`. Guarda back/lay, dinero disponible, dinero cruzado y la cuota neta tras comisión (5 % por defecto, `BETFAIR_COMISION`).
 - `oddspapi_futbol.py` — otras casas .es (bet365, Codere, Winamax…) vía el agregador OddsPapi, solo para los partidos con propuesta (plan gratuito, 250 peticiones/mes con presupuesto controlado) → `datos/cuotas_oddspapi/`.
 - `casas_base.py` — credenciales desde `.env.casas` (fuera de git, lo crea Elito; nadie lo imprime) y HTTP.
-Fase 1: capturar y diagnosticar. Fase 2: comparador (dónde paga más cada propuesta) en las propuestas y en el informe semanal.
+- `comparar_casas.py` — tras las propuestas: por propuesta, mejor cuota .es, Betfair neta, Pinnacle justa y enlace al boleto de bwin (emparejado exacto por ids de bwin que guarda OddsPapi) → Telegram y `datos/comparativas/`.
+Pendiente: resumen semanal de la comparativa (cuántas veces otra casa paga más y cuánto).
