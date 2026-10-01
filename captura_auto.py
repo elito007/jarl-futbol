@@ -104,8 +104,11 @@ def main():
                 else:
                     fallos.append(f"propuestas FALLO {o4[-1]}")
             else:  # sin partidos: una línea para saber que el sistema sigue vivo
-                telegram.append("⚽ Hoy no hay partidos de las 7 ligas en las próximas 30 h. Sistema OK; "
-                                "próxima revisión mañana a partir de las 08:00. (/estado para ver el detalle)")
+                prox = sorted(x for x in est["inicios"] if ts(x) > ahora)
+                cuando = (f" El próximo partido conocido es el {ts(prox[0]).astimezone(TZ):%d/%m a las %H:%M}"
+                          " (entrará en la captura de mañana)." if prox else "")
+                telegram.append("⚽ Hoy no hay partidos de las 7 ligas en las próximas 30 h." + cuando +
+                                " Sistema OK; próxima revisión mañana a partir de las 08:00. (/estado para ver el detalle)")
         hechos.append(f"{momento} OK"); return True
 
     # 1) captura de la mañana

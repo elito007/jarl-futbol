@@ -58,11 +58,11 @@ with contextlib.redirect_stdout(buf):
 chk("aviso de resultados por Telegram", "⚽ Resultados — 1 propuesta(s)" in buf.getvalue() and "+1.00 €" in buf.getvalue())
 # día sin partidos → una línea de «sistema OK»
 INICIOS_BAK = list(INICIOS); INICIOS.clear(); SIN = True
-ca.ejecutar = lambda args: (llam.append(args), (0, ["INICIOS: "]) if args[0] == "bwin_futbol.py" else (0, ["ok"]))[1]
+ca.ejecutar = lambda args: (llam.append(args), (0, ["INICIOS: 2026-10-15T18:30:00Z"]) if args[0] == "bwin_futbol.py" else (0, ["ok"]))[1]
 buf = io.StringIO()
 with contextlib.redirect_stdout(buf):
     correr("2026-10-14T08:07:00Z")
-chk("día sin partidos → aviso de sistema OK", "Hoy no hay partidos" in buf.getvalue())
+chk("día sin partidos → aviso de sistema OK con el próximo partido", "Hoy no hay partidos" in buf.getvalue() and "15/10 a las 19:30" in buf.getvalue())
 # otra casa sin credenciales (código 3) → silencio; con fallo → un aviso al día
 def ej3(args):
     llam.append(args)
