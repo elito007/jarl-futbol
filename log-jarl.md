@@ -8,6 +8,14 @@
 - `backtest_corners_tarjetas.py` exit 0: frecuencias por liga y calibración del modelo; bien calibrado en el rango central (60-80%), peor en extremos. Salidas completas pegadas en conversacion/2026-09-28.md.
 - Commit de datos/historico/ y analisis/, entrada en log, push. Sin cron todavía (la tarea no lo pide).
 
+## 3-oct-2026 — Tarea G: arreglo de nombres de equipos (URGENTE) + propuestas de hoy
+
+- Fix: desde el 2-oct bwin metía jugadores en participants; los equipos salen ahora de un mercado «local / X / visitante» (reparar_nombres.py; capturas 2-3 oct corregidas en repo).
+- `git pull` futbol+F1. `test_captura_auto.py` ✓ exit 0.
+- Propuestas de hoy: `.venv/bin/python propuestas_futbol.py --captura .../2026-10-03_0743_manana.csv.gz` → **2** (Sabadell-Andorra): Ambos equipos 4+ córners @2.95 y Total córners «Más de 10,5» @3.5. Antes 0 por el fallo.
+- `oddspapi_futbol.py --propuestas` → 1/1 guardados (3 usos mes). `comparar_casas.py` → 🔎 comparativa (bwin 3.5 vs bet365 3.5) + enlace. Enviado a Elito por Telegram.
+- Commit papel/+datos/ (apuestas.csv, comparativas/2026-10-03.csv, cuotas_oddspapi/) → `470a10e` + push.
+
 ## 28-sep-2026 — Tarea B: capturas de bwin y cron horario
 
 - `git pull` → main `e94c802` (fase 2: bwin_base/bwin_futbol/captura_auto.sh+py/liquidar_futbol/informe_mercados/test_captura_auto). No toqué /opt/data/f1.
