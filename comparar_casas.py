@@ -110,7 +110,7 @@ def main():
             t.append(f"Betfair {r['betfair_back']} (neta {r['betfair_neta']}, {r['betfair_disp']} €)")
         if r.get("pinnacle_justa"):
             t.append(f"Pinnacle justa {r['pinnacle_justa']}")
-        lin.append(" · ".join(t) + (f"\n   🔗 {r['enlace_bwin']}" if r.get("enlace_bwin") else ""))
+        lin.append(" · ".join(t))  # el enlace al boleto ya va en cada propuesta
     if filas:
         os.makedirs(SALIDA, exist_ok=True)
         with open(os.path.join(SALIDA, f"{fecha}.csv"), "w", newline="", encoding="utf-8") as fh:

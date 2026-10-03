@@ -37,6 +37,12 @@ def hora_local(iso):
         return iso
 
 
+def enlace(r):
+    """Enlace al boleto de bwin con la selección ya puesta (mismo formato que usa OddsPapi: partido-mercado-selección)."""
+    f = r["fixture_id"]
+    return f"https://sports.bwin.es/en/sports/events/{f}?options={f}-{r['mercado_id']}-{r['seleccion_id']}&type=Single"
+
+
 def confianza(mercado):
     m = lq.norm(mercado)
     return "media" if m in ("mas corners",) or (m.startswith("ambos equipos") and "tarjetas" in m) else "baja"
@@ -143,6 +149,7 @@ def main():
         lin.append(f"   nuestra {x['p']*100:.0f} % vs bwin {pb*100:.0f} % · confianza {x['conf']}")
         for alt in x.get("alt", []):
             lin.append(f"   ≡ misma apuesta en: {alt}")
+        lin.append(f"   🔗 {enlace(r)}")
     print("\n".join(lin))
     return 0
 
