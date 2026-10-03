@@ -4,7 +4,16 @@
 
 ---
 
-## TAREA ACTUAL (1-oct) — Tarea F: comparativa de cuotas (solo informativa)
+## TAREA ACTUAL (3-oct) — Tarea G: arreglo de nombres de equipos (URGENTE) + propuestas de hoy
+
+Fallo: desde el 2-oct bwin mete jugadores en `participants`, y `bwin_futbol.py` guardaba como local/visitante a dos jugadores. El modelo no reconocía ningún equipo → 0 propuestas y la liquidación no habría encontrado los partidos. Arreglado: los equipos salen ahora de un mercado «local / X / visitante». Las capturas del 2 y 3-oct ya están corregidas en el repo (`reparar_nombres.py`).
+1. `git pull` en `/opt/data/futbol`. `python3 test_captura_auto.py` → todo ✓.
+2. Propuestas de hoy (no se generaron por el fallo): `.venv/bin/python propuestas_futbol.py --captura datos/cuotas/2026-10-03_0743_manana.csv.gz`, luego `.venv/bin/python oddspapi_futbol.py --propuestas` y `.venv/bin/python comparar_casas.py`. **Envía a Elito por Telegram las salidas tal cual** (propuestas + comparativa).
+3. Commit de `papel/`, `datos/` y push. Log y `conversacion/`.
+
+(Tarea F: hecha.)
+
+## Tarea F (1-oct, hecha): comparativa de cuotas (solo informativa)
 
 Qué cambia: tras las propuestas de la mañana, OddsPapi guarda las cuotas de los partidos propuestos (solo 10 casas: bwin.es, bet365.es, codere.es, winamax.es, betway.es, leovegas.es, paf.es, betfair.es, betfair-ex, pinnacle → ~60 KB por partido en vez de 1,8 MB) y `comparar_casas.py` envía un bloque «🔎 Comparativa de cuotas»: por propuesta, mejor cuota en casas .es (⭐ si supera a bwin), Betfair (neta de comisión y dinero disponible), cuota justa de Pinnacle y enlace directo al boleto de bwin. Emparejado exacto por ids de bwin. Resultados en `datos/comparativas/<fecha>.csv`.
 1. `git pull`. `python3 test_captura_auto.py` → todo ✓.

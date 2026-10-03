@@ -34,6 +34,18 @@ def capturar(horas):
     return j.get("fixtures", [])
 
 
+def equipos(f):
+    """[local, visitante]. Desde oct-2026 bwin mete jugadores en 'participants' (mercados de jugador), así que
+    se sacan de un mercado a 3 bandas «A / X / B» (Más córners, 1X2…), que siempre va local-X-visitante."""
+    for m in f.get("optionMarkets", []) + f.get("games", []):
+        sel = [(o.get("name") or {}).get("value", "") for o in (m.get("options") or m.get("results") or [])]
+        if len(sel) == 3 and sel[1] == "X" and sel[0] and sel[2]:
+            return [sel[0], sel[2]]
+    tipo = [p for p in f.get("participants", []) if str((p.get("properties") or {}).get("type", "")).lower() in ("hometeam", "awayteam")]
+    ps = tipo or f.get("participants", [])
+    return [p.get("name", {}).get("value", "") for p in ps][:2]
+
+
 def filas(fx, ahora, momento, horas):
     out, inicios = [], []
     tsu = ahora.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -45,7 +57,7 @@ def filas(fx, ahora, momento, horas):
             inicios.append(f["startDate"])
         if ini > ahora + timedelta(hours=horas):
             continue
-        parts = [p.get("name", {}).get("value", "") for p in f.get("participants", [])]
+        parts = equipos(f)
         if len(parts) < 2:
             continue
         liga = LIGAS_BWIN.get(str((f.get("competition") or {}).get("id")), "?")
