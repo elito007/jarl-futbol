@@ -72,6 +72,16 @@ def main():
                 mejor = (r, ev, p)
         if mejor:
             cand.append(mejor)
+    # apuestas equivalentes (mismo suceso en mercados distintos de bwin) → UNA sola apuesta, a la mejor cuota,
+    # con Kelly una vez (no dos veces sobre el mismo resultado) y anotando las alternativas para el mensaje
+    grupos = defaultdict(list)
+    for r, ev, p in cand:
+        grupos[(r["fixture_id"], mf.Modelo.evento(r["local"], r["visitante"], r["mercado"], r["seleccion"]))].append((r, ev, p))
+    cand, alternativas = [], {}
+    for g in grupos.values():
+        g.sort(key=lambda x: (-float(x[0]["cuota"]), len(x[0]["mercado"])))
+        cand.append(g[0])
+        alternativas[id(g[0][0])] = [f"{x[0]['mercado']} «{x[0]['seleccion']}» @ {x[0]['cuota']}" for x in g[1:]]
     cand.sort(key=lambda x: -x[1])
     por_partido, elegidas = defaultdict(int), []
     for r, ev, p in cand:
@@ -82,7 +92,7 @@ def main():
     for r, ev, p in elegidas:
         c = float(r["cuota"]); conf = confianza(r["mercado"])
         f = min(KELLY * (p * c - 1) / (c - 1), TOPE_AP) * (1.0 if conf == "media" else 0.5)
-        props.append({"r": r, "ev": ev, "p": p, "conf": conf, "f": f})
+        props.append({"r": r, "ev": ev, "p": p, "conf": conf, "f": f, "alt": alternativas.get(id(r), [])})
     props.sort(key=lambda x: x["r"]["inicio_utc"])  # mismo orden en que se muestran (y se apuestan)
     t = sum(x["f"] for x in props)
     banca, etiqueta = bk.para_importes()
@@ -131,6 +141,8 @@ def main():
         lin.append(f"🎯 {r['mercado']}")
         lin.append(f"   ➜ «{r['seleccion']}» @ {r['cuota']} · {x['eur']:.1f} €{teo}")
         lin.append(f"   nuestra {x['p']*100:.0f} % vs bwin {pb*100:.0f} % · confianza {x['conf']}")
+        for alt in x.get("alt", []):
+            lin.append(f"   ≡ misma apuesta en: {alt}")
     print("\n".join(lin))
     return 0
 

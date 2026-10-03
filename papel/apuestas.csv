@@ -3,5 +3,4 @@ fecha,liga,fixture_id,partido,inicio_utc,mercado,seleccion,cuota_tomada,momento_
 2026-09-28,SP2,2:7868490,CD Leganés - CD Castellón,2026-09-28T18:30:00Z,Total de córners,"Más de 11,5",3.7,manana,0.326,baja,1.0,0,3.7,-1,-1.0,0.005
 2026-10-03,SP2,2:7871124,CE Sabadell FC - FC Andorra,2026-10-03T16:30:00Z,Ambos equipos 4+ córners,Sí,2.95,manana,0.394,baja,1.0,,,,,0.005
 2026-10-03,SP2,2:7871124,CE Sabadell FC - FC Andorra,2026-10-03T16:30:00Z,Total de córners,"Más de 10,5",3.5,manana,0.326,baja,1.0,,,,,0.00498
-2026-10-02,SP2,2:7870093,CD Eldense - Real Oviedo,2026-10-02T18:30:00Z,Real Oviedo - Número de córners (0-7 o más),0-3,2.15,manana,0.524,baja,1.0,,,,,0.005
 2026-10-02,SP2,2:7870093,CD Eldense - Real Oviedo,2026-10-02T18:30:00Z,Real Oviedo - Total de córners,"Menos de 3,5",2.15,manana,0.524,baja,1.0,,,,,0.00498

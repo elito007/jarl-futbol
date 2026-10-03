@@ -80,6 +80,41 @@ class Modelo:
         r = self.r.get((liga, q), 1e6)
         return nb_pmf(ml, r), nb_pmf(mv, r), nb_pmf(ml + mv, self.rt.get((liga, q), 1e6), 2 * MAXN)
 
+    @staticmethod
+    def evento(local, visit, mercado, sel):
+        """Clave canónica del suceso que gana la selección, para detectar apuestas equivalentes entre mercados
+        distintos de bwin (p. ej. «Real Oviedo - Número de córners» «0-3» ≡ «Real Oviedo - Total de córners» «Menos de 3,5»).
+        Rangos → (stat, ámbito L/V/T, mín, máx|None). Resto → (mercado, selección) normalizados."""
+        m = lq.norm(mercado); s = lq.norm(sel)
+        q = "corners" if "corner" in m else "tarjetas" if "tarjeta" in m else None
+        def rango(s):
+            mm = re.match(r"^(\d+)\s*-\s*(\d+)$", s)
+            if mm:
+                return int(mm.group(1)), int(mm.group(2))
+            mm = re.match(r"^(\d+)\s*o mas$", s)
+            if mm:
+                return int(mm.group(1)), None
+            if s.isdigit():
+                return int(s), int(s)
+            x = lq.num(re.sub(r"[^\d,\.]", "", s))
+            if x is not None and s.startswith("mas de"):
+                return math.floor(x) + 1, None
+            if x is not None and s.startswith("menos de"):
+                return 0, math.floor(x)
+            return None
+        if q and "parte" not in m:
+            amb = None
+            for nom, lado in ((lq.norm(local), "L"), (lq.norm(visit), "V")):
+                if m.startswith(nom + " - ") and ("numero de" in m or "total de" in m):
+                    amb = lado
+            if amb is None and (m.startswith("numero de corners (") or m.startswith("numero de tarjetas")
+                                or m.startswith("total de corners") or m.startswith("total de tarjetas")):
+                amb = "T"
+            r = rango(s) if amb else None
+            if r:
+                return (q, amb) + r
+        return (m, s)
+
     def prob(self, liga, local, visit, mercado, sel):
         """Probabilidad de que gane la selección, o None si el mercado no es del modelo."""
         m = lq.norm(mercado); s = lq.norm(sel)
